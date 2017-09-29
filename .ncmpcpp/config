@@ -1,0 +1,120 @@
+mpd_music_dir = ~/music
+
+visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_output_name = Visualizer feed
+visualizer_in_stereo = yes
+visualizer_type = "wave_filled"
+visualizer_color = 246,245,244,243,242,241,240,239,238,237,236,235
+visualizer_look = "|○"
+
+browser_sort_mode = name
+browser_sort_format = {%A - }{%t}|{%f} {(%l)}
+
+song_columns_list_format = "(3f)[239]{} (35)[246]{t|f} (30)[blue]{a} (30)[green]{b} (5f)[240]{l}"
+song_list_format = "{$5 %a$9 $1│$9 $8%t$9 }|{ $8%f$9}$R{$5%b $7}"
+song_status_format = "{{{$5%a$9}} $8-$9 {$2%t$9}|{$0%f$9}{ $8-$9 $3%b$9{ $8-$9 $5%y$9}}}"
+song_library_format = "{%n $8-$9 }{%t}|{%f}"
+now_playing_prefix = "$8$b ➤ "
+browser_playlist_prefix = "playlist"
+selected_item_prefix = "$5"
+selected_item_suffix = "$9"
+song_window_title_format = "{%t}|{%f} - {%a}"
+
+playlist_show_remaining_time = "no"
+playlist_shorten_total_times = "yes"
+playlist_separate_albums = "no"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+discard_colors_if_item_is_selected = "no"
+incremental_seeking = "yes"
+seek_time = "1"
+
+autocenter_mode = yes
+centered_cursor = yes
+
+progressbar_look = "▉▉▉"
+progressbar_color = 240
+progressbar_elapsed_color = white
+progressbar_boldness = "yes"
+user_interface = "classic"
+header_visibility = "no"
+titles_visibility = "no"
+header_text_scrolling = "yes"
+cyclic_scrolling = "no"
+lines_scrolled = "2"
+follow_now_playing_lyrics = "yes"
+show_hidden_files_in_local_browser = "no"
+jump_to_now_playing_song_at_start = "yes"
+clock_display_seconds = "no"
+display_volume_level = "no"
+display_bitrate = "yes"
+display_remaining_time = "no"
+regular_expressions = "extended"
+ignore_leading_the = "no"
+block_search_constraints_change_if_items_found = "yes"
+mouse_support = "yes"
+mouse_list_scroll_whole_page = "yes"
+
+default_place_to_search_in = database
+#user_interface = alternative
+
+media_library_primary_tag = album_artist
+#cyclic_scrolling = yes
+
+allow_for_physical_item_deletion = no
+
+startup_screen = "playlist"
+startup_slave_screen = "visualizer"
+
+locked_screen_width_part = 50
+ask_for_locked_screen_width_part = no
+
+#clock_display_seconds = yes
+#display_volume_level = yes
+#display_bitrate = yes
+#display_remaining_time = yes
+
+media_library_sort_by_mtime = no
+
+enable_window_title = yes
+
+external_editor = vim
+use_console_editor = yes
+
+colors_enabled = "yes"
+#
+empty_tag_color = "white"
+#
+header_window_color = "white"
+#
+volume_color = "blue"
+#
+state_line_color = "white"
+#
+state_flags_color = "white"
+#
+main_window_color = "blue"
+#
+#color1 = "red"
+#
+#color2 = "blue"
+#
+main_window_highlight_color = "white"
+#
+#progressbar_color = "black"
+#
+#progressbar_elapsed_color = "cyan"
+#
+statusbar_color = "red"
+#
+alternative_ui_separator_color = "white"
+#
+active_column_color = "white"
+#
+#visualizer_color = "white"
+#
+#window_border_color = "green"
+#
+active_window_border = "red"
+#
