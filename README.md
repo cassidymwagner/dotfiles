@@ -12,6 +12,6 @@ My poor attempt at keeping track of them, which I probably should have been doin
 ![Alt text](screenshots/sept28_setup.png?raw=true)
 
 #### TODO
-*Fix which disk usage gtop points to 
+* Fix which disk usage gtop points to 
 
-*Make i3bar transparent
+* Make i3bar transparent
