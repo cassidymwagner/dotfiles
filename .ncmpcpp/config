@@ -12,9 +12,11 @@ browser_sort_format = {%A - }{%t}|{%f} {(%l)}
 
 song_columns_list_format = "(3f)[239]{} (35)[246]{t|f} (30)[blue]{a} (30)[green]{b} (5f)[240]{l}"
 song_list_format = "{$5 %a$9 $1│$9 $8%t$9 }|{ $8%f$9}$R{$5%b $7}"
-song_status_format = "{{{$5%a$9}} $8-$9 {$2%t$9}|{$0%f$9}{ $8-$9 $3%b$9{ $8-$9 $5%y$9}}}"
+song_status_format =  " $9%t  $8⟫$8⟫ $5%a $8⟫$8⟫ $3%b "
 song_library_format = "{%n $8-$9 }{%t}|{%f}"
-now_playing_prefix = "$8$b ➤ "
+now_playing_prefix = "$u$2"
+#
+now_playing_suffix = "$2$/u$2"
 browser_playlist_prefix = "playlist"
 selected_item_prefix = "$5"
 selected_item_suffix = "$9"
@@ -33,10 +35,10 @@ seek_time = "1"
 autocenter_mode = yes
 centered_cursor = yes
 
-progressbar_look = "▉▉▉"
-progressbar_color = 240
+progressbar_look =  "▃▃▃"
+progressbar_color = black
 progressbar_elapsed_color = white
-progressbar_boldness = "yes"
+progressbar_boldness = "no"
 user_interface = "classic"
 header_visibility = "no"
 titles_visibility = "no"
@@ -96,7 +98,7 @@ state_flags_color = "white"
 #
 main_window_color = "blue"
 #
-#color1 = "red"
+#color1 = 246
 #
 #color2 = "blue"
 #
@@ -106,9 +108,9 @@ main_window_highlight_color = "white"
 #
 #progressbar_elapsed_color = "cyan"
 #
-statusbar_color = "red"
+statusbar_color = 246
 #
-alternative_ui_separator_color = "white"
+alternative_ui_separator_color = "white"()
 #
 active_column_color = "white"
 #
@@ -116,5 +118,5 @@ active_column_color = "white"
 #
 #window_border_color = "green"
 #
-active_window_border = "red"
+active_window_border = 246
 #

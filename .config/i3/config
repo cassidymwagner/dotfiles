@@ -121,6 +121,7 @@ bar {
 set $ws1 "1: &#xf120;"
 set $ws2 "2: &#xf268;"
 set $ws3 "3: &#xf0c0;"
+set $ws4 "4: &#xf121;"
 set $ws8 "8: &#xf008;"
 set $ws9 "9: &#xf001;"
 
@@ -129,7 +130,7 @@ set $ws9 "9: &#xf001;"
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace 4
+bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
@@ -140,12 +141,12 @@ bindsym $mod+0 workspace 10
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace 10
 
@@ -209,12 +210,14 @@ bindsym $mod+Escape gaps inner all set 30
 
 bindsym --release Print exec scrot -u '%Y%m%d_%H%M%S.pang' -e 'mv $f ~/pictures/screenshots/'
 bindsym $mod+p exec scrot '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/' --release
+bindsym $mod+o+p exec scrot -s -u '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/' --release
 
 #exec --no-startup-id nm-applet
+#exec --no-startup-id slack
 #exec --no-startup-id blueman-applet
 exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/minimal-mountains-by-freshpie-wallpaper.jpg
-exec --no-startup-id compton -cCGfF -b -i 0.75 --vsync opengl
+exec --no-startup-id compton -cCGfF -b -i 0.85 --vsync opengl
 
 
 exec --no-startup-id xrandr --output HDMI-1 --auto --left-of eDP-1
