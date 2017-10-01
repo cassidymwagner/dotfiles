@@ -3,7 +3,13 @@ Dotfiles for arch setup.
 
 My poor attempt at keeping track of them, which I probably should have been doing since the beginning. 
 
-![Alt text](screenshots/20170928_132158.png?raw=true "Optional Title")
+### September 30
+
+![Alt text](screenshots/sept30_setup.png?raw=true)
+
+### September 28
+
+![Alt text](screenshots/sept28_setup.png?raw=true)
 
 #### TODO
 *Fix which disk usage gtop points to 
