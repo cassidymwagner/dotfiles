@@ -1,9 +1,0 @@
-2017/10/05-11:53:23.101 14247 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/https_secure.hulu.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/10/05-11:53:24.282 14247 Current memtable full; waiting...
-2017/10/05-11:53:24.282 5973 Level-0 table #5: started
-2017/10/05-11:53:24.287 5973 Level-0 table #5: 367 bytes OK
-2017/10/05-11:53:24.295 5973 Delete type=0 #3
-2017/10/05-11:53:24.295 5973 Level-0 table #7: started
-2017/10/05-11:53:24.295 5973 Level-0 table #7: 0 bytes OK
-2017/10/05-11:53:24.299 5973 Delete type=0 #4
-2017/10/05-11:53:24.299 5973 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,9 +1,0 @@
-2017/09/08-10:14:12.157 21047 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/http_www.latimes.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/09/08-10:14:13.405 21047 Current memtable full; waiting...
-2017/09/08-10:14:13.405 19024 Level-0 table #5: started
-2017/09/08-10:14:13.410 19024 Level-0 table #5: 365 bytes OK
-2017/09/08-10:14:13.419 19024 Delete type=0 #3
-2017/09/08-10:14:13.419 19024 Level-0 table #7: started
-2017/09/08-10:14:13.419 19024 Level-0 table #7: 0 bytes OK
-2017/09/08-10:14:13.424 19024 Delete type=0 #4
-2017/09/08-10:14:13.425 19024 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
