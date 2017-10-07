@@ -1,0 +1,312 @@
+{
+   "c0": {
+      "message": "Cinema Mode"
+   },
+   "c1": {
+      "message": "Expand"
+   },
+   "c10": {
+      "message": "Share via Email"
+   },
+   "c11": {
+      "message": "Click to show/hide video info"
+   },
+   "c12": {
+      "message": "Subscribe and Join the Magic!"
+   },
+   "c13": {
+      "message": "Mouse wheel over the player to zoom in and out"
+   },
+   "c14": {
+      "message": "Capture"
+   },
+   "c15": {
+      "message": "Dont't forget to support Magic with a small donation!"
+   },
+   "c16": {
+      "message": "Apply Filter"
+   },
+   "c2": {
+      "message": "Magic Options"
+   },
+   "c3": {
+      "message": "Collapse"
+   },
+   "c4": {
+      "message": "Volume "
+   },
+   "c5": {
+      "message": "Repeat"
+   },
+   "c6": {
+      "message": "Subscribe to Magic Actions's channel"
+   },
+   "c7": {
+      "message": "Share this video with your followers"
+   },
+   "c8": {
+      "message": "Share on Google Plus"
+   },
+   "c9": {
+      "message": "Share on Twitter"
+   },
+   "extDesc": {
+      "message": "Enhance your YouTube watching experience! Cinema Mode, Mouse Wheel Volume Control, AutoHD, Expand, Snapshots …"
+   },
+   "extName": {
+      "message": "Magic Actions for YouTube™"
+   },
+   "f0": {
+      "message": "Cinema Theme"
+   },
+   "f1": {
+      "message": "Color Scheme"
+   },
+   "f10": {
+      "message": "Cancel"
+   },
+   "f2": {
+      "message": "Customize"
+   },
+   "f3": {
+      "message": "Background Color"
+   },
+   "f4": {
+      "message": "Backlight Color"
+   },
+   "f5": {
+      "message": "Hue"
+   },
+   "f6": {
+      "message": "Saturation"
+   },
+   "f7": {
+      "message": "Lightness"
+   },
+   "f8": {
+      "message": "Alpha"
+   },
+   "f9": {
+      "message": "Ok"
+   },
+   "m0": {
+      "message": "Thank you for using $1!"
+   },
+   "m1": {
+      "message": "The new $1 version $2 has been installed successfully!"
+   },
+   "m2": {
+      "message": "Options"
+   },
+   "m3": {
+      "message": "Below we've exposed some advanced settings for those who want to tweak $1 further. We recommend that you modify these settings cautiously!"
+   },
+   "m4": {
+      "message": " New"
+   },
+   "menu": {
+      "description": "Popup Menu - Menu",
+      "message": "App;Topics;Donate"
+   },
+   "menu0": {
+      "description": "Popup Menu - Magic",
+      "message": "Home…;Options…;Feedback…;Privacy Test…;Help & Tips;Plug-ins;Watch History…;Extensions;Like…;Subscribe…;Follow…;Rate 5 Stars"
+   },
+   "menu1": {
+      "description": "Popup Menu - Videos",
+      "message": "Popular;Music;Trending;Sports;News;Gaming;Live;Movies;Animations;Animals;Beauty;Fashion;Food;Cooking"
+   },
+   "menu2": {
+      "description": "Popup Menu – Donate",
+      "message": "Support Magic Actions for YouTube™;Each of us can contribute to make the Magic Actions better for everyone!;PayPal;Securely via PayPal to webmaster@mixesoft.com;Securely via BitPay. The easy way to pay with bitcoins;As a bonus, each Contributor will receive:;We may modify these terms at any time.;1. Access to a beta version of the Magic Actions before anyone else.;2. Priority to get support via email from the Magic team."
+   },
+   "o100": {
+      "message": "144p"
+   },
+   "o17": {
+      "message": "Stop Autoplay"
+   },
+   "o18": {
+      "message": "Speed Booster (New, experimental!) - Better video preloading / buffering"
+   },
+   "o19": {
+      "message": "Don't stop when in a playlist"
+   },
+   "o20": {
+      "message": "Hide Ads"
+   },
+   "o21": {
+      "message": "Don't show video annotations"
+   },
+   "o22": {
+      "message": "Enable Magic Actions on any page with an embedded YouTube video"
+   },
+   "o23": {
+      "message": "OSD Type:"
+   },
+   "o24": {
+      "message": "Text"
+   },
+   "o25": {
+      "message": "Line"
+   },
+   "o26": {
+      "message": "Round"
+   },
+   "o27": {
+      "message": "The step of the volume adjustment:"
+   },
+   "o28": {
+      "message": "Enable Auto Wide"
+   },
+   "o29": {
+      "message": "Enable Cinema and Expand"
+   },
+   "o30": {
+      "message": "Switch to cinema mode automatically when the page loaded"
+   },
+   "o31": {
+      "message": "Switch to full screen (experimental)"
+   },
+   "o32": {
+      "message": "Cinema player size:"
+   },
+   "o33": {
+      "message": "Small"
+   },
+   "o34": {
+      "message": "Medium"
+   },
+   "o35": {
+      "message": "Large"
+   },
+   "o40": {
+      "message": "Enable Auto Replay"
+   },
+   "o41": {
+      "message": "By holding right mouse button and moving mouse"
+   },
+   "o42": {
+      "message": "Don't Show Video Annotations"
+   },
+   "o43": {
+      "message": "Enable Video Filters (experimental)"
+   },
+   "o44": {
+      "message": "Enable Multi-Range Looper [ right-click on the timeline to manage loops ]"
+   },
+   "o50": {
+      "message": "Hide Page Elements"
+   },
+   "o51": {
+      "message": "Header"
+   },
+   "o52": {
+      "message": "Related videos"
+   },
+   "o53": {
+      "message": "Video description"
+   },
+   "o54": {
+      "message": "Comments"
+   },
+   "o55": {
+      "message": "Guide"
+   },
+   "o56": {
+      "message": "Alerts"
+   },
+   "o57": {
+      "message": "Video details"
+   },
+   "o60": {
+      "message": "Advanced Features"
+   },
+   "o61": {
+      "message": "Ratings preview [ ★ buttons ]"
+   },
+   "o62": {
+      "message": "Enlarge thumbnails on mouse over"
+   },
+   "o63": {
+      "message": "Play sound on completion"
+   },
+   "o64": {
+      "message": "Footer"
+   },
+   "o65": {
+      "message": "Force Player Type"
+   },
+   "o66": {
+      "message": ""
+   },
+   "o70": {
+      "message": "Comments Features"
+   },
+   "o71": {
+      "message": "Enlarge avatars"
+   },
+   "o72": {
+      "message": ""
+   },
+   "o73": {
+      "message": ""
+   },
+   "o8": {
+      "message": "Instant control over volume"
+   },
+   "o80": {
+      "message": "Bypass country, always use Worldwide / English"
+   },
+   "o81": {
+      "message": "Enable Day/Night feature"
+   },
+   "o82": {
+      "message": "By scrolling mouse wheel"
+   },
+   "o83": {
+      "message": "By dragging your finger horizontally (touch screens)"
+   },
+   "o84": {
+      "message": "Enable context menu [ Restart browser to apply ]"
+   },
+   "o85": {
+      "message": "No Indication"
+   },
+   "o86": {
+      "message": "Newest first"
+   },
+   "o9": {
+      "message": "OSD color:"
+   },
+   "o90": {
+      "message": "Enable Auto HD"
+   },
+   "o91": {
+      "message": "Ultra"
+   },
+   "o92": {
+      "message": "2880p 5k"
+   },
+   "o93": {
+      "message": "2160p 4k"
+   },
+   "o94": {
+      "message": "1440p"
+   },
+   "o95": {
+      "message": "1080p"
+   },
+   "o96": {
+      "message": "720p"
+   },
+   "o97": {
+      "message": "480p"
+   },
+   "o98": {
+      "message": "360p"
+   },
+   "o99": {
+      "message": "240p"
+   }
+}

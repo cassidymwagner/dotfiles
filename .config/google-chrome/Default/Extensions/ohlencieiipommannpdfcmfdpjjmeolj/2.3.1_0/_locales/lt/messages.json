@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Naršyklė įrankis"
+   },
+   "options_saved": {
+      "message": "Parinktys išsaugotos"
+   },
+   "save_button": {
+      "message": "Išgelbėti"
+   },
+   "support": {
+      "message": "Remti"
+   },
+   "toolbar_icons": {
+      "message": "\"Chrome\" įrankių juostos piktogramos"
+   },
+   "website_button": {
+      "message": "Svetainė mygtukas"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Böngésző eszköz"
+   },
+   "options_saved": {
+      "message": "Opciók Mentett"
+   },
+   "save_button": {
+      "message": "Kivéve"
+   },
+   "support": {
+      "message": "Támogatás"
+   },
+   "toolbar_icons": {
+      "message": "Chrome Toolbar Icons"
+   },
+   "website_button": {
+      "message": "Website gomb"
+   }
+}

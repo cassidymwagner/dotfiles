@@ -1,0 +1,1338 @@
+[08/21/17, 08:22:45:666] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 08:22:45:668] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 08:22:45:661      ║
+[08/21/17, 08:22:45:668] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 08:23:32:843] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:23:33:227] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 08:23:33:228] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 08:23:33:224      ║
+[08/21/17, 08:23:33:229] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 08:23:36:541] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:23:36:673] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:23:37:252] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 08:23:37:253] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 08:23:37:246      ║
+[08/21/17, 08:23:37:254] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 08:23:50:112] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:23:50:686] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 08:23:50:687] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 08:23:50:683      ║
+[08/21/17, 08:23:50:688] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 08:24:02:216] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:24:02:997] info: Window is unloading, winssb is no longer accessible
+[08/21/17, 08:24:03:410] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 08:24:03:412] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 08:24:03:405      ║
+[08/21/17, 08:24:03:412] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 08:24:03:652] info: Store: ADD_NEW_TEAM
+{ id: 'U5DS7B63T',
+  name: '[REDACTED]',
+  team_id: 'T5ECU7L10',
+  team_name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[08/21/17, 08:24:03:655] info: Store: SET_LOGIN_DIALOG
+[08/21/17, 16:52:34:045] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 16:52:34:046] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 16:52:34:038      ║
+[08/21/17, 16:52:34:047] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 16:52:34:444] info: updateSuspendResume: true
+[08/21/17, 16:52:34:445] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[08/21/17, 16:52:36:513] info: Store: SELECT_CHANNEL C5EAP5M19
+[08/21/17, 16:52:36:520] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[08/21/17, 16:52:37:860] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/21/17, 16:52:38:396] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/21/17, 16:52:38:835] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[08/21/17, 16:52:38:836] info: Filtered Locale list: ["en_US"]
+[08/21/17, 16:52:38:838] info: Counts: {"en":["en_US"]}
+[08/21/17, 16:52:38:839] info: Setting en
+[08/21/17, 16:52:38:841] info: Result: {"en":"en-US"}
+[08/21/17, 16:52:38:846] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[08/21/17, 16:52:38:849] info: Loading dictionary for language en-US
+[08/21/17, 16:52:38:850] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 16:52:38:855] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 16:52:38:855] info: Creating node-spellchecker instance
+[08/21/17, 16:52:38:857] info: Actually installing spell check provider to Electron
+[08/21/17, 16:52:39:861] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[08/21/17, 16:52:40:058] info: Store: SELECT_CHANNEL D5DP8N3CG
+[08/21/17, 16:52:40:307] info: Loading dictionary for language en-US
+[08/21/17, 16:52:40:308] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 16:52:40:474] info: Loading dictionary for language en-US
+[08/21/17, 16:52:40:475] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 16:52:40:476] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 16:52:40:478] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 16:55:12:232] info: Unloading spellchecker
+[08/21/17, 16:55:33:665] info: Restoring spellchecker
+[08/21/17, 16:55:33:666] info: Loading dictionary for language en-US
+[08/21/17, 16:55:33:669] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 16:55:33:675] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 16:55:33:677] info: Creating node-spellchecker instance
+[08/21/17, 16:55:34:460] info: Unloading spellchecker
+[08/21/17, 17:08:37:953] info: Restoring spellchecker
+[08/21/17, 17:08:37:955] info: Loading dictionary for language en-US
+[08/21/17, 17:08:37:956] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 17:08:37:966] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 17:08:37:967] info: Creating node-spellchecker instance
+[08/21/17, 17:08:39:511] info: Unloading spellchecker
+[08/21/17, 20:54:05:064] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/21/17, 20:54:05:066] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/21/17, 20:54:05:056      ║
+[08/21/17, 20:54:05:067] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/21/17, 20:54:05:372] info: updateSuspendResume: true
+[08/21/17, 20:54:05:373] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[08/21/17, 20:54:07:543] info: Store: SELECT_CHANNEL D5DP8N3CG
+[08/21/17, 20:54:07:550] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[08/21/17, 20:54:08:942] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/21/17, 20:54:09:314] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/21/17, 20:54:09:557] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[08/21/17, 20:54:09:954] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[08/21/17, 20:54:09:955] info: Filtered Locale list: ["en_US"]
+[08/21/17, 20:54:09:955] info: Counts: {"en":["en_US"]}
+[08/21/17, 20:54:09:957] info: Setting en
+[08/21/17, 20:54:09:958] info: Result: {"en":"en-US"}
+[08/21/17, 20:54:09:961] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[08/21/17, 20:54:09:963] info: Loading dictionary for language en-US
+[08/21/17, 20:54:09:964] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 20:54:09:973] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 20:54:09:974] info: Creating node-spellchecker instance
+[08/21/17, 20:54:09:977] info: Actually installing spell check provider to Electron
+[08/21/17, 20:54:09:987] info: Loading dictionary for language en-US
+[08/21/17, 20:54:09:987] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 20:54:09:989] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 20:54:11:851] info: Unloading spellchecker
+[08/21/17, 21:29:32:035] info: Restoring spellchecker
+[08/21/17, 21:29:32:038] info: Loading dictionary for language en-US
+[08/21/17, 21:29:32:040] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:29:32:053] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:29:32:054] info: Creating node-spellchecker instance
+[08/21/17, 21:29:33:301] info: Unloading spellchecker
+[08/21/17, 21:31:54:755] info: Restoring spellchecker
+[08/21/17, 21:31:54:756] info: Loading dictionary for language en-US
+[08/21/17, 21:31:54:757] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:31:54:770] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:31:54:771] info: Creating node-spellchecker instance
+[08/21/17, 21:31:55:899] info: Unloading spellchecker
+[08/21/17, 21:33:12:871] info: Restoring spellchecker
+[08/21/17, 21:33:12:874] info: Loading dictionary for language en-US
+[08/21/17, 21:33:12:876] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:33:12:887] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:33:12:889] info: Creating node-spellchecker instance
+[08/21/17, 21:33:13:782] info: Unloading spellchecker
+[08/21/17, 21:35:38:741] info: Restoring spellchecker
+[08/21/17, 21:35:38:743] info: Loading dictionary for language en-US
+[08/21/17, 21:35:38:745] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:35:38:766] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:35:38:767] info: Creating node-spellchecker instance
+[08/21/17, 21:35:43:353] info: Unloading spellchecker
+[08/21/17, 21:35:48:132] info: Restoring spellchecker
+[08/21/17, 21:35:48:134] info: Loading dictionary for language en-US
+[08/21/17, 21:35:48:136] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:35:48:151] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:35:48:152] info: Creating node-spellchecker instance
+[08/21/17, 21:35:49:338] info: Unloading spellchecker
+[08/21/17, 21:36:45:744] info: Restoring spellchecker
+[08/21/17, 21:36:45:748] info: Loading dictionary for language en-US
+[08/21/17, 21:36:45:749] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:36:45:760] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:36:45:761] info: Creating node-spellchecker instance
+[08/21/17, 21:36:52:398] info: Unloading spellchecker
+[08/21/17, 21:37:17:523] info: Restoring spellchecker
+[08/21/17, 21:37:17:525] info: Loading dictionary for language en-US
+[08/21/17, 21:37:17:526] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:37:17:538] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:37:17:540] info: Creating node-spellchecker instance
+[08/21/17, 21:37:18:276] info: Unloading spellchecker
+[08/21/17, 21:37:33:092] info: Restoring spellchecker
+[08/21/17, 21:37:33:095] info: Loading dictionary for language en-US
+[08/21/17, 21:37:33:096] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:37:33:106] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:37:33:106] info: Creating node-spellchecker instance
+[08/21/17, 21:37:33:928] info: Unloading spellchecker
+[08/21/17, 21:37:42:455] info: Restoring spellchecker
+[08/21/17, 21:37:42:457] info: Loading dictionary for language en-US
+[08/21/17, 21:37:42:458] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:37:42:468] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:37:42:469] info: Creating node-spellchecker instance
+[08/21/17, 21:37:43:638] info: Unloading spellchecker
+[08/21/17, 21:38:58:030] info: Restoring spellchecker
+[08/21/17, 21:38:58:033] info: Loading dictionary for language en-US
+[08/21/17, 21:38:58:034] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:38:58:051] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:38:58:054] info: Creating node-spellchecker instance
+[08/21/17, 21:39:09:509] info: Unloading spellchecker
+[08/21/17, 21:39:09:518] info: Restoring spellchecker
+[08/21/17, 21:39:09:521] info: Loading dictionary for language en-US
+[08/21/17, 21:39:09:522] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:39:09:545] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:39:09:548] info: Creating node-spellchecker instance
+[08/21/17, 21:39:42:466] info: Unloading spellchecker
+[08/21/17, 21:39:42:478] info: Restoring spellchecker
+[08/21/17, 21:39:42:480] info: Loading dictionary for language en-US
+[08/21/17, 21:39:42:484] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:39:42:492] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:39:42:494] info: Creating node-spellchecker instance
+[08/21/17, 21:39:52:752] info: Unloading spellchecker
+[08/21/17, 21:40:25:649] info: Restoring spellchecker
+[08/21/17, 21:40:25:651] info: Loading dictionary for language en-US
+[08/21/17, 21:40:25:653] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:40:25:669] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:40:25:670] info: Creating node-spellchecker instance
+[08/21/17, 21:40:26:425] info: Unloading spellchecker
+[08/21/17, 21:40:27:346] info: Restoring spellchecker
+[08/21/17, 21:40:27:349] info: Loading dictionary for language en-US
+[08/21/17, 21:40:27:352] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:40:27:372] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:40:27:373] info: Creating node-spellchecker instance
+[08/21/17, 21:40:27:583] info: Unloading spellchecker
+[08/21/17, 21:40:30:755] info: Restoring spellchecker
+[08/21/17, 21:40:30:758] info: Loading dictionary for language en-US
+[08/21/17, 21:40:30:759] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:40:30:768] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:40:30:770] info: Creating node-spellchecker instance
+[08/21/17, 21:40:31:184] info: Unloading spellchecker
+[08/21/17, 21:41:29:787] info: Restoring spellchecker
+[08/21/17, 21:41:29:789] info: Loading dictionary for language en-US
+[08/21/17, 21:41:29:790] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:41:29:820] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:41:29:823] info: Creating node-spellchecker instance
+[08/21/17, 21:41:36:345] info: Unloading spellchecker
+[08/21/17, 21:42:32:519] info: Restoring spellchecker
+[08/21/17, 21:42:32:521] info: Loading dictionary for language en-US
+[08/21/17, 21:42:32:522] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:42:32:534] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:42:32:536] info: Creating node-spellchecker instance
+[08/21/17, 21:43:01:699] info: Unloading spellchecker
+[08/21/17, 21:43:01:711] info: Restoring spellchecker
+[08/21/17, 21:43:01:713] info: Loading dictionary for language en-US
+[08/21/17, 21:43:01:715] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:43:01:732] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:43:01:736] info: Creating node-spellchecker instance
+[08/21/17, 21:43:29:018] info: Unloading spellchecker
+[08/21/17, 21:43:29:027] info: Restoring spellchecker
+[08/21/17, 21:43:29:028] info: Loading dictionary for language en-US
+[08/21/17, 21:43:29:029] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:43:29:036] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:43:29:038] info: Creating node-spellchecker instance
+[08/21/17, 21:43:35:733] info: Unloading spellchecker
+[08/21/17, 21:43:42:864] info: Restoring spellchecker
+[08/21/17, 21:43:42:868] info: Loading dictionary for language en-US
+[08/21/17, 21:43:42:870] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:43:42:882] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:43:42:884] info: Creating node-spellchecker instance
+[08/21/17, 21:43:55:008] info: Unloading spellchecker
+[08/21/17, 21:44:33:969] info: Restoring spellchecker
+[08/21/17, 21:44:33:970] info: Loading dictionary for language en-US
+[08/21/17, 21:44:33:972] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:44:33:981] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:44:33:982] info: Creating node-spellchecker instance
+[08/21/17, 21:44:34:596] info: Unloading spellchecker
+[08/21/17, 21:45:08:739] info: Restoring spellchecker
+[08/21/17, 21:45:08:742] info: Loading dictionary for language en-US
+[08/21/17, 21:45:08:744] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:45:08:757] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:45:08:760] info: Creating node-spellchecker instance
+[08/21/17, 21:47:49:547] info: Unloading spellchecker
+[08/21/17, 21:48:33:124] info: Restoring spellchecker
+[08/21/17, 21:48:33:125] info: Loading dictionary for language en-US
+[08/21/17, 21:48:33:131] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:48:33:154] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:48:33:155] info: Creating node-spellchecker instance
+[08/21/17, 21:48:49:020] info: Unloading spellchecker
+[08/21/17, 21:48:58:297] info: Restoring spellchecker
+[08/21/17, 21:48:58:300] info: Loading dictionary for language en-US
+[08/21/17, 21:48:58:303] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:48:58:319] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:48:58:320] info: Creating node-spellchecker instance
+[08/21/17, 21:48:58:827] info: Unloading spellchecker
+[08/21/17, 21:49:11:695] info: Restoring spellchecker
+[08/21/17, 21:49:11:697] info: Loading dictionary for language en-US
+[08/21/17, 21:49:11:699] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:49:11:731] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:49:11:732] info: Creating node-spellchecker instance
+[08/21/17, 21:49:12:183] info: Unloading spellchecker
+[08/21/17, 21:49:13:225] info: Restoring spellchecker
+[08/21/17, 21:49:13:227] info: Loading dictionary for language en-US
+[08/21/17, 21:49:13:229] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:49:13:243] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:49:13:244] info: Creating node-spellchecker instance
+[08/21/17, 21:49:14:703] info: Unloading spellchecker
+[08/21/17, 21:49:35:920] info: Restoring spellchecker
+[08/21/17, 21:49:35:923] info: Loading dictionary for language en-US
+[08/21/17, 21:49:35:924] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:49:35:931] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:49:35:932] info: Creating node-spellchecker instance
+[08/21/17, 21:49:36:909] info: Unloading spellchecker
+[08/21/17, 21:50:53:079] info: Restoring spellchecker
+[08/21/17, 21:50:53:085] info: Loading dictionary for language en-US
+[08/21/17, 21:50:53:088] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:50:53:102] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:50:53:104] info: Creating node-spellchecker instance
+[08/21/17, 21:50:53:903] info: Unloading spellchecker
+[08/21/17, 21:58:51:061] info: Restoring spellchecker
+[08/21/17, 21:58:51:064] info: Loading dictionary for language en-US
+[08/21/17, 21:58:51:066] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 21:58:51:081] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 21:58:51:083] info: Creating node-spellchecker instance
+[08/21/17, 21:58:52:010] info: Unloading spellchecker
+[08/21/17, 22:01:25:306] info: Restoring spellchecker
+[08/21/17, 22:01:25:310] info: Loading dictionary for language en-US
+[08/21/17, 22:01:25:314] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:01:25:326] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:01:25:326] info: Creating node-spellchecker instance
+[08/21/17, 22:01:29:069] info: Unloading spellchecker
+[08/21/17, 22:01:31:790] info: Restoring spellchecker
+[08/21/17, 22:01:31:803] info: Loading dictionary for language en-US
+[08/21/17, 22:01:31:805] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:01:31:815] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:01:31:816] info: Creating node-spellchecker instance
+[08/21/17, 22:01:34:441] info: Unloading spellchecker
+[08/21/17, 22:01:36:817] info: Restoring spellchecker
+[08/21/17, 22:01:36:821] info: Loading dictionary for language en-US
+[08/21/17, 22:01:36:825] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:01:36:839] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:01:36:840] info: Creating node-spellchecker instance
+[08/21/17, 22:01:39:082] info: Unloading spellchecker
+[08/21/17, 22:19:53:257] info: Restoring spellchecker
+[08/21/17, 22:19:53:260] info: Loading dictionary for language en-US
+[08/21/17, 22:19:53:262] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:19:53:283] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:19:53:284] info: Creating node-spellchecker instance
+[08/21/17, 22:19:54:036] info: Unloading spellchecker
+[08/21/17, 22:20:10:641] info: Restoring spellchecker
+[08/21/17, 22:20:10:644] info: Loading dictionary for language en-US
+[08/21/17, 22:20:10:646] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:20:10:657] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:20:10:659] info: Creating node-spellchecker instance
+[08/21/17, 22:20:11:410] info: Unloading spellchecker
+[08/21/17, 22:28:51:106] info: Restoring spellchecker
+[08/21/17, 22:28:51:110] info: Loading dictionary for language en-US
+[08/21/17, 22:28:51:112] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:28:51:120] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:28:51:121] info: Creating node-spellchecker instance
+[08/21/17, 22:28:52:308] info: Unloading spellchecker
+[08/21/17, 22:29:01:615] info: Restoring spellchecker
+[08/21/17, 22:29:01:622] info: Loading dictionary for language en-US
+[08/21/17, 22:29:01:626] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:29:01:640] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:29:01:642] info: Creating node-spellchecker instance
+[08/21/17, 22:29:02:119] info: Unloading spellchecker
+[08/21/17, 22:31:31:766] info: Restoring spellchecker
+[08/21/17, 22:31:31:770] info: Loading dictionary for language en-US
+[08/21/17, 22:31:31:773] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:31:31:795] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:31:31:797] info: Creating node-spellchecker instance
+[08/21/17, 22:31:32:465] info: Unloading spellchecker
+[08/21/17, 22:31:45:997] info: Restoring spellchecker
+[08/21/17, 22:31:46:000] info: Loading dictionary for language en-US
+[08/21/17, 22:31:46:002] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:31:46:010] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:31:46:012] info: Creating node-spellchecker instance
+[08/21/17, 22:31:46:453] info: Unloading spellchecker
+[08/21/17, 22:42:14:251] info: Restoring spellchecker
+[08/21/17, 22:42:14:252] info: Loading dictionary for language en-US
+[08/21/17, 22:42:14:253] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/21/17, 22:42:14:257] info: Setting current spellchecker to en-US, requested language was en-US
+[08/21/17, 22:42:14:258] info: Creating node-spellchecker instance
+[08/21/17, 22:42:15:530] info: Unloading spellchecker
+[08/22/17, 16:14:12:816] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/22/17, 16:14:12:817] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/22/17, 16:14:12:810      ║
+[08/22/17, 16:14:12:818] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/22/17, 16:14:13:117] info: updateSuspendResume: true
+[08/22/17, 16:14:13:119] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[08/22/17, 16:14:15:159] info: Store: SELECT_CHANNEL D5DP8N3CG
+[08/22/17, 16:14:15:164] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[08/22/17, 16:14:16:543] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/22/17, 16:14:16:933] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/22/17, 16:14:17:191] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[08/22/17, 16:14:17:612] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[08/22/17, 16:14:17:613] info: Filtered Locale list: ["en_US"]
+[08/22/17, 16:14:17:618] info: Counts: {"en":["en_US"]}
+[08/22/17, 16:14:17:619] info: Setting en
+[08/22/17, 16:14:17:620] info: Result: {"en":"en-US"}
+[08/22/17, 16:14:17:623] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[08/22/17, 16:14:17:624] info: Loading dictionary for language en-US
+[08/22/17, 16:14:17:625] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:14:17:635] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:14:17:637] info: Creating node-spellchecker instance
+[08/22/17, 16:14:17:640] info: Actually installing spell check provider to Electron
+[08/22/17, 16:14:17:683] info: Loading dictionary for language en-US
+[08/22/17, 16:14:17:684] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:14:17:690] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:14:21:014] info: Store: SELECT_CHANNEL C5E3QUKLG
+[08/22/17, 16:14:23:270] info: Loading dictionary for language en-US
+[08/22/17, 16:14:23:271] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:14:23:273] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:14:30:356] info: Unloading spellchecker
+[08/22/17, 16:14:48:413] info: Restoring spellchecker
+[08/22/17, 16:14:48:418] info: Loading dictionary for language en-US
+[08/22/17, 16:14:48:420] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:14:48:438] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:14:48:439] info: Creating node-spellchecker instance
+[08/22/17, 16:14:48:982] info: Unloading spellchecker
+[08/22/17, 16:14:50:611] info: Restoring spellchecker
+[08/22/17, 16:14:50:613] info: Loading dictionary for language en-US
+[08/22/17, 16:14:50:614] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:14:50:624] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:14:50:625] info: Creating node-spellchecker instance
+[08/22/17, 16:14:52:840] info: Unloading spellchecker
+[08/22/17, 16:16:16:613] info: Restoring spellchecker
+[08/22/17, 16:16:16:614] info: Loading dictionary for language en-US
+[08/22/17, 16:16:16:616] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:16:16:623] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:16:16:623] info: Creating node-spellchecker instance
+[08/22/17, 16:16:17:512] info: Unloading spellchecker
+[08/22/17, 16:16:18:155] info: Restoring spellchecker
+[08/22/17, 16:16:18:156] info: Loading dictionary for language en-US
+[08/22/17, 16:16:18:157] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/22/17, 16:16:18:167] info: Setting current spellchecker to en-US, requested language was en-US
+[08/22/17, 16:16:18:168] info: Creating node-spellchecker instance
+[08/22/17, 16:16:19:010] info: Unloading spellchecker
+[08/22/17, 20:01:23:027] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/22/17, 20:01:23:271] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/23/17, 09:07:17:780] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/23/17, 09:07:18:029] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/23/17, 20:07:58:281] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/23/17, 20:07:58:283] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/23/17, 20:07:58:273      ║
+[08/23/17, 20:07:58:284] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/23/17, 20:07:58:604] info: updateSuspendResume: true
+[08/23/17, 20:07:58:605] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[08/23/17, 20:08:06:106] info: Store: SELECT_CHANNEL C5E3QUKLG
+[08/23/17, 20:08:06:113] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[08/23/17, 20:08:07:762] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/23/17, 20:08:08:027] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/23/17, 20:08:08:260] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[08/23/17, 20:08:08:500] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[08/23/17, 20:08:08:501] info: Filtered Locale list: ["en_US"]
+[08/23/17, 20:08:08:502] info: Counts: {"en":["en_US"]}
+[08/23/17, 20:08:08:503] info: Setting en
+[08/23/17, 20:08:08:506] info: Result: {"en":"en-US"}
+[08/23/17, 20:08:08:508] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[08/23/17, 20:08:08:510] info: Loading dictionary for language en-US
+[08/23/17, 20:08:08:512] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:08:08:516] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:08:08:516] info: Creating node-spellchecker instance
+[08/23/17, 20:08:08:518] info: Actually installing spell check provider to Electron
+[08/23/17, 20:08:08:595] info: Loading dictionary for language en-US
+[08/23/17, 20:08:08:596] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:08:08:615] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:08:10:369] info: Store: SELECT_CHANNEL D5DP8N3CG
+[08/23/17, 20:08:12:397] info: Loading dictionary for language en-US
+[08/23/17, 20:08:12:400] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:08:12:404] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:14:13:715] info: Unloading spellchecker
+[08/23/17, 20:14:16:839] info: Restoring spellchecker
+[08/23/17, 20:14:16:841] info: Loading dictionary for language en-US
+[08/23/17, 20:14:16:843] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:14:16:853] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:14:16:855] info: Creating node-spellchecker instance
+[08/23/17, 20:14:19:847] info: Unloading spellchecker
+[08/23/17, 20:15:32:516] info: Restoring spellchecker
+[08/23/17, 20:15:32:518] info: Loading dictionary for language en-US
+[08/23/17, 20:15:32:519] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:15:32:527] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:15:32:528] info: Creating node-spellchecker instance
+[08/23/17, 20:15:34:467] info: Unloading spellchecker
+[08/23/17, 20:21:19:992] info: Restoring spellchecker
+[08/23/17, 20:21:19:997] info: Loading dictionary for language en-US
+[08/23/17, 20:21:20:002] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:21:20:015] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:21:20:017] info: Creating node-spellchecker instance
+[08/23/17, 20:21:21:370] info: Unloading spellchecker
+[08/23/17, 20:21:52:881] info: Restoring spellchecker
+[08/23/17, 20:21:52:884] info: Loading dictionary for language en-US
+[08/23/17, 20:21:52:885] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:21:52:892] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:21:52:893] info: Creating node-spellchecker instance
+[08/23/17, 20:21:53:384] info: Unloading spellchecker
+[08/23/17, 20:23:11:192] info: Restoring spellchecker
+[08/23/17, 20:23:11:198] info: Loading dictionary for language en-US
+[08/23/17, 20:23:11:202] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:23:11:217] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:23:11:219] info: Creating node-spellchecker instance
+[08/23/17, 20:23:12:520] info: Unloading spellchecker
+[08/23/17, 20:26:02:776] info: Restoring spellchecker
+[08/23/17, 20:26:02:779] info: Loading dictionary for language en-US
+[08/23/17, 20:26:02:782] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:26:02:793] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:26:02:795] info: Creating node-spellchecker instance
+[08/23/17, 20:26:03:475] info: Unloading spellchecker
+[08/23/17, 20:28:01:132] info: Restoring spellchecker
+[08/23/17, 20:28:01:137] info: Loading dictionary for language en-US
+[08/23/17, 20:28:01:140] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:28:01:155] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:28:01:156] info: Creating node-spellchecker instance
+[08/23/17, 20:28:02:919] info: Unloading spellchecker
+[08/23/17, 20:34:42:108] info: Restoring spellchecker
+[08/23/17, 20:34:42:112] info: Loading dictionary for language en-US
+[08/23/17, 20:34:42:116] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:34:42:130] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:34:42:131] info: Creating node-spellchecker instance
+[08/23/17, 20:34:42:400] info: Unloading spellchecker
+[08/23/17, 20:38:07:809] info: Restoring spellchecker
+[08/23/17, 20:38:07:816] info: Loading dictionary for language en-US
+[08/23/17, 20:38:07:819] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:38:07:854] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:38:07:855] info: Creating node-spellchecker instance
+[08/23/17, 20:38:08:860] info: Unloading spellchecker
+[08/23/17, 20:55:22:443] info: Restoring spellchecker
+[08/23/17, 20:55:22:446] info: Loading dictionary for language en-US
+[08/23/17, 20:55:22:447] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:55:22:455] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:55:22:456] info: Creating node-spellchecker instance
+[08/23/17, 20:55:23:095] info: Unloading spellchecker
+[08/23/17, 20:55:23:824] info: Restoring spellchecker
+[08/23/17, 20:55:23:827] info: Loading dictionary for language en-US
+[08/23/17, 20:55:23:829] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 20:55:23:837] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 20:55:23:838] info: Creating node-spellchecker instance
+[08/23/17, 20:55:24:597] info: Unloading spellchecker
+[08/23/17, 21:04:20:838] info: Restoring spellchecker
+[08/23/17, 21:04:20:839] info: Loading dictionary for language en-US
+[08/23/17, 21:04:20:841] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:04:20:851] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:04:20:853] info: Creating node-spellchecker instance
+[08/23/17, 21:04:21:208] info: Unloading spellchecker
+[08/23/17, 21:21:50:417] info: Restoring spellchecker
+[08/23/17, 21:21:50:420] info: Loading dictionary for language en-US
+[08/23/17, 21:21:50:421] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:21:50:430] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:21:50:431] info: Creating node-spellchecker instance
+[08/23/17, 21:21:51:909] info: Unloading spellchecker
+[08/23/17, 21:29:13:709] info: Restoring spellchecker
+[08/23/17, 21:29:13:711] info: Loading dictionary for language en-US
+[08/23/17, 21:29:13:712] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:29:13:725] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:29:13:726] info: Creating node-spellchecker instance
+[08/23/17, 21:29:14:921] info: Unloading spellchecker
+[08/23/17, 21:38:27:135] info: Restoring spellchecker
+[08/23/17, 21:38:27:137] info: Loading dictionary for language en-US
+[08/23/17, 21:38:27:138] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:38:27:145] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:38:27:145] info: Creating node-spellchecker instance
+[08/23/17, 21:38:27:796] info: Unloading spellchecker
+[08/23/17, 21:39:24:982] info: Restoring spellchecker
+[08/23/17, 21:39:24:984] info: Loading dictionary for language en-US
+[08/23/17, 21:39:24:985] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:39:24:992] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:39:24:994] info: Creating node-spellchecker instance
+[08/23/17, 21:39:25:527] info: Unloading spellchecker
+[08/23/17, 21:39:48:234] info: Restoring spellchecker
+[08/23/17, 21:39:48:237] info: Loading dictionary for language en-US
+[08/23/17, 21:39:48:240] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:39:48:251] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:39:48:252] info: Creating node-spellchecker instance
+[08/23/17, 21:39:48:779] info: Unloading spellchecker
+[08/23/17, 21:41:22:838] info: Restoring spellchecker
+[08/23/17, 21:41:22:839] info: Loading dictionary for language en-US
+[08/23/17, 21:41:22:840] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:41:22:858] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:41:22:860] info: Creating node-spellchecker instance
+[08/23/17, 21:41:24:106] info: Unloading spellchecker
+[08/23/17, 21:41:25:638] info: Restoring spellchecker
+[08/23/17, 21:41:25:641] info: Loading dictionary for language en-US
+[08/23/17, 21:41:25:643] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/23/17, 21:41:25:657] info: Setting current spellchecker to en-US, requested language was en-US
+[08/23/17, 21:41:25:658] info: Creating node-spellchecker instance
+[08/23/17, 21:41:28:350] info: Unloading spellchecker
+[08/24/17, 10:02:48:553] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/24/17, 10:02:48:839] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/24/17, 11:46:53:904] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/24/17, 11:46:54:103] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/31/17, 17:36:07:085] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[08/31/17, 17:36:07:086] info: ║      Slack 2.7.1, linux 4.9.44-1-lts on x64 at 08/31/17, 17:36:07:077      ║
+[08/31/17, 17:36:07:087] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[08/31/17, 17:36:07:438] info: updateSuspendResume: true
+[08/31/17, 17:36:07:439] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[08/31/17, 17:36:09:802] info: Store: SELECT_CHANNEL D5DP8N3CG
+[08/31/17, 17:36:09:808] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[08/31/17, 17:36:11:122] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/31/17, 17:36:11:369] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[08/31/17, 17:36:11:577] info: Unloading spellchecker
+[08/31/17, 17:36:11:596] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[08/31/17, 17:36:11:814] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[08/31/17, 17:36:11:815] info: Filtered Locale list: ["en_US"]
+[08/31/17, 17:36:11:816] info: Counts: {"en":["en_US"]}
+[08/31/17, 17:36:11:816] info: Setting en
+[08/31/17, 17:36:11:818] info: Result: {"en":"en-US"}
+[08/31/17, 17:36:11:820] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[08/31/17, 17:36:11:821] info: Loading dictionary for language en-US
+[08/31/17, 17:36:11:822] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/31/17, 17:36:11:825] info: Setting current spellchecker to en-US, requested language was en-US
+[08/31/17, 17:36:11:825] info: Creating node-spellchecker instance
+[08/31/17, 17:36:11:828] info: Actually installing spell check provider to Electron
+[08/31/17, 17:36:11:843] info: Loading dictionary for language en-US
+[08/31/17, 17:36:11:844] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[08/31/17, 17:36:11:846] info: Setting current spellchecker to en-US, requested language was en-US
+[08/31/17, 20:56:21:422] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[08/31/17, 20:56:21:735] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 08:15:11:661] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 08:15:11:930] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 09:16:22:957] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 09:16:23:226] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 09:32:15:768] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 09:32:16:020] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 09:46:50:315] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 09:46:50:571] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 09:54:07:147] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 09:54:07:355] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 10:01:16:909] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 10:01:17:131] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 10:27:35:977] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 10:27:36:228] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 12:53:27:152] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 12:53:27:534] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/01/17, 17:38:13:951] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/01/17, 17:38:14:185] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/02/17, 09:08:39:693] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/02/17, 09:08:39:949] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/03/17, 11:32:35:929] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/03/17, 11:32:36:219] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/19/17, 20:36:34:627] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/19/17, 20:36:34:629] info: ║      Slack 2.7.1, linux 4.9.50-1-lts on x64 at 09/19/17, 20:36:34:618      ║
+[09/19/17, 20:36:34:630] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/19/17, 20:36:34:956] info: updateSuspendResume: true
+[09/19/17, 20:36:34:957] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/19/17, 20:36:37:578] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/19/17, 20:36:37:590] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/19/17, 20:36:39:316] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/19/17, 20:36:39:768] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/19/17, 20:36:39:991] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/19/17, 20:36:40:374] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/19/17, 20:36:40:375] info: Filtered Locale list: ["en_US"]
+[09/19/17, 20:36:40:376] info: Counts: {"en":["en_US"]}
+[09/19/17, 20:36:40:377] info: Setting en
+[09/19/17, 20:36:40:379] info: Result: {"en":"en-US"}
+[09/19/17, 20:36:40:382] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/19/17, 20:36:40:384] info: Loading dictionary for language en-US
+[09/19/17, 20:36:40:385] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/19/17, 20:36:40:409] info: Setting current spellchecker to en-US, requested language was en-US
+[09/19/17, 20:36:40:410] info: Creating node-spellchecker instance
+[09/19/17, 20:36:40:412] info: Actually installing spell check provider to Electron
+[09/19/17, 20:36:40:448] info: Loading dictionary for language en-US
+[09/19/17, 20:36:40:448] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/19/17, 20:36:40:454] info: Setting current spellchecker to en-US, requested language was en-US
+[09/19/17, 20:36:48:990] info: Unloading spellchecker
+[09/28/17, 23:17:23:639] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/28/17, 23:17:23:641] info: ║      Slack 2.7.1, linux 4.9.51-1-lts on x64 at 09/28/17, 23:17:23:632      ║
+[09/28/17, 23:17:23:642] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/28/17, 23:17:23:971] info: updateSuspendResume: true
+[09/28/17, 23:17:23:973] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/28/17, 23:17:26:705] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/28/17, 23:17:26:715] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/28/17, 23:17:28:579] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/28/17, 23:17:28:641] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/28/17, 23:17:28:642] info: Filtered Locale list: ["en_US"]
+[09/28/17, 23:17:28:645] info: Counts: {"en":["en_US"]}
+[09/28/17, 23:17:28:647] info: Setting en
+[09/28/17, 23:17:28:648] info: Result: {"en":"en-US"}
+[09/28/17, 23:17:28:650] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/28/17, 23:17:28:652] info: Loading dictionary for language en-US
+[09/28/17, 23:17:28:653] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/28/17, 23:17:28:693] info: Setting current spellchecker to en-US, requested language was en-US
+[09/28/17, 23:17:28:694] info: Creating node-spellchecker instance
+[09/28/17, 23:17:28:699] info: Actually installing spell check provider to Electron
+[09/28/17, 23:17:31:971] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/28/17, 23:17:32:229] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/28/17, 23:17:32:483] info: Loading dictionary for language en-US
+[09/28/17, 23:17:32:484] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/28/17, 23:17:32:523] info: Setting current spellchecker to en-US, requested language was en-US
+[09/28/17, 23:17:35:512] info: Unloading spellchecker
+[09/28/17, 23:17:35:604] info: Restoring spellchecker
+[09/28/17, 23:17:35:608] info: Loading dictionary for language en-US
+[09/28/17, 23:17:35:611] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/28/17, 23:17:35:635] info: Setting current spellchecker to en-US, requested language was en-US
+[09/28/17, 23:17:35:638] info: Creating node-spellchecker instance
+[09/28/17, 23:17:35:647] info: Unloading spellchecker
+[09/28/17, 23:17:41:136] info: Restoring spellchecker
+[09/28/17, 23:17:41:140] info: Loading dictionary for language en-US
+[09/28/17, 23:17:41:142] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/28/17, 23:17:41:153] info: Setting current spellchecker to en-US, requested language was en-US
+[09/28/17, 23:17:41:155] info: Creating node-spellchecker instance
+[09/28/17, 23:17:41:744] info: Unloading spellchecker
+[09/28/17, 23:23:04:551] info: Restoring spellchecker
+[09/28/17, 23:23:04:553] info: Loading dictionary for language en-US
+[09/28/17, 23:23:04:554] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/28/17, 23:23:04:566] info: Setting current spellchecker to en-US, requested language was en-US
+[09/28/17, 23:23:04:567] info: Creating node-spellchecker instance
+[09/28/17, 23:23:06:038] info: Unloading spellchecker
+[09/29/17, 00:20:10:892] info: Restoring spellchecker
+[09/29/17, 00:20:10:895] info: Loading dictionary for language en-US
+[09/29/17, 00:20:10:898] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/29/17, 00:20:10:918] info: Setting current spellchecker to en-US, requested language was en-US
+[09/29/17, 00:20:10:918] info: Creating node-spellchecker instance
+[09/29/17, 00:20:12:136] info: Unloading spellchecker
+[09/29/17, 00:20:13:286] info: Restoring spellchecker
+[09/29/17, 00:20:13:287] info: Loading dictionary for language en-US
+[09/29/17, 00:20:13:289] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/29/17, 00:20:13:298] info: Setting current spellchecker to en-US, requested language was en-US
+[09/29/17, 00:20:13:300] info: Creating node-spellchecker instance
+[09/29/17, 00:20:14:724] info: Unloading spellchecker
+[09/29/17, 08:46:28:541] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/29/17, 08:46:28:886] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/29/17, 10:13:01:797] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/29/17, 10:13:02:020] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/29/17, 10:16:23:011] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/29/17, 10:16:23:012] info: ║      Slack 2.7.1, linux 4.9.51-1-lts on x64 at 09/29/17, 10:16:23:004      ║
+[09/29/17, 10:16:23:013] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/29/17, 10:16:23:298] info: updateSuspendResume: true
+[09/29/17, 10:16:23:299] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/29/17, 10:16:25:763] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/29/17, 10:16:25:773] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/29/17, 10:16:26:801] info: Unloading spellchecker
+[09/29/17, 10:16:26:806] info: Unloading spellchecker
+[09/29/17, 10:16:27:236] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/29/17, 10:16:27:483] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/29/17, 10:16:27:684] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/29/17, 10:16:27:985] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/29/17, 10:16:27:986] info: Filtered Locale list: ["en_US"]
+[09/29/17, 10:16:27:986] info: Counts: {"en":["en_US"]}
+[09/29/17, 10:16:27:987] info: Setting en
+[09/29/17, 10:16:27:988] info: Result: {"en":"en-US"}
+[09/29/17, 10:16:27:990] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/29/17, 10:16:27:991] info: Loading dictionary for language en-US
+[09/29/17, 10:16:27:992] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/29/17, 10:16:28:007] info: Setting current spellchecker to en-US, requested language was en-US
+[09/29/17, 10:16:28:008] info: Creating node-spellchecker instance
+[09/29/17, 10:16:28:010] info: Actually installing spell check provider to Electron
+[09/29/17, 10:16:28:012] info: Loading dictionary for language en-US
+[09/29/17, 10:16:28:012] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/29/17, 10:16:28:014] info: Setting current spellchecker to en-US, requested language was en-US
+[09/29/17, 12:31:33:277] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/29/17, 12:31:33:593] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/30/17, 10:17:14:512] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/30/17, 10:17:14:513] info: ║      Slack 2.7.1, linux 4.9.51-1-lts on x64 at 09/30/17, 10:17:14:504      ║
+[09/30/17, 10:17:14:514] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/30/17, 10:17:14:844] info: updateSuspendResume: true
+[09/30/17, 10:17:14:845] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/30/17, 10:17:17:479] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/30/17, 10:17:17:487] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/30/17, 10:17:19:144] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/30/17, 10:17:19:416] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/30/17, 10:17:19:740] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 10:17:20:057] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/30/17, 10:17:20:058] info: Filtered Locale list: ["en_US"]
+[09/30/17, 10:17:20:059] info: Counts: {"en":["en_US"]}
+[09/30/17, 10:17:20:059] info: Setting en
+[09/30/17, 10:17:20:061] info: Result: {"en":"en-US"}
+[09/30/17, 10:17:20:063] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/30/17, 10:17:20:065] info: Loading dictionary for language en-US
+[09/30/17, 10:17:20:066] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 10:17:20:219] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 10:17:20:220] info: Creating node-spellchecker instance
+[09/30/17, 10:17:20:222] info: Actually installing spell check provider to Electron
+[09/30/17, 10:17:20:229] info: Loading dictionary for language en-US
+[09/30/17, 10:17:20:230] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 10:17:20:232] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 10:32:04:214] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/30/17, 10:32:04:215] info: ║      Slack 2.7.1, linux 4.9.51-1-lts on x64 at 09/30/17, 10:32:04:208      ║
+[09/30/17, 10:32:04:216] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/30/17, 10:32:04:537] info: updateSuspendResume: true
+[09/30/17, 10:32:04:539] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/30/17, 10:32:32:416] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/30/17, 10:32:32:418] info: ║      Slack 2.7.1, linux 4.9.51-1-lts on x64 at 09/30/17, 10:32:32:410      ║
+[09/30/17, 10:32:32:418] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/30/17, 10:32:32:718] info: updateSuspendResume: true
+[09/30/17, 10:32:32:720] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/30/17, 10:32:35:312] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/30/17, 10:32:35:322] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/30/17, 10:32:37:531] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 10:32:37:756] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/30/17, 10:32:37:759] info: Filtered Locale list: ["en_US"]
+[09/30/17, 10:32:37:761] info: Counts: {"en":["en_US"]}
+[09/30/17, 10:32:37:762] info: Setting en
+[09/30/17, 10:32:37:763] info: Result: {"en":"en-US"}
+[09/30/17, 10:32:37:765] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/30/17, 10:32:37:766] info: Loading dictionary for language en-US
+[09/30/17, 10:32:37:768] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 10:32:37:816] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 10:32:37:819] info: Creating node-spellchecker instance
+[09/30/17, 10:32:37:821] info: Actually installing spell check provider to Electron
+[09/30/17, 10:32:41:299] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[09/30/17, 10:32:41:495] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/30/17, 10:32:42:197] info: Loading dictionary for language en-US
+[09/30/17, 10:32:42:198] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 10:32:42:199] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 23:31:27:567] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/30/17, 23:31:27:568] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 09/30/17, 23:31:27:561      ║
+[09/30/17, 23:31:27:569] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/30/17, 23:31:27:834] info: updateSuspendResume: true
+[09/30/17, 23:31:27:836] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/30/17, 23:31:30:102] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/30/17, 23:31:30:109] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/30/17, 23:31:31:103] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:31:304] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:31:518] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:31:739] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/30/17, 23:31:31:740] info: Filtered Locale list: ["en_US"]
+[09/30/17, 23:31:31:740] info: Counts: {"en":["en_US"]}
+[09/30/17, 23:31:31:741] info: Setting en
+[09/30/17, 23:31:31:742] info: Result: {"en":"en-US"}
+[09/30/17, 23:31:31:745] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/30/17, 23:31:31:746] info: Loading dictionary for language en-US
+[09/30/17, 23:31:31:747] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 23:31:31:751] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 23:31:31:752] info: Creating node-spellchecker instance
+[09/30/17, 23:31:31:753] info: Actually installing spell check provider to Electron
+[09/30/17, 23:31:32:011] info: Loading dictionary for language en-US
+[09/30/17, 23:31:32:012] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 23:31:32:013] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 23:31:42:316] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[09/30/17, 23:31:42:318] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 09/30/17, 23:31:42:309      ║
+[09/30/17, 23:31:42:318] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[09/30/17, 23:31:42:639] info: updateSuspendResume: true
+[09/30/17, 23:31:42:642] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[09/30/17, 23:31:44:791] info: Store: SELECT_CHANNEL D5DP8N3CG
+[09/30/17, 23:31:44:798] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[09/30/17, 23:31:45:831] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:46:100] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:46:376] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[09/30/17, 23:31:46:939] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[09/30/17, 23:31:46:940] info: Filtered Locale list: ["en_US"]
+[09/30/17, 23:31:46:941] info: Counts: {"en":["en_US"]}
+[09/30/17, 23:31:46:941] info: Setting en
+[09/30/17, 23:31:46:943] info: Result: {"en":"en-US"}
+[09/30/17, 23:31:46:945] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/30/17, 23:31:46:946] info: Loading dictionary for language en-US
+[09/30/17, 23:31:46:947] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 23:31:46:960] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[09/30/17, 23:31:46:961] info: Loading dictionary for language en-US
+[09/30/17, 23:31:46:961] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[09/30/17, 23:31:46:963] info: Setting current spellchecker to en-US, requested language was en-US
+[09/30/17, 23:31:46:963] info: Creating node-spellchecker instance
+[09/30/17, 23:31:46:965] info: Actually installing spell check provider to Electron
+[09/30/17, 23:31:46:966] info: Setting current spellchecker to en-US, requested language was en-US
+[10/01/17, 18:25:54:333] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/01/17, 18:25:54:335] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/01/17, 18:25:54:327      ║
+[10/01/17, 18:25:54:335] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/01/17, 18:25:54:714] info: updateSuspendResume: true
+[10/01/17, 18:25:54:715] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/01/17, 18:25:57:074] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/01/17, 18:25:57:080] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/01/17, 18:25:58:913] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/01/17, 18:25:59:244] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/01/17, 18:25:59:470] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/01/17, 18:25:59:579] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/01/17, 18:25:59:580] info: Filtered Locale list: ["en_US"]
+[10/01/17, 18:25:59:581] info: Counts: {"en":["en_US"]}
+[10/01/17, 18:25:59:581] info: Setting en
+[10/01/17, 18:25:59:583] info: Result: {"en":"en-US"}
+[10/01/17, 18:25:59:585] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/01/17, 18:25:59:587] info: Loading dictionary for language en-US
+[10/01/17, 18:25:59:587] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/01/17, 18:25:59:590] info: Setting current spellchecker to en-US, requested language was en-US
+[10/01/17, 18:25:59:591] info: Creating node-spellchecker instance
+[10/01/17, 18:25:59:593] info: Actually installing spell check provider to Electron
+[10/01/17, 18:25:59:937] info: Loading dictionary for language en-US
+[10/01/17, 18:25:59:938] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/01/17, 18:25:59:940] info: Setting current spellchecker to en-US, requested language was en-US
+[10/01/17, 23:02:49:472] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/01/17, 23:02:49:784] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 09:43:23:742] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 09:43:24:056] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 12:58:58:221] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 12:58:58:576] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 13:26:01:769] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 13:26:02:031] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 14:51:30:517] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 14:51:30:721] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 16:03:26:997] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 16:03:27:228] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 16:44:53:057] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-34.png',
+     image_44: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-44.png',
+     image_68: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-68.png',
+     image_88: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-88.png',
+     image_102: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-102.png',
+     image_132: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0022-132.png',
+     image_230: 'https://a.slack-edge.com/bfaba/img/avatars-teams/ava_0022-230.png',
+     image_default: '1' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 16:44:53:225] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 20:20:40:866] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/02/17, 20:20:40:867] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/02/17, 20:20:40:860      ║
+[10/02/17, 20:20:40:869] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/02/17, 20:20:41:197] info: updateSuspendResume: true
+[10/02/17, 20:20:41:198] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/02/17, 20:20:44:318] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/02/17, 20:20:44:325] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/02/17, 20:20:46:309] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/02/17, 20:20:46:636] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 20:20:47:023] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 20:20:47:486] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/02/17, 20:20:47:487] info: Filtered Locale list: ["en_US"]
+[10/02/17, 20:20:47:487] info: Counts: {"en":["en_US"]}
+[10/02/17, 20:20:47:488] info: Setting en
+[10/02/17, 20:20:47:491] info: Result: {"en":"en-US"}
+[10/02/17, 20:20:47:498] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/02/17, 20:20:47:500] info: Loading dictionary for language en-US
+[10/02/17, 20:20:47:501] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/02/17, 20:20:47:515] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/02/17, 20:20:47:516] info: Loading dictionary for language en-US
+[10/02/17, 20:20:47:517] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/02/17, 20:20:47:518] info: Setting current spellchecker to en-US, requested language was en-US
+[10/02/17, 20:20:47:519] info: Creating node-spellchecker instance
+[10/02/17, 20:20:47:521] info: Actually installing spell check provider to Electron
+[10/02/17, 20:20:47:523] info: Setting current spellchecker to en-US, requested language was en-US
+[10/02/17, 23:58:09:899] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/02/17, 23:58:09:901] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/02/17, 23:58:09:893      ║
+[10/02/17, 23:58:09:902] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/02/17, 23:58:10:158] info: updateSuspendResume: true
+[10/02/17, 23:58:10:159] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/02/17, 23:58:12:249] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/02/17, 23:58:12:256] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/02/17, 23:58:13:273] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/02/17, 23:58:13:487] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/02/17, 23:58:13:675] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/02/17, 23:58:13:707] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/02/17, 23:58:13:707] info: Filtered Locale list: ["en_US"]
+[10/02/17, 23:58:13:708] info: Counts: {"en":["en_US"]}
+[10/02/17, 23:58:13:709] info: Setting en
+[10/02/17, 23:58:13:710] info: Result: {"en":"en-US"}
+[10/02/17, 23:58:13:712] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/02/17, 23:58:13:714] info: Loading dictionary for language en-US
+[10/02/17, 23:58:13:715] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/02/17, 23:58:13:731] info: Setting current spellchecker to en-US, requested language was en-US
+[10/02/17, 23:58:13:731] info: Creating node-spellchecker instance
+[10/02/17, 23:58:13:733] info: Actually installing spell check provider to Electron
+[10/02/17, 23:58:13:949] info: Loading dictionary for language en-US
+[10/02/17, 23:58:13:950] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/02/17, 23:58:13:952] info: Setting current spellchecker to en-US, requested language was en-US
+[10/05/17, 13:11:42:439] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/05/17, 13:11:42:440] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/05/17, 13:11:42:432      ║
+[10/05/17, 13:11:42:441] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/05/17, 13:11:42:713] info: updateSuspendResume: true
+[10/05/17, 13:11:42:714] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/05/17, 13:13:16:262] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/05/17, 13:13:16:273] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/05/17, 13:13:17:149] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/05/17, 13:13:17:372] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/05/17, 13:13:17:373] info: Filtered Locale list: ["en_US"]
+[10/05/17, 13:13:17:373] info: Counts: {"en":["en_US"]}
+[10/05/17, 13:13:17:374] info: Setting en
+[10/05/17, 13:13:17:375] info: Result: {"en":"en-US"}
+[10/05/17, 13:13:17:378] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/05/17, 13:13:17:379] info: Loading dictionary for language en-US
+[10/05/17, 13:13:17:380] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/05/17, 13:13:17:384] info: Setting current spellchecker to en-US, requested language was en-US
+[10/05/17, 13:13:17:385] info: Creating node-spellchecker instance
+[10/05/17, 13:13:17:387] info: Actually installing spell check provider to Electron
+[10/05/17, 13:13:46:389] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/05/17, 13:13:46:662] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/05/17, 13:13:47:535] info: Loading dictionary for language en-US
+[10/05/17, 13:13:47:536] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/05/17, 13:13:47:538] info: Setting current spellchecker to en-US, requested language was en-US
+[10/05/17, 15:15:30:082] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/05/17, 15:15:30:383] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/05/17, 15:52:16:068] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/05/17, 15:52:16:313] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:31:009] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/06/17, 23:27:31:011] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/06/17, 23:27:31:003      ║
+[10/06/17, 23:27:31:011] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/06/17, 23:27:31:321] info: updateSuspendResume: true
+[10/06/17, 23:27:31:322] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/06/17, 23:27:33:955] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/06/17, 23:27:33:966] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/06/17, 23:27:35:073] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:35:430] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:35:661] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:36:231] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/06/17, 23:27:36:232] info: Filtered Locale list: ["en_US"]
+[10/06/17, 23:27:36:233] info: Counts: {"en":["en_US"]}
+[10/06/17, 23:27:36:234] info: Setting en
+[10/06/17, 23:27:36:235] info: Result: {"en":"en-US"}
+[10/06/17, 23:27:36:237] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/06/17, 23:27:36:239] info: Loading dictionary for language en-US
+[10/06/17, 23:27:36:239] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/06/17, 23:27:36:246] info: Setting current spellchecker to en-US, requested language was en-US
+[10/06/17, 23:27:36:247] info: Creating node-spellchecker instance
+[10/06/17, 23:27:36:249] info: Actually installing spell check provider to Electron
+[10/06/17, 23:27:36:257] info: Loading dictionary for language en-US
+[10/06/17, 23:27:36:258] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/06/17, 23:27:36:259] info: Setting current spellchecker to en-US, requested language was en-US
+[10/06/17, 23:27:45:018] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/06/17, 23:27:45:019] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/06/17, 23:27:45:012      ║
+[10/06/17, 23:27:45:020] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/06/17, 23:27:45:336] info: updateSuspendResume: true
+[10/06/17, 23:27:45:337] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[10/06/17, 23:27:47:575] info: Store: SELECT_CHANNEL D5DP8N3CG
+[10/06/17, 23:27:47:583] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: undefined }
+[10/06/17, 23:27:48:856] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:49:131] info: Store: UPDATE_TEAM_LOCALE
+{ locale: 'en-US', teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:49:356] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#303E4D',
+     menu_bg: '#2C3849',
+     active_item: '#6698C8',
+     active_item_text: '#FFFFFF',
+     hover_item: '#4A5664',
+     text_color: '#FFFFFF',
+     active_presence: '#94E864',
+     badge: '#78AF8F' },
+  teamId: 'T5ECU7L10' }
+[10/06/17, 23:27:49:399] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[10/06/17, 23:27:49:401] info: Filtered Locale list: ["en_US"]
+[10/06/17, 23:27:49:402] info: Counts: {"en":["en_US"]}
+[10/06/17, 23:27:49:403] info: Setting en
+[10/06/17, 23:27:49:404] info: Result: {"en":"en-US"}
+[10/06/17, 23:27:49:406] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[10/06/17, 23:27:49:408] info: Loading dictionary for language en-US
+[10/06/17, 23:27:49:408] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/06/17, 23:27:49:412] info: Setting current spellchecker to en-US, requested language was en-US
+[10/06/17, 23:27:49:412] info: Creating node-spellchecker instance
+[10/06/17, 23:27:49:414] info: Actually installing spell check provider to Electron
+[10/06/17, 23:27:49:671] info: Loading dictionary for language en-US
+[10/06/17, 23:27:49:672] info: Returning local copy: /home/cass/.config/Slack/dictionaries/en-US.bdic
+[10/06/17, 23:27:49:673] info: Setting current spellchecker to en-US, requested language was en-US

@@ -1,0 +1,211 @@
+{
+   "checksum": "80b6e5171b4b465ce1f04e13e6e3a100",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13100370564402992",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13150827525451672"
+            },
+            "name": "SAO/NASA ADS Custom Query Form Fri Feb 19 10:49:21 2016",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://adsabs.harvard.edu/abstract_service.html"
+         }, {
+            "date_added": "13105037785475211",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13149085790487603"
+            },
+            "name": "Basic Spectra Search — Optical Spectra — DR12 Science Archive Server (SAS) — SDSS-III",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://dr12.sdss3.org/basicSpectra"
+         }, {
+            "date_added": "13104427620951343",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13148591680231679"
+            },
+            "name": "VizieR QSO Catalog",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://vizier.cfa.harvard.edu/viz-bin/VizieR?-source=J/MNRAS/410/860"
+         }, {
+            "date_added": "13105037362826117",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13144168825537903"
+            },
+            "name": "Galactic DUST Reddening & Extinction",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://irsa.ipac.caltech.edu/applications/DUST/"
+         }, {
+            "date_added": "13110583698358550",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13142905182080491"
+            },
+            "name": "NIST: Atomic Spectra Database Lines Form",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://physics.nist.gov/PhysRefData/ASD/lines_form.html"
+         }, {
+            "date_added": "13126563146948210",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13149016552868367"
+            },
+            "name": "Allen etal Catalogue",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://adsabs.harvard.edu/abs/2011yCat..74100860A"
+         }, {
+            "date_added": "13146088879019847",
+            "id": "16",
+            "meta_info": {
+               "last_visited_desktop": "13146088879022076"
+            },
+            "name": "Pulsars",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.cv.nrao.edu/course/astr534/Pulsars.html"
+         }, {
+            "date_added": "13146088881321717",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13150547606772458"
+            },
+            "name": "The ATNF Pulsar Database",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.atnf.csiro.au/people/pulsar/psrcat/proc_form.php?version=1.56&Name=Name&P0=P0&startUserDefined=true&c1_val=&c2_val=&c3_val=&c4_val=&sort_attr=jname&sort_order=asc&condition=&pulsar_names=B1831-03&ephemeris=short&coords_unit=raj%2Fdecj&radius=&coords_1=&coords_2=&style=Long+with+last+digit+error&no_value=*&fsize=3&x_axis=&x_scale=linear&y_axis=&y_scale=linear&state=query&table_bottom.x=62&table_bottom.y=13"
+         }, {
+            "date_added": "13147415718346698",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13149085794173318"
+            },
+            "name": "SDSS SAS: Optical Spectrum Search",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://dr14.sdss.org/optical/spectrum/search"
+         }, {
+            "date_added": "13147415723546554",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13150409075373554"
+            },
+            "name": "arXiv:1007.3991v1 [astro-ph.CO] 22 Jul 2010",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://arxiv.org/pdf/1007.3991.pdf"
+         }, {
+            "date_added": "13147973617522065",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13150742469471784"
+            },
+            "name": "OUML/astr-5900-f17: A collection of course materials for students taking ASTR 5900",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/OUML/astr-5900-f17"
+         }, {
+            "date_added": "13148996695605317",
+            "id": "21",
+            "meta_info": {
+               "last_visited": "13150849004802751",
+               "last_visited_desktop": "13150862724151463"
+            },
+            "name": "Quantum Mechanics",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.nhn.ou.edu/~abbott/Phys-4803-Fall2017/"
+         }, {
+            "date_added": "13150407486440864",
+            "id": "22",
+            "meta_info": {
+               "last_visited_desktop": "13150491515643321"
+            },
+            "name": "GabrielaCR/AGNfitter: SED-fitting code for AGN and galaxies from a MCMC approach",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://github.com/GabrielaCR/AGNfitter"
+         } ],
+         "date_added": "13150865967490545",
+         "date_modified": "13150407486440864",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13150865967490547",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "1",
+      "synced": {
+         "children": [ {
+            "date_added": "13082076823330644",
+            "id": "6",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_687754a51a41dd57",
+               "stars.version": "sync.server.Clank43"
+            },
+            "name": "Blue Life Desert Sun Halter Swimsuit in Mango | REVOLVE",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.revolveclothing.com/mobile/desert-sun-halter-swimsuit/dp/BLUE-WX66/?d=F"
+         }, {
+            "date_added": "13085426883694150",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13136858433087362",
+               "stars.flags": "5",
+               "stars.id": "ssc_019f43420ae2e970",
+               "stars.version": "sync.server.Chrome44"
+            },
+            "name": "Welcome :: Homework Help and Answers :: Slader",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.slader.com/"
+         }, {
+            "date_added": "13086474437541247",
+            "id": "8",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_4de2ef345a05611a",
+               "stars.version": "sync.server.Chrome45"
+            },
+            "name": "Every Villain Is Lemons | T-Shirts, Tank Tops, Sweatshirts and Hoodies | HUMAN",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.lookhuman.com/design/14805-every-villain-is-lemons"
+         }, {
+            "date_added": "13086474440895213",
+            "id": "9",
+            "meta_info": {
+               "stars.flags": "5",
+               "stars.id": "ssc_9a16e79621e2b14a",
+               "stars.version": "sync.server.Chrome45"
+            },
+            "name": "USB Squirming Tentacle | ThinkGeek",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.thinkgeek.com/product/ede3/"
+         } ],
+         "date_added": "13150865967490548",
+         "date_modified": "13086474440895213",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

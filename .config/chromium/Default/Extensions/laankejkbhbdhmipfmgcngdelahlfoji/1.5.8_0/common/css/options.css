@@ -1,0 +1,586 @@
+/*
+ *-----------------------------------------------------------------------
+ * BODY LAYOUT
+ *-----------------------------------------------------------------------
+*/
+
+#body {
+    background:url('/common/img/whiteRowTopGradientBG.png') top left repeat-x #fff;
+    min-height:100%;
+    padding:0 16px 16px 16px;
+    overflow:hidden;
+}
+
+#page {
+    background:#5f696d;
+    min-height:100%;
+}
+
+.warning {
+    background: #fcffc8;
+    border: 1px solid #ede0b6;
+    padding: 8px;
+    margin-bottom:16px;
+    overflow: hidden;
+}
+
+.warning img {
+    float:left;
+    margin-right: 16px;
+}
+
+.option .warning h4 {
+    font-size:14px;
+    margin: 4px 0;
+}
+
+.option .warning p {
+    font-size:12px;
+    margin-left: 64px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * INDEX
+ *-----------------------------------------------------------------------
+*/
+
+#nav {
+    float:left;
+    font-size:12px;
+    height:100%;
+    padding:16px 0 8px 8px;
+    text-align:right;
+    width:168px;
+}
+
+#nav a {
+    color:#b5bdc0;
+}
+
+#nav li:hover a {
+    color:#fff;
+    text-decoration:none;
+}
+
+#nav h3 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+#nav li{
+    background:transparent;
+    cursor:pointer;
+    margin:0 -10px 2px 0;
+    padding:4px 18px 4px 0;
+    -webkit-border-radius: 12px;
+}
+
+#nav li.active {
+    background:#fff;
+    font-weight:bold;
+}
+
+#nav li.active a {
+    color:#000;
+}
+
+#nav li.active:hover a {
+    color:#cc0000;
+}
+
+#nav li.help {
+    font-weight:bold;
+    margin-top:12px;
+}
+
+#nav li img {
+    margin-right:2px;
+    vertical-align:bottom;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * OPTIONS
+ *-----------------------------------------------------------------------
+*/
+
+.option {
+    display:none;
+    padding:16px 0;
+}
+
+.option h3 {
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.option h4 {
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+    margin:16px 0 8px;
+}
+
+.option p,
+.option li {
+    line-height:21px;
+}
+
+.option p + p,
+.option p + ul,
+.option ul + p,
+.option p + div,
+.option div + p,
+.option textarea + p,
+.option p + textarea{
+    margin-top:12px;
+}
+
+.option ul{
+    margin-left:4px;
+}
+
+.option ul li {
+    margin:0 0 2px 0;
+}
+
+.option ul li img{
+    cursor:pointer;
+    margin-right:6px;
+}
+
+.option ul li.domain {
+    margin-bottom:1px;
+    padding:2px;
+    -webkit-border-radius: 8px;
+}
+
+.option ul li.domain:hover {
+    background:#f7f7f7;
+    font-weight:bold;
+}
+
+.option select,
+.option input[type=text] {
+    border:1px solid #d6d6d6;
+    font-size:36px;
+    font-weight:bold;
+    letter-spacing:-2px;
+    margin-right:4px;
+    padding:0 4px;
+    text-align:right;
+    vertical-align:bottom;
+    width:70px;
+}
+
+.option input[type=button]{
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+    margin-left:4px;
+    padding:2px 4px;
+}
+
+div + p em.disclaimer,
+p + p em.disclaimer {
+   margin-top:12px;
+}
+
+em.disclaimer {
+    color:#666;
+    display:block;
+    font-size:11px;
+}
+
+ul.tips li {
+    font-size:11px;
+    list-style:disc;
+    margin-left:30px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * BLOCKED/ALLOW SITES
+ *-----------------------------------------------------------------------
+*/
+
+.option .siteList {
+    border:1px solid #ccc;
+    font-weight:bold;
+    overflow:auto;
+    padding:6px;
+    width:635px;
+}
+
+.option textarea {
+    border:1px solid #ccc;
+    height:80px;
+    padding:6px;
+    width:654px;
+}
+
+.option textarea.disabled {
+    color:#444;
+}
+
+#suggestedSites {
+    display:none;
+    float:left;
+    margin-bottom:14px;
+}
+
+#newBlockedSites {
+    margin-top:16px;
+}
+
+#outgoingLinks {
+    border:3px solid #ccc;
+    float:right;
+    margin:0 0 12px 18px;
+    padding:10px;
+    width:200px;
+}
+
+#outgoingLinks h4 {
+    font-size:14px;
+    font-weight:bold;
+    margin:0 0 10px 0;
+}
+
+#outgoingLinks input {
+    vertical-align:text-bottom;
+}
+
+#outgoingLinks label {
+    font-weight:bold;
+    margin-left:6px;
+}
+
+#outgoingLinks p {
+    font-size:11px;
+    line-height:16px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * ACTIVE DAYS
+ *-----------------------------------------------------------------------
+*/
+
+.option .activeDays{
+    overflow:hidden;
+}
+
+.option .activeDays li {
+    float:left;
+    margin-right:16px;
+    padding-right:16px;
+}
+
+.option label {
+    cursor:pointer;
+}
+
+.option li.checkAll{
+    font-size:11px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * ACTIVE HOURS + DAILY RESET TIME
+ *-----------------------------------------------------------------------
+*/
+
+.activeHours .start,
+.activeHours .end{
+    font-weight:bold;
+}
+
+.activeHours span {
+    font-size:20px;
+}
+
+.reset label,
+.activeHours label {
+    float:left;
+    margin-top:14px;
+    width:45px;
+}
+
+.reset select,
+.activeHours select{
+    font-size:28px;
+    vertical-align:middle;
+    width:75px;
+}
+
+.reset select + input,
+.reset select + select,
+.activeHours select + input,
+.activeHours select + select {
+    vertical-align:bottom;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * BLOCK OPTIONS
+ *-----------------------------------------------------------------------
+*/
+
+#blockOptionsContainer{
+    display:none;
+    height:auto !important;
+    width:532px;
+    background-color:#fff;
+    border:6px solid #dfdfdf;
+    overflow:hidden;
+    position:relative;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * NUCLEAR OPTION
+ *-----------------------------------------------------------------------
+*/
+
+.attention {
+    background:#cc0000;
+    color:#fff;
+    display:none;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:8px;
+    padding:4px 6px;
+}
+
+.nuclearOption fieldset {
+    border:1px solid #d6d6d6;
+    margin:16px 0;
+    padding:0 16px 16px 16px;
+}
+
+#nuclearOptionForm input[type=checkbox],
+#nuclearOptionForm input[type=radio]{
+    margin-right:6px;
+}
+
+#nuclearOptionForm ul{
+    margin-top:12px;
+}
+
+#nuclearOptionForm ul li{
+    margin-bottom:6px;
+}
+
+#nuclearOptionForm select{
+    font-size:28px;
+    vertical-align:middle;
+    width:75px;
+}
+
+#nuclearOptionFrequency,
+#nuclearOptionScheduledTime{
+    display:none;
+}
+
+#activateNuclearOptionButton{
+    font-size:20px;
+    margin-top:12px;
+}
+
+#smartBombOptions{
+    display:none;
+    margin-left:28px;
+}
+
+#nuclearOptionScheduledTime{
+    margin-left:22px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * MODAL OVERLAY
+ *-----------------------------------------------------------------------
+*/
+
+.modalOverlay {
+    background:#fff;
+    padding:16px;
+    width:500px;
+}
+
+.modalOverlay .closeOverlay {
+    float:right;
+    font-size:11px;
+}
+
+.modalOverlay p {
+    margin-bottom:14px;
+}
+
+.modalOverlay div{
+    font-size:14px;
+    line-height:23px;
+}
+
+.modalOverlay textarea {
+    height:30%;
+    font-size:14px;
+    line-height:23px;
+    margin:16px 0;
+    width:500px;
+}
+.modalOverlay .instructions {
+    font-size:12px;
+    line-height:21px;
+}
+
+.modalOverlay fieldset {
+    border:1px solid #d6d6d6;
+    padding:16px;
+}
+
+.modalOverlay fieldset legend {
+    border:1px solid #d6d6d6;
+    font-size:11px;
+    font-weight:bold;
+    padding:2px 4px;
+}
+
+.modalOverlay h3 {
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.modalOverlay a.small {
+    float:right;
+    font-size:11px;
+}
+
+#overlay {
+    background-color:#000;
+    cursor:wait;
+    overflow:hidden;
+    position:relative;
+}
+
+#challengeContainer{
+    background-color:#fff;
+    border:6px solid #dfdfdf;
+    display:none;
+    height:auto !important;
+    overflow:hidden;
+    position:relative;
+}
+
+
+.requireChallenge li{
+    border-bottom:8px solid #d6d6d6;
+    margin-bottom:16px;
+    padding-bottom:16px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * CUSTOMIZE INTERFACE
+ *-----------------------------------------------------------------------
+*/
+
+.customize li{
+    border-bottom:8px solid #d6d6d6;
+    margin-bottom:16px;
+    padding-bottom:16px;
+}
+
+#customNotifications {
+    font-size:12px;
+}
+
+#customNotifications li{
+    border-bottom:0;
+}
+
+#customNotifications li select,
+#customNotifications li input{
+    border:1px solid #d6d6d6;
+    font-size:16px;
+    font-weight:normal;
+    letter-spacing:0;
+    margin-right:0;
+    padding:0 4px;
+    text-align:right;
+    vertical-align:middle;
+    width:auto;
+}
+
+#customNotifications li input {
+    width:50px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * IMPORT/EXPORT SETTINGS
+ *-----------------------------------------------------------------------
+*/
+
+.importExport li{
+    border-bottom:8px solid #d6d6d6;
+    margin-bottom:16px;
+    padding-bottom:16px;
+}
+
+.importExport li + li {
+    padding:16px 0;
+}
+
+#importedSettings {
+    border: 1px solid #ccc;
+    display:none;
+    overflow-x:auto;
+    padding:16px;
+}
+
+#importedSettings ul {
+    margin:16px 0;
+}
+
+#importedSettings h4 {
+    margin-top:0;
+}
+
+#importedSettings ul li {
+    border-bottom:0;
+    margin:0 0 4px 16px;
+    padding:0;
+    list-style:disc;
+}
+
+#importedSettings h4.success {
+    background:url('/common/img/success_16x16.png') center left no-repeat;
+    color:#00af4e;
+    padding:0 0 0 21px;
+}
+
+#importedSettings h4.error {
+    color:#CC0000;
+    margin-bottom:16px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * RESCUE ME
+ *-----------------------------------------------------------------------
+*/
+.rescueMe {
+    display : none;
+}
+
+ul.rescueLinks li {
+    list-style:disc;
+    margin-left:30px;
+}

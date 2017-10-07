@@ -1,0 +1,9 @@
+2017/10/06-09:49:15.457 24639 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/06-09:49:15.457 24639 Recovering log #27
+2017/10/06-09:49:15.460 24639 Reusing old log /home/cass/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000027.log 
+2017/10/06-09:49:20.803 28319 Level-0 table #33: started
+2017/10/06-09:49:20.820 28319 Level-0 table #33: 4669058 bytes OK
+2017/10/06-09:49:20.824 28319 Delete type=0 #27
+2017/10/06-09:49:58.773 28319 Level-0 table #35: started
+2017/10/06-09:49:58.794 28319 Level-0 table #35: 4597177 bytes OK
+2017/10/06-09:49:58.799 28319 Delete type=0 #32

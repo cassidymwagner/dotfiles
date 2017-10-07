@@ -1,0 +1,60 @@
+{
+   "author": "Michael Gundlach",
+   "background": {
+      "persistent": true,
+      "scripts": [ "ext/common.js", "ext/background.js", "lib/compat.js", "lib/publicSuffixList.js", "lib/adblockplus.js", "messageResponder.js", "background.js", "adblock-jquery.js", "adblock-errorreporting.js", "adblock-functions.js", "adblock-survey.js", "adblock-stats.js", "adblock-uninstall.js", "adblock-idlehandler.js", "adblock-settings.js", "adblock-servermessages.js", "adblock-background.js", "adblock-adpsubscriptionadapter.js", "adblock-contextmenus.js", "adblock-subscriptioninit.js", "adblock-data-migrate.js", "adblock-excludefilter.js", "adblock-datacollection.v2.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/ab-16.png",
+         "19": "icons/ab-19.png",
+         "20": "icons/ab-20.png",
+         "32": "icons/ab-32.png",
+         "38": "icons/ab-38.png",
+         "40": "icons/ab-40.png"
+      },
+      "default_popup": "adblock-button-popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "ext/common.js", "ext/content.js", "elemHideEmulation.js", "include.preload.js", "adblock-functions.js", "adblock-bandaids.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "include.postload.js", "adblock-uiscripts-rightclick_hook.js", "adblock-notificationoverlay.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icons/ab-128.png",
+      "16": "icons/ab-16.png",
+      "32": "icons/ab-32.png",
+      "48": "icons/ab-48.png",
+      "64": "icons/ab-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZWWNkerYNFB0SIg87WwcrcniMYkCqxLz4OB3CLNoogUUsHN+Rk9vRB7o3Jjc4shlz2LBvAbtPbrGkU+NK9Hc3ubVydzpnoRDEl1RKz3GhqKFkECvTyAxrsKainXH+4Ni2+K7bg1U0tLoQMPJ9f3ieYLIwXeHh9+lYXQi6soq0pwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0",
+   "minimum_opera_version": "36.0",
+   "name": "__MSG_name__",
+   "optional_permissions": [ "management" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "\u003Call_urls>", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "storage", "unlimitedStorage", "notifications", "idle", "alarms" ],
+   "short_name": "__MSG_name__",
+   "storage": {
+      "managed_schema": "managed-storage-schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.17.0",
+   "web_accessible_resources": [ "adblock-jquery-ui.custom.css", "adblock-jquery-ui.override-page.css", "icons/icon24.png", "jquery-ui/css/images/ui-bg_flat_55_999999_40x100.png", "jquery-ui/css/images/ui-bg_flat_75_aaaaaa_40x100.png", "jquery-ui/css/images/ui-bg_glass_45_0078ae_1x400.png", "jquery-ui/css/images/ui-bg_glass_55_f8da4e_1x400.png", "jquery-ui/css/images/ui-bg_glass_75_79c9ec_1x400.png", "jquery-ui/css/images/ui-bg_gloss-wave_50_38cfff_500x100.png", "jquery-ui/css/images/ui-bg_gloss-wave_75_2191c0_500x100.png", "jquery-ui/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png", "jquery-ui/css/images/ui-icons_056b93_256x240.png", "jquery-ui/css/images/ui-icons_d8e7f3_256x240.png" ]
+}

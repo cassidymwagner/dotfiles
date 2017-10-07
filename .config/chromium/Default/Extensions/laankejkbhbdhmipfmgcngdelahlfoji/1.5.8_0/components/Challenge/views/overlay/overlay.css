@@ -1,0 +1,10 @@
+#challengeSource{
+    height:32%;
+    overflow-y: scroll;
+}
+
+#productivityBypass {
+    cursor: pointer;
+    float:right;
+    font-size:11px;
+}

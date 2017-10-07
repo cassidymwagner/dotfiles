@@ -1,0 +1,23 @@
+2017/10/05-17:51:08.532 26978 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/05-17:51:08.532 26978 Recovering log #20
+2017/10/05-17:51:08.535 26978 Reusing old log /home/cass/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000020.log 
+2017/10/05-17:51:13.550 28319 Level-0 table #24: started
+2017/10/05-17:51:13.569 28319 Level-0 table #24: 4669039 bytes OK
+2017/10/05-17:51:13.577 28319 Delete type=0 #20
+2017/10/05-17:51:18.335 28319 Level-0 table #26: started
+2017/10/05-17:51:18.354 28319 Level-0 table #26: 4618394 bytes OK
+2017/10/05-17:51:18.358 28319 Delete type=0 #23
+2017/10/05-17:51:56.507 28319 Level-0 table #28: started
+2017/10/05-17:51:56.529 28319 Level-0 table #28: 4576475 bytes OK
+2017/10/05-17:51:56.534 28319 Delete type=0 #25
+2017/10/05-17:51:56.535 28319 Compacting 4@0 + 2@1 files
+2017/10/05-17:51:56.561 28319 Generated table #29@0: 3 keys, 2288120 bytes
+2017/10/05-17:51:56.581 28319 Generated table #30@0: 10 keys, 42385 bytes
+2017/10/05-17:51:56.581 28319 Compacted 4@0 + 2@1 files => 2330505 bytes
+2017/10/05-17:51:56.585 28319 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/10/05-17:51:56.585 28319 Delete type=2 #21
+2017/10/05-17:51:56.587 28319 Delete type=2 #24
+2017/10/05-17:51:56.588 28319 Delete type=2 #26
+2017/10/05-17:51:56.590 28319 Delete type=2 #19
+2017/10/05-17:51:56.590 28319 Delete type=2 #18
+2017/10/05-17:51:56.591 28319 Delete type=2 #28

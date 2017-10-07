@@ -1,0 +1,132 @@
+/*
+ *-----------------------------------------------------------------------
+ * STILL THERE OVERLAY
+ *-----------------------------------------------------------------------
+*/
+
+#StayFocusd-still-there{
+    color:#fff;
+    font-family:Arial, Helvetica, Verdana, sans-serif;
+    padding-top:30px;
+    position:absolute;
+    text-align:center;
+    top:0;
+    left:0;
+    z-index:99999;
+}
+
+#StayFocusd-still-there h1 {
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+    margin:24px 0 18px 0;
+}
+
+#StayFocusd-still-there p {
+    color:#e5e5e5;
+    font-size:16px;
+    line-height:25px;
+    margin:16px auto 0 auto;
+    width:500px;
+}
+
+#StayFocusd-still-there p a {
+    color:#41b4eb;
+    text-decoration:none;
+}
+
+#StayFocusd-still-there p a:hover {
+    color:#fff;
+    text-decoration:underline;
+}
+
+#StayFocusd-still-there b {
+    color:#fff;
+}
+
+#StayFocusd-still-there.active{
+    background:#000;
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+#StayFocusd-still-there.inactive{
+    display:none;
+}
+
+.StayFocusd-hidden {
+    visibility:hidden;
+}
+
+.StayFocusd-smartBombed {
+    overflow:hidden;
+}
+
+.StayFocusd-smartBombed a {
+    color:#fff;
+}
+
+#StayFocusd-infobar {
+    background:#000 !important;
+    border-bottom:5px solid #e5e5e5;
+    color:#fff !important;
+    display:none;
+    float:left;
+    font-size:14px;
+    font-family:Arial,Verdana,sans-serif;
+    letter-spacing:0;
+    height:20px;
+    margin-bottom:16px;
+    padding:10px;
+    position:absolute;
+    text-align:left;
+    text-transform:none;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:99999999;
+}
+
+#StayFocusd-infobar-msg {
+    background:#000 !important;
+    color:#fff !important;
+}
+
+#StayFocusd-infobar img {
+    float:left;
+    margin-right:12px;
+    vertical-align:middle;
+    height:19px;
+    width:19px;
+}
+
+#StayFocusd-infobar-links {
+    float:right;
+    margin-right:24px;
+    overflow:hidden;
+}
+
+#StayFocusd-infobar-hide {
+    background:#000 !important;
+    color:#fff !important;
+    cursor:pointer;
+    font-size:11px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#StayFocusd-infobar-never-show:hover,
+#StayFocusd-infobar-hide:hover {
+    background:#000 !important;
+    color:#ff0000 !important;
+}
+
+#StayFocusd-infobar-never-show {
+    background:#000 !important;
+    color:#ccc !important;
+    cursor:pointer;
+    font-size:10px;
+    font-weight:normal;
+    text-decoration:none;
+}

@@ -1,0 +1,53 @@
+[10/02/17, 23:58:08:532] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/02/17, 23:58:08:533] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/02/17, 23:58:08:526      ║
+[10/02/17, 23:58:08:534] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/02/17, 23:58:08:978] info: TranslationLookup: locale set to en-US for renderer
+[10/02/17, 23:58:09:081] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T5ECU7L10', assignedId: 1 }
+[10/02/17, 23:58:09:082] info: WebView LifeCycle: New webview component created for T5ECU7L10:1', with state 'unloaded'
+[10/02/17, 23:58:09:084] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T57SMF4GH', assignedId: 2 }
+[10/02/17, 23:58:09:086] info: WebView LifeCycle: New webview component created for T57SMF4GH:2', with state 'unloaded'
+[10/02/17, 23:58:09:090] info: TeamsDisplay: T5ECU7L10 usage: 0
+[10/02/17, 23:58:09:090] info: TeamsDisplay: T57SMF4GH usage: 0
+[10/02/17, 23:58:09:092] info: Store: SET_NETWORK_STATUS online
+[10/02/17, 23:58:09:209] info: Checking network connection to Slack...
+[10/02/17, 23:58:09:214] info: Store: APP_STARTED
+{ updated: { events: { eventId: 1 } } }
+[10/02/17, 23:58:10:117] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[10/02/17, 23:58:12:244] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D59GP1BP0' } } }
+[10/02/17, 23:58:12:253] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D5DP8N3CG' } } }
+[10/02/17, 23:58:12:617] info: TeamView: Bugsnag user: U58PSFP1S
+[10/02/17, 23:58:12:625] info: WebViewLifeCycle: State changed
+{ id: 'T57SMF4GH',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[10/02/17, 23:58:12:626] info: Store: page-loaded
+[10/02/17, 23:58:12:917] info: Webapp finished loading
+[10/02/17, 23:58:12:918] info: WebViewLifeCycle: State changed
+{ id: 'T57SMF4GH',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[10/02/17, 23:58:12:919] info: Store: webapp-loaded
+[10/02/17, 23:58:12:935] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T57SMF4GH: [Object] } } }
+[10/02/17, 23:58:13:047] info: WebViewLifeCycle: State changed
+{ id: 'T5ECU7L10',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[10/02/17, 23:58:13:048] info: Store: page-loaded
+[10/02/17, 23:58:13:576] info: Webapp finished loading
+[10/02/17, 23:58:13:578] info: WebViewLifeCycle: State changed
+{ id: 'T5ECU7L10',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[10/02/17, 23:58:13:578] info: Store: webapp-loaded
+[10/02/17, 23:58:13:658] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T5ECU7L10: [Object] } } }

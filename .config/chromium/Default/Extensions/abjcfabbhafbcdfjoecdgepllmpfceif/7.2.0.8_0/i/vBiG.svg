@@ -1,0 +1,6 @@
+<!-- MagicActions for Google Chrome - CHROMEACTIONS.COM - Copyright (c) 2017 Vlad & Serge Strukoff. All Rights Reserved. -->
+<!-- Copyright 2017 Vlad and Serge Strukoff - All Rights Reserved --> 
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
+  <filter id="ma-c-filter1"><feConvolveMatrix order="3" kernelMatrix="1 -1 1 -1 -1 -1 1 -1 1"/></filter>
+  <filter id="ma-c-filter2"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="table" tableValues="0 .9 0 1"/><feFuncG type="table" tableValues="0 0 .5 1"/><feFuncB type="table" tableValues="0 0 .4 1"/></feComponentTransfer></filter>
+</svg>

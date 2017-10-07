@@ -1,0 +1,68 @@
+{
+   "Arabic": {
+      "message": "アラビア語"
+   },
+   "Baltic": {
+      "message": "バルト語"
+   },
+   "Celtic": {
+      "message": "ケルト語"
+   },
+   "Central_European": {
+      "message": "中央ヨーロッパ"
+   },
+   "Chinese_Simplified": {
+      "message": "簡体字中国語"
+   },
+   "Chinese_Tranditional": {
+      "message": "繁体字中国語"
+   },
+   "Cyrillic": {
+      "message": "キリル文字"
+   },
+   "Greek": {
+      "message": "ギリシャ語"
+   },
+   "Hebrew": {
+      "message": "ヘブライ語"
+   },
+   "Japanese": {
+      "message": "日本語"
+   },
+   "Korean": {
+      "message": "韓国語"
+   },
+   "Nordic": {
+      "message": "北ヨーロッパ"
+   },
+   "South_European": {
+      "message": "南ヨーロッパ"
+   },
+   "Thai": {
+      "message": "タイ語"
+   },
+   "Turkish": {
+      "message": "トルコ語"
+   },
+   "Unicode": {
+      "message": "Unicode"
+   },
+   "Use_page_default": {
+      "message": "自動判別"
+   },
+   "Vietnamese": {
+      "message": "ベトナム語"
+   },
+   "Western": {
+      "message": "西ヨーロッパ"
+   },
+   "appDesc": {
+      "message": "右クリックでテキストエンコーディングを指定するメニューが出ます。"
+   },
+   "appName": {
+      "message": "テキストエンコーディング"
+   },
+   "msgPage": {
+      "message": "help_ja.html"
+   }
+}

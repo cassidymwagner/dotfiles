@@ -1,0 +1,14 @@
+{
+   "description": "Customize per-script font settings.",
+   "icons": {
+      "128": "fonts128.png",
+      "16": "fonts16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGW8jTB1VcEoFYFy5Bn7Ato3abcDG/ccbhkD03CIqq/kZLKNRPf5VN2XcIN2LQucrRZWglBYrlpCWALdSWvy8f2fQGbEMc0r9Um48FmqTkNRMHLlmVlceWBGKdNN80aYrfglu1aQwsSQJOcWfbfwhLz1M26+sNHQL/FZsFLZ8H/QIDAQAB",
+   "manifest_version": 2,
+   "name": "Advanced Font Settings",
+   "options_page": "options.html",
+   "permissions": [ "fontSettings" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.67"
+}

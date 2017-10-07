@@ -4427,3 +4427,212 @@ Sep 30 20:01 : client: [20] opened from [::1]:39300
 Sep 30 20:08 : player: played "TesseracT/Polaris/01 Dystopia.mp3"
 Sep 30 20:14 : player: played "TesseracT/Polaris/02 Hexes.mp3"
 Sep 30 20:18 : player: played "TesseracT/Polaris/03 Survival.mp3"
+Sep 30 21:46 : client: [20] closed
+Sep 30 21:46 : client: [21] opened from [::1]:40470
+Sep 30 21:48 : client: [21] closed
+Sep 30 21:48 : client: [22] opened from [::1]:40492
+Sep 30 21:50 : client: [22] closed
+Sep 30 21:50 : client: [23] opened from [::1]:40494
+Sep 30 21:53 : client: [23] closed
+Sep 30 21:53 : client: [24] opened from [::1]:40498
+Sep 30 21:54 : client: [24] closed
+Sep 30 21:54 : client: [25] opened from [::1]:40502
+Sep 30 21:55 : client: [25] closed
+Sep 30 21:57 : client: [26] opened from [::1]:40508
+Sep 30 21:58 : client: [26] closed
+Sep 30 21:58 : client: [27] opened from [::1]:40510
+Sep 30 21:59 : client: [27] closed
+Sep 30 21:59 : client: [28] opened from [::1]:40512
+Sep 30 22:01 : client: [28] closed
+Sep 30 22:01 : client: [29] opened from [::1]:40514
+Sep 30 22:02 : client: [29] closed
+Sep 30 22:02 : client: [30] opened from [::1]:40516
+Sep 30 22:09 : player: played "TesseracT/Polaris/01 Dystopia.mp3"
+Sep 30 22:15 : player: played "TesseracT/Polaris/02 Hexes.mp3"
+Sep 30 22:18 : client: [30] closed
+Sep 30 22:18 : client: [31] opened from [::1]:40622
+Sep 30 22:19 : player: played "TesseracT/Polaris/03 Survival.mp3"
+Sep 30 22:19 : client: [31] closed
+Sep 30 22:19 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Sep 30 22:20 : client: [32] opened from [::1]:40668
+Sep 30 22:25 : player: played "TesseracT/Polaris/04 Tourniquet.mp3"
+Sep 30 22:31 : client: [32] closed
+Sep 30 22:43 : avahi: Client Disconnected, will reconnect shortly
+Sep 30 22:43 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 30 22:45 : player: played "TesseracT/Polaris/05 Utopia.mp3"
+Oct 01 00:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 00:23 : client: [0] opened from [::1]:50132
+Oct 01 00:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 00:24 : player: played "TesseracT/Polaris/05 Utopia.mp3"
+Oct 01 00:28 : player: played "TesseracT/Polaris/06 Phoenix.mp3"
+Oct 01 00:31 : player: played "TesseracT/Polaris/07 Messenger.mp3"
+Oct 01 00:35 : client: [0] closed
+Oct 01 00:35 : client: [1] opened from [::1]:50650
+Oct 01 00:37 : player: played "TesseracT/Polaris/08 Cages.mp3"
+Oct 01 00:43 : player: played "TesseracT/Polaris/09 Seven Names.mp3"
+Oct 01 00:46 : client: [1] closed
+Oct 01 00:46 : client: [2] opened from [::1]:51218
+Oct 01 00:46 : player: played "David Maxim Micic/Bilo 2.0/01 Electric Fields.mp3"
+Oct 01 00:49 : client: [2] closed
+Oct 01 00:49 : client: [3] opened from [::1]:51224
+Oct 01 00:50 : client: [3] closed
+Oct 01 00:50 : client: [4] opened from [::1]:51226
+Oct 01 00:51 : client: [4] closed
+Oct 01 00:51 : client: [5] opened from [::1]:51228
+Oct 01 00:51 : client: [5] closed
+Oct 01 00:51 : client: [6] opened from [::1]:51232
+Oct 01 00:53 : player: played "David Maxim Micic/Bilo 2.0/David Maxim Micic - Rise and Shine.mp3"
+Oct 01 01:02 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Smile.mp3"
+Oct 01 01:10 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Nostalgia.mp3"
+Oct 01 01:14 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Oct 01 01:14 : client: [6] closed
+Oct 01 01:15 : player: played "David Maxim Micic/Bilo 3.0/05 Wrinkle Maze.mp3"
+Oct 01 01:15 : client: [7] opened from [::1]:52006
+Oct 01 01:26 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Daydreamers.mp3"
+Oct 01 01:29 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Oct 01 01:29 : client: [7] closed
+Oct 01 01:29 : player: played "David Maxim Micic/Bilo 2.0/01 Electric Fields.mp3"
+Oct 01 01:30 : client: [8] opened from [::1]:52998
+Oct 01 01:36 : player: played "David Maxim Micic/Bilo 2.0/David Maxim Micic - Rise and Shine.mp3"
+Oct 01 01:42 : player: played "David Maxim Micic/Bilo 2.0/David Maxim Micic - Along For a Ride.mp3"
+Oct 01 01:50 : player: played "David Maxim Micic/Bilo 2.0/David Maxim Micic - Strange Night.mp3"
+Oct 01 01:58 : player: played "David Maxim Micic/Bilo 2.0/David Maxim Micic - Mbinguni Amina.mp3"
+Oct 01 02:01 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Everything's Fine.mp3"
+Oct 01 02:09 : player: played "David Maxim Micic/Bilo 3.0/02 Where is Now_.mp3"
+Oct 01 02:18 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Smile.mp3"
+Oct 01 02:26 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Nostalgia.mp3"
+Oct 01 02:31 : player: played "David Maxim Micic/Bilo 3.0/05 Wrinkle Maze.mp3"
+Oct 01 02:34 : client: [8] closed
+Oct 01 02:34 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Daydreamers.mp3"
+Oct 01 11:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 11:07 : client: [0] opened from [::1]:55768
+Oct 01 11:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 11:17 : client: [0] closed
+Oct 01 11:17 : client: [1] opened from [::1]:55788
+Oct 01 11:17 : client: [1] closed
+Oct 01 11:18 : client: [2] opened from [::1]:55792
+Oct 01 11:21 : player: played "David Maxim Micic/Bilo 3.0/David Maxim Micic - Daydreamers.mp3"
+Oct 01 11:23 : client: [2] closed
+Oct 01 11:23 : client: [3] opened from [::1]:56114
+Oct 01 11:23 : client: [3] closed
+Oct 01 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 11:23 : client: [0] opened from [::1]:56116
+Oct 01 11:38 : client: [0] closed
+Oct 01 12:16 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 12:16 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 01 12:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:21 : client: [0] opened from [::1]:42210
+Oct 01 12:21 : client: [0] closed
+Oct 01 12:22 : client: [1] opened from [::1]:42262
+Oct 01 12:22 : client: [1] closed
+Oct 01 12:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:26 : client: [0] opened from [::1]:42518
+Oct 01 12:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:27 : client: [0] closed
+Oct 01 12:27 : client: [1] opened from [::1]:42568
+Oct 01 12:30 : player: played "Good Tiger/A Head Full of Monlight/01 Where Are the Birds.mp3"
+Oct 01 12:30 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Oct 01 12:30 : client: [1] closed
+Oct 01 12:30 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:34 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:34 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:34 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:35 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:35 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:37 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:38 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:41 : client: [0] opened from [::1]:43718
+Oct 01 12:42 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:42 : client: [0] opened from [::1]:43724
+Oct 01 12:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:44 : client: [0] closed
+Oct 01 12:48 : client: [1] opened from [::1]:44008
+Oct 01 12:48 : client: [1] closed
+Oct 01 12:49 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Oct 01 12:49 : avahi: Client Disconnected, will reconnect shortly
+Oct 01 12:49 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 01 12:49 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:51 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:51 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:52 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 12:55 : player: played "Good Tiger/A Head Full of Monlight/02 Snake Oil.mp3"
+Oct 01 12:55 : client: [0] opened from [::1]:37834
+Oct 01 12:56 : client: [0] closed
+Oct 01 12:56 : player: played "Good Tiger/A Head Full of Monlight/03 Enjoy the Rain.mp3"
+Oct 02 18:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 18:27 : client: [0] opened from [::1]:56448
+Oct 02 18:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 18:31 : player: played "Good Tiger/A Head Full of Monlight/03 Enjoy the Rain.mp3"
+Oct 02 18:32 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Oct 02 18:32 : client: [0] closed
+Oct 02 18:32 : client: [1] opened from [::1]:56708
+Oct 02 18:33 : client: [1] closed
+Oct 02 18:33 : client: [2] opened from [::1]:56710
+Oct 02 18:33 : client: [2] closed
+Oct 02 18:33 : player: played "Good Tiger/A Head Full of Monlight/04 I Paint What I See.mp3"
+Oct 02 18:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 18:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 18:33 : client: [0] opened from [::1]:56712
+Oct 02 18:34 : player: played "Good Tiger/A Head Full of Monlight/04 I Paint What I See.mp3"
+Oct 02 18:38 : player: played "Good Tiger/A Head Full of Monlight/05 Aspirations.mp3"
+Oct 02 18:42 : player: played "Good Tiger/A Head Full of Monlight/06 Latchey Kids.mp3"
+Oct 02 18:46 : player: played "Good Tiger/A Head Full of Monlight/07 All Her Own Teeth.mp3"
+Oct 02 18:49 : client: [0] closed
+Oct 03 09:11 : client: [1] opened from [::1]:36362
+Oct 03 09:12 : client: [1] closed
+Oct 03 09:12 : player: played "Good Tiger/A Head Full of Monlight/08 Understanding Silence.mp3"
+Oct 04 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 12:33 : client: [0] opened from [::1]:52832
+Oct 04 12:34 : client: [0] closed
+Oct 04 12:34 : player: played "Good Tiger/A Head Full of Monlight/05 Aspirations.mp3"
+Oct 05 20:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:38 : client: [0] opened from [::1]:47930
+Oct 05 20:39 : client: [0] closed
+Oct 05 20:39 : player: played "Good Tiger/A Head Full of Monlight/05 Aspirations.mp3"
+Oct 05 20:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:39 : client: [0] opened from [::1]:47938
+Oct 05 20:40 : client: [0] closed
+Oct 05 20:42 : player: played "Good Tiger/A Head Full of Monlight/05 Aspirations.mp3"
+Oct 05 20:44 : client: [1] opened from [::1]:48316
+Oct 05 20:44 : client: [1] closed
+Oct 05 20:44 : player: played "Good Tiger/A Head Full of Monlight/06 Latchey Kids.mp3"
+Oct 05 20:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 20:44 : client: [0] opened from [::1]:48320
+Oct 05 20:45 : client: [0] closed
+Oct 05 20:45 : client: [1] opened from [::1]:48338
+Oct 05 20:46 : player: played "Good Tiger/A Head Full of Monlight/06 Latchey Kids.mp3"
+Oct 05 20:51 : client: [1] closed
+Oct 05 20:51 : player: played "Good Tiger/A Head Full of Monlight/01 Where Are the Birds.mp3"
+Oct 06 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 23:09 : client: [0] opened from [::1]:33408
+Oct 06 23:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 23:09 : player: played "Good Tiger/A Head Full of Monlight/04 I Paint What I See.mp3"

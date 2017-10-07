@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Preglednik Alat"
+   },
+   "options_saved": {
+      "message": "Mogućnosti Spremljeno"
+   },
+   "save_button": {
+      "message": "Spasiti"
+   },
+   "support": {
+      "message": "Podržati"
+   },
+   "toolbar_icons": {
+      "message": "Chrome Ikone Alata"
+   },
+   "website_button": {
+      "message": "Web Button"
+   }
+}

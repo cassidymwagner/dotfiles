@@ -1,0 +1,3 @@
+2017/10/06-09:49:20.134 24645 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/06-09:49:20.134 24645 Recovering log #3
+2017/10/06-09:49:20.136 24645 Reusing old log /home/cass/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 

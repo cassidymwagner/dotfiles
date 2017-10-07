@@ -1,0 +1,8 @@
+{
+   "ryp_button": {
+      "message": "Reverse order of the playlist"
+   },
+   "ryp_description": {
+      "message": "Add a button on Youtube to reverse the order of playlists."
+   }
+}

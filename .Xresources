@@ -39,3 +39,17 @@ URxvt.scrollBar: false
 ! white
 *.color7:       #acada1
 *.color15:      #cfd0c2
+
+rofi.separator-style: solid
+rofi.sidebar-mode: true
+rofi.bw: 1
+rofi.columns: 1
+rofi.padding: 16
+
+rofi.yoffset: 0
+rofi.fake-transparency: true 
+rofi.location: 0
+rofi.width: 50
+rofi.font: Monospace 10 
+rofi.lines: 15
+rofi.fixed-num-lines: true

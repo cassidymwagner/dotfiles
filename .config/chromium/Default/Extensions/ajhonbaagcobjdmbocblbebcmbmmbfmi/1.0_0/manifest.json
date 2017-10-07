@@ -1,0 +1,30 @@
+{
+   "content_scripts": [ {
+      "css": [ "yt_add.css" ],
+      "js": [ "libs/jquery.js", "main.js", "libs/jquery.sprintf.js" ],
+      "matches": [ "*://www.youtube.com/watch*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "fr",
+   "description": "__MSG_ryp_description__",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCI/gLPpaWkgKwwjJ4EQ4x9+KDOElXR8KFDq2awbbxxlDQwLRSZxRLKWLCEuV/259du84NlAd/5t0HVfd3ESgIvrXMMVrdWEvWbSQb3tQVCGXCMYCh8S3rN6N85PhvGAWROxzxzWt6FlhdyydzNOiZgDPrY7W9sShn25lO8YNrdmQIDAQAB",
+   "manifest_version": 2,
+   "name": "Reverse Youtube Playlist",
+   "page_action": {
+      "default_icon": {
+         "16": "images/16.png",
+         "19": "images/19t.png",
+         "48": "images/48.png"
+      },
+      "default_title": "Reverse Youtube Playlist"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "yt_add.css", "libs/jquery.js", "libs/jquery.sprintf.js", "main.js" ]
+}

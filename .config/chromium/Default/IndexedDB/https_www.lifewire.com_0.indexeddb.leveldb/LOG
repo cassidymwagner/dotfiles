@@ -1,0 +1,11 @@
+2017/10/03-09:19:29.867 21902 Reusing MANIFEST /home/cass/.config/chromium/Default/IndexedDB/https_www.lifewire.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/03-09:19:29.867 21902 Recovering log #6
+2017/10/03-09:19:29.868 21902 Reusing old log /home/cass/.config/chromium/Default/IndexedDB/https_www.lifewire.com_0.indexeddb.leveldb/000006.log 
+2017/10/03-09:19:30.642 21902 Current memtable full; waiting...
+2017/10/03-09:19:30.643 23786 Level-0 table #10: started
+2017/10/03-09:19:30.651 23786 Level-0 table #10: 759 bytes OK
+2017/10/03-09:19:30.655 23786 Delete type=0 #6
+2017/10/03-09:19:30.655 23786 Level-0 table #12: started
+2017/10/03-09:19:30.655 23786 Level-0 table #12: 0 bytes OK
+2017/10/03-09:19:30.659 23786 Delete type=0 #9
+2017/10/03-09:19:30.659 23786 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

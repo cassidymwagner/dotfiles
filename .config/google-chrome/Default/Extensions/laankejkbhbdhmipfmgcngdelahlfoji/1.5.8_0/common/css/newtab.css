@@ -1,0 +1,81 @@
+/*
+ *-----------------------------------------------------------------------
+ * BODY LAYOUT
+ *-----------------------------------------------------------------------
+*/
+
+#body {
+    padding:0 16px 16px 16px;
+    overflow:hidden;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * NEWTAB
+ *-----------------------------------------------------------------------
+*/
+
+.newtab {
+    border-bottom:8px solid #e5e5e5;
+    padding:16px 0;
+}
+
+.newtab h3 {
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.newtab h4 {
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.newtab p,
+.newtab li {
+    line-height:21px;
+}
+
+.newtab p + p,
+.newtab p + ul,
+.newtab ul + p,
+.newtab p + div {
+    margin-top:12px;
+}
+
+.newtab ul{
+    margin-left:4px;
+}
+
+.newtab ul li {
+    margin:0 0 2px 0;
+}
+
+.newtab em.disclaimer {
+    color:#777;
+    display:block;
+    font-size:11px;
+    margin-top:12px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * DONATE BUTTON
+ *-----------------------------------------------------------------------
+*/
+
+.newtab.donate {
+    border:0;
+    font-size:12px;
+    overflow:hidden;
+    padding-bottom:0;
+}
+
+.newtab.donate form{
+    float:right;
+    margin-left:16px;
+    width:120px;
+}

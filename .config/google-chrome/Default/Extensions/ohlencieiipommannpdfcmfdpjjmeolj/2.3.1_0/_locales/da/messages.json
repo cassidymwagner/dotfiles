@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Browser Værktøj"
+   },
+   "options_saved": {
+      "message": "Indstillinger gemt"
+   },
+   "save_button": {
+      "message": "Gem"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "toolbar_icons": {
+      "message": "Chrome Værktøjslinjeikoner"
+   },
+   "website_button": {
+      "message": "Website Button"
+   }
+}

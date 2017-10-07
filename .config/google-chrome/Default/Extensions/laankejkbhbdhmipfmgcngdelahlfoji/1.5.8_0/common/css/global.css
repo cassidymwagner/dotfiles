@@ -1,0 +1,87 @@
+html {
+    height:100%;
+}
+
+body {
+    background:#333c40;
+    color:#333c40;
+    font-family:Arial,Helvetica,Verdana,sans-serif;
+    font-size:14px;
+    height:100%;
+    width:100%;
+}
+
+a {
+    color:#cc0000;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#000;
+    text-decoration:underline;
+}
+
+#page {
+    background:#fff;
+    margin:0 auto;
+    width:980px;
+}
+
+.clear-fix{
+    clear:both;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * HEADER
+ *-----------------------------------------------------------------------
+*/
+
+#header {
+    background:#000;
+    overflow:hidden;
+    padding:6px;
+}
+
+#logo {
+    float:left;
+}
+
+#page-title {
+    float:right;
+    height:36px;
+}
+
+#page-title h1{
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+    margin:55px 16px 0 0;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * DONATE BUTTON
+ *-----------------------------------------------------------------------
+*/
+
+#donate {
+    border-bottom:8px solid #d6d6d6;
+    background:#fff;
+    display:block;
+    font-size:12px;
+    overflow:hidden;
+    padding:16px 16px 8px 16px;
+}
+
+#donate h3{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:6px;
+}
+
+#donate form{
+    float:right;
+    margin-right:16px;
+    width:120px;
+}

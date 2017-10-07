@@ -1,0 +1,75 @@
+[10/01/17, 18:25:52:870] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[10/01/17, 18:25:52:872] info: ║      Slack 2.7.1, linux 4.9.52-1-lts on x64 at 10/01/17, 18:25:52:865      ║
+[10/01/17, 18:25:52:872] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[10/01/17, 18:25:53:364] info: TranslationLookup: locale set to en-US for renderer
+[10/01/17, 18:25:53:481] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T5ECU7L10', assignedId: 1 }
+[10/01/17, 18:25:53:483] info: WebView LifeCycle: New webview component created for T5ECU7L10:1', with state 'unloaded'
+[10/01/17, 18:25:53:485] info: WebViewLifeCycle: Creating subscribable lifecycle object
+{ objectId: 'T57SMF4GH', assignedId: 2 }
+[10/01/17, 18:25:53:486] info: WebView LifeCycle: New webview component created for T57SMF4GH:2', with state 'unloaded'
+[10/01/17, 18:25:53:490] info: TeamsDisplay: T5ECU7L10 usage: 0
+[10/01/17, 18:25:53:491] info: TeamsDisplay: T57SMF4GH usage: 0
+[10/01/17, 18:25:53:493] info: Store: SET_NETWORK_STATUS online
+[10/01/17, 18:25:53:606] info: Checking network connection to Slack...
+[10/01/17, 18:25:53:612] info: Store: APP_STARTED
+{ updated: { events: { eventId: 1 } } }
+[10/01/17, 18:25:54:517] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[10/01/17, 18:25:57:078] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D5DP8N3CG' } } }
+[10/01/17, 18:25:57:187] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D59GTKNNA' } } }
+[10/01/17, 18:25:57:619] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[10/01/17, 18:25:57:741] info: TeamView: Bugsnag user: U58PSFP1S
+[10/01/17, 18:25:57:747] info: WebViewLifeCycle: State changed
+{ id: 'T57SMF4GH',
+  componentId: 2,
+  newState: 'page-loaded',
+  data: null }
+[10/01/17, 18:25:57:750] info: Store: page-loaded
+[10/01/17, 18:25:58:326] info: WebViewLifeCycle: State changed
+{ id: 'T5ECU7L10',
+  componentId: 1,
+  newState: 'page-loaded',
+  data: null }
+[10/01/17, 18:25:58:327] info: Store: page-loaded
+[10/01/17, 18:25:58:438] info: Webapp finished loading
+[10/01/17, 18:25:58:440] info: WebViewLifeCycle: State changed
+{ id: 'T57SMF4GH',
+  componentId: 2,
+  newState: 'webapp-loaded',
+  data: null }
+[10/01/17, 18:25:58:442] info: Store: webapp-loaded
+[10/01/17, 18:25:58:482] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T57SMF4GH: [Object] } } }
+[10/01/17, 18:25:59:327] info: Webapp finished loading
+[10/01/17, 18:25:59:328] info: WebViewLifeCycle: State changed
+{ id: 'T5ECU7L10',
+  componentId: 1,
+  newState: 'webapp-loaded',
+  data: null }
+[10/01/17, 18:25:59:329] info: Store: webapp-loaded
+[10/01/17, 18:25:59:485] info: Store: [7] Store an API token for a team
+{ updated: { tokens: { T5ECU7L10: [Object] } } }
+[10/01/17, 18:26:04:132] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'C7B098PAN' } } }
+[10/01/17, 18:26:08:014] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D59GTKNNA' } } }
+[10/01/17, 18:26:42:576] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[10/01/17, 18:26:50:279] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[10/01/17, 18:26:53:219] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[10/01/17, 18:26:57:251] info: Store: SELECT_CHANNEL
+{ updated: { appTeams: { selectedChannelId: 'D59GP1BP0' } } }
+[10/01/17, 23:23:38:593] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[10/01/17, 23:23:39:617] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }
+[10/02/17, 16:03:54:087] info: Store: FOREGROUND_APP
+{ updated: { events: { foregroundApp: [Object] } } }
+[10/02/17, 16:03:55:100] info: Store: SAVE_WINDOW_SETTINGS
+{ updated: { windowFrame: { windowSettings: [Object] } } }

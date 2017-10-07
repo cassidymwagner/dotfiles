@@ -1,0 +1,47 @@
+2017/10/06-13:15:36.804 1621 Reusing MANIFEST /home/cass/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/10/06-13:15:36.804 1621 Recovering log #862
+2017/10/06-13:15:36.804 1621 Reusing old log /home/cass/.config/chromium/Default/Session Storage/000862.log 
+2017/10/06-13:15:36.805 1621 Delete type=2 #864
+2017/10/06-13:22:16.124 3505 Level-0 table #866: started
+2017/10/06-13:22:16.130 3505 Level-0 table #866: 16703 bytes OK
+2017/10/06-13:22:16.135 3505 Delete type=0 #862
+2017/10/06-13:22:16.135 3505 Compacting 4@0 + 1@1 files
+2017/10/06-13:22:16.144 3505 Generated table #867@0: 539 keys, 15620 bytes
+2017/10/06-13:22:16.145 3505 Compacted 4@0 + 1@1 files => 15620 bytes
+2017/10/06-13:22:16.156 3505 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/06-13:22:16.156 3505 Delete type=2 #866
+2017/10/06-13:22:16.157 3505 Delete type=2 #863
+2017/10/06-13:22:16.157 3505 Delete type=2 #861
+2017/10/06-13:22:16.157 3505 Delete type=2 #859
+2017/10/06-13:22:16.157 3505 Delete type=2 #857
+2017/10/06-13:48:47.293 3505 Level-0 table #869: started
+2017/10/06-13:48:47.298 3505 Level-0 table #869: 20660 bytes OK
+2017/10/06-13:48:47.310 3505 Delete type=0 #865
+2017/10/06-14:05:40.139 3505 Level-0 table #871: started
+2017/10/06-14:05:40.146 3505 Level-0 table #871: 18017 bytes OK
+2017/10/06-14:05:40.159 3505 Delete type=0 #868
+2017/10/06-14:26:18.839 3505 Compacting 2@0 + 1@1 files
+2017/10/06-14:26:18.846 3505 Generated table #872@0: 678 keys, 26917 bytes
+2017/10/06-14:26:18.846 3505 Compacted 2@0 + 1@1 files => 26917 bytes
+2017/10/06-14:26:18.854 3505 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/06-14:26:18.855 3505 Delete type=2 #871
+2017/10/06-14:26:18.855 3505 Delete type=2 #867
+2017/10/06-14:26:18.855 3505 Delete type=2 #869
+2017/10/06-20:22:00.652 3505 Level-0 table #874: started
+2017/10/06-20:22:00.672 3505 Level-0 table #874: 18938 bytes OK
+2017/10/06-20:22:00.676 3505 Delete type=0 #870
+2017/10/06-21:41:13.363 3505 Compacting 1@0 + 1@1 files
+2017/10/06-21:41:13.375 3505 Generated table #875@0: 804 keys, 21535 bytes
+2017/10/06-21:41:13.375 3505 Compacted 1@0 + 1@1 files => 21535 bytes
+2017/10/06-21:41:13.399 3505 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/06-21:41:13.400 3505 Delete type=2 #874
+2017/10/06-21:41:13.400 3505 Delete type=2 #872
+2017/10/06-22:58:20.974 3505 Level-0 table #877: started
+2017/10/06-22:58:20.980 3505 Level-0 table #877: 23580 bytes OK
+2017/10/06-22:58:20.985 3505 Delete type=0 #873
+2017/10/06-23:22:34.032 3505 Compacting 1@0 + 1@1 files
+2017/10/06-23:22:34.038 3505 Generated table #878@0: 910 keys, 29512 bytes
+2017/10/06-23:22:34.038 3505 Compacted 1@0 + 1@1 files => 29512 bytes
+2017/10/06-23:22:34.049 3505 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/06-23:22:34.049 3505 Delete type=2 #877
+2017/10/06-23:22:34.049 3505 Delete type=2 #875

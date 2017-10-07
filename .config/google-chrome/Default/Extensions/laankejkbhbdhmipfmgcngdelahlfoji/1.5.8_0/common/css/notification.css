@@ -1,0 +1,26 @@
+body {
+    font-size:12px;
+    font-family:Arial,Verdana,sans-serif;
+}
+
+#icon {
+    float:left;
+    height:48px;
+    margin:0 10px 0 0;
+    vertical-align:middle;
+    width:48px;
+}
+
+#wrapper {
+    overflow:hidden;
+}
+
+#totalSecondsRemaining {
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+#message {
+    padding:6px 0 0 0;
+}

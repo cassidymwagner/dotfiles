@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/print-friendly-green-19px.png",
+      "default_title": "Print Friendly & PDF"
+   },
+   "default_locale": "en",
+   "description": "Print Friendly and PDF any Webpage",
+   "homepage_url": "http://www.printfriendly.com",
+   "icons": {
+      "128": "images/print-friendly-128px.png",
+      "16": "images/print-friendly-16px.png",
+      "48": "images/print-friendly-48px.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv9zsC6sxYyVj0O0JqoH8ZHAeUVP/cOG5cNqf88kID0LgwIaPWWXQB4vAfwOyHGV7ZaN5IEgngd11MU3iiGa0STjlDeZD0neeTHLIyvovz3q6v+9fAeOtcyPcexNbPvGO9AU+aWRBtBf8+xUwUOEdlB9joM/E4xcx/V44XyRsZXwIDAQAB",
+   "manifest_version": 2,
+   "name": "Print Friendly & PDF",
+   "options_page": "options.html",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.1",
+   "web_accessible_resources": [ "images/print-friendly-16px.png" ]
+}

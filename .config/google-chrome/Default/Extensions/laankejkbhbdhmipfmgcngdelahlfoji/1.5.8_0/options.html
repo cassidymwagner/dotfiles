@@ -1,0 +1,762 @@
+<html>
+    <head>
+        <title>StayFocusd : Settings</title>
+        <link href="common/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="common/css/global.css" rel="stylesheet" type="text/css">
+        <link href="common/css/options.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" data-main="/core/options-bootstrap.js" src="/core/vendor/require.js"></script>
+    </head>
+    <body>
+        <a name="top"></a>
+        <div id="page">
+            
+            <ul id="header">
+                <li id="logo"><img src="common/img/logo_full.png" title="StayFocusd" alt="StayFocusd"></li>
+                <li id="page-title">
+                    <h1>settings</h1>
+                </li>
+            </ul>
+            
+            <div id="donate">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="HY4EM2H7E2WJL">
+                <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                <h3>Have you found StayFocusd useful? Please make a $10 donation!</h3>
+                <p>
+                    <b>Follow <a href="http://www.twitter.com/stayfocusd">@stayfocusd</a> on Twitter to find out when new features are released.</b>
+                </p>
+            </div>
+            
+            <ul id="nav">
+                <li class="maxTimeAllowed bypass">
+                    <a href="#maxTimeAllowedTab">Max Time Allowed</a>
+                </li>
+                <li class="activeDays bypass">
+                    <a href="#activeDaysTab">Active Days</a>
+                </li>
+                <li class="activeHours">
+                    <a href="#activeHoursTab">Active Hours</a>
+                </li>
+                <li class="resetTime">
+                    <a href="#resetTimeTab">Daily Reset Time</a>
+                </li>
+                <li class="blockedSites bypass">
+                    <a href="#blockedSitesTab">Blocked Sites</a>
+                </li>
+                <li class="allowedSites">
+                    <a href="#allowedSitesTab">Allowed Sites</a>
+                </li>
+                <li class="nuclearOption bypass">
+                    <a href="#nuclearOptionTab">The Nuclear Option</a>
+                </li>
+                <li class="requireChallenge">
+                    <a href="#requireChallengeTab">Require Challenge</a>
+                </li>
+                <li class="customize">
+                    <a href="#customizeTab">Customize</a>
+                </li>
+                <li class="importExport">
+                    <a href="#importExportTab">Import/Export Settings</a>
+                </li>
+                <li class="rescueMe">
+                    <a href="#rescueMeTab">Rescue Me</a>
+                </li>
+                <li class="help bypass">
+                    <img src="/common/img/question.png"> <a href="help.html">Help/FAQ</a>
+                </li>
+            </ul>
+            
+            <ul id="body">
+
+                <li class="option bypass active maxTimeAllowed">
+                    <h3>
+                        Maximum Time Allowed Per Day
+                    </h3>
+                    <p id="maxTimeAllowedMsg" class="attention"></p>
+                    <p>
+                        Set the maximum number of minutes per day that you will be allowed to browse sites on the Blocked Sites list.
+                    </p>
+                    <p>
+                        <input type="text" id="maxTimeAllowed">minute(s)
+                        <input type="button" value="Set" id="maxTimeAllowedButton">
+                    </p>
+                    <p>
+                        <em class="disclaimer">This time applies to all Blocked Sites in aggregate -- it is not a per-site timer. You cannot change this number once your time for the day has expired.</em>
+                    </p>
+                </li>
+                
+                <li class="option bypass activeDays">
+                    <a name="activeDays"></a>
+                    <h3>
+                        Active Days
+                    </h3>
+                    <p>
+                        Set the days during which StayFocusd will restrict your browsing activity. 
+                    </p>
+                    <ul class="activeDays">
+                        <li><input type="checkbox" value="0" id="sun" class="activeDay"> <label for="sun">Sunday</label></li>
+                        <li><input type="checkbox" value="1" id="mon" class="activeDay"> <label for="mon">Monday</label></li>
+                        <li><input type="checkbox" value="2" id="tue" class="activeDay"> <label for="tue">Tuesday</label></li>
+                        <li><input type="checkbox" value="3" id="wed" class="activeDay"> <label for="wed">Wednesday</label></li>
+                        <li><input type="checkbox" value="4" id="thu" class="activeDay"> <label for="thu">Thursday</label></li>
+                        <li><input type="checkbox" value="5" id="fri" class="activeDay"> <label for="fri">Friday</label></li>
+                        <li><input type="checkbox" value="6" id="sat" class="activeDay"> <label for="sat">Saturday</label></li>
+                        <li class="checkAll">
+                            <a href="#" id="selectAllActiveDays">select all</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <em class="disclaimer">You cannot turn the extension off for the current day.</em>
+                    </p>
+                </li>
+                
+                <li class="option activeHours">
+                    <h3>
+                        Active Hours
+                    </h3>
+                    <p id="activeHoursMsg" class="attention"></p>
+                    <p>
+                        Set the hours during which StayFocusd will restrict your browsing activity. These hours will apply to all Active Days.
+                    </p>
+                    <ul class="activeHours">
+                        <li class="start">
+                            <label>Start</label>
+                            <select class="hour">
+                                <option value="00">12</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                            </select>
+                            <span class="colon">:</span> 
+                            <select class="min">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                                <option value="51">51</option>
+                                <option value="52">52</option>
+                                <option value="53">53</option>
+                                <option value="54">54</option>
+                                <option value="55">55</option>
+                                <option value="56">56</option>
+                                <option value="57">57</option>
+                                <option value="58">58</option>
+                                <option value="59">59</option>
+                            </select>
+                            <select class="ampm">
+                                <option value="am">AM</option>
+                                <option value="pm">PM</option>
+                            </select>
+                        </li>
+                        <li class="end">
+                            <label>End</label>
+                            <select class="hour">
+                                <option value="00">12</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                            </select>
+                            <span class="colon">:</span> 
+                            <select class="min">
+                                <option value="00">00</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                                <option value="51">51</option>
+                                <option value="52">52</option>
+                                <option value="53">53</option>
+                                <option value="54">54</option>
+                                <option value="55">55</option>
+                                <option value="56">56</option>
+                                <option value="57">57</option>
+                                <option value="58">58</option>
+                                <option value="59">59</option>
+                            </select>
+                            <select class="ampm">
+                                <option value="am">AM</option>
+                                <option value="pm">PM</option>
+                            </select>
+                            <input type="button" value="Set" id="setActiveHours">
+                        </li>
+                    </ul>
+                    <p>
+                        <em class="disclaimer">If you change your Active Hours, the new hours will not take effect until this time tomorrow (24 hours from now)</em>
+                    </p>
+                </li>
+                
+                <li class="option resetTime">
+                    <h3>
+                        Daily Reset Time
+                    </h3>
+                    <p id="resetTimeMsg" class="attention"></p>
+                    <p>
+                        Set the time at which StayFocusd will reset your allowed time for the day.
+                    </p>
+                    <div class="reset">
+                        <select class="hour">
+                            <option value="00">12</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                        </select>
+                        <span class="colon">:</span> 
+                        <select class="min">
+                            <option value="00">00</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                            <option value="51">51</option>
+                            <option value="52">52</option>
+                            <option value="53">53</option>
+                            <option value="54">54</option>
+                            <option value="55">55</option>
+                            <option value="56">56</option>
+                            <option value="57">57</option>
+                            <option value="58">58</option>
+                            <option value="59">59</option>
+                        </select>
+                        <select class="ampm">
+                            <option value="am">AM</option>
+                            <option value="pm">PM</option>
+                        </select>
+                        <input type="button" value="Set" id="setResetTime">
+                    </div>
+                    <p>
+                        <em class="disclaimer">If you change your Daily Reset Time, the new time will not take effect until this time tomorrow (24 hours from now)</em>
+                    </p>
+                </li>
+                
+                <li class="option bypass blockedSites" id="blockedSites"></li>
+                <li class="option allowedSites" id="allowedSites"></li>
+                
+                <li class="option bypass nuclearOption">
+                    <h3>
+                        The Nuclear Option
+                    </h3>
+                    <p id="nuclearOptionMsg" class="attention"></p>
+                    <p>
+                        Activating this option will block sites for the number of hours you indicate, independent of your Active Days or Active Hours. There is <b>no way to cancel this</b> once you activate it.
+                    </p>
+                    <fieldset>
+                        <form id="nuclearOptionForm" name="nuclearOption" method="POST" onsubmit="return false" action="">
+                            <h4>
+                                Which sites do you want to block?
+                            </h4>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="blockType" value="all" checked="checked" id="blockAll"> <label for="blockAll">ALL websites</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="blockType" value="allExceptAllowed" id="blockAllExceptAllowed"> <label for="blockAllExceptAllowed">ALL websites EXCEPT those on my Allowed Sites list</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="blockType" value="blocked" id="blockBlocked"> <label for="blockBlocked">ONLY websites on my Blocked Sites list</label>
+                                </li>
+                            </ul>
+                            <h4>
+                                What do you want to block?
+                            </h4>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="contentType" value="wholeSite" id="blockWholeSite"> <label for="blockWholeSite">The whole site</label>
+                                </li>
+                                <li class="hideOnBypass">
+                                    <input type="radio" name="contentType" value="smartBomb" id="blockSmartBomb"> <label for="blockSmartBomb">Just certain types of content (SmartBomb)</label>
+                                </li>
+                            </ul>
+                            <ul id="smartBombOptions" class="smartBombOptions hideOnBypass">
+                                <li>
+                                    <input type="checkbox" name="multimedia" value="multimedia" id="blockMultimedia" class="smartBombOption"> <label for="blockMultimedia"><b>Multimedia</b> (Flash games, video players, music players, etc)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="forms" value="forms" id="blockForms" class="smartBombOption"> <label for="blockForms"><b>Forms</b> (Forums, blog comments, Facebook messages, etc.)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="logins" value="logins" id="blockLogins" class="smartBombOption"> <label for="blockLogins"><b>Logins</b> (Blocks password fields so you can't log into sites requiring login)</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="images" value="images" id="blockImages" class="smartBombOption"> <label for="blockImages"><b>Images</b></label>
+                                </li>
+                            </ul>
+                            <h4>
+                                For how long?
+                            </h4>
+                            <p>
+                                <input type="text" value="1" name="blockLength"> hour(s)
+                            </p>
+                            <h4>
+                                Starting when?
+                            </h4>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="startType" value="now" checked="checked" id="startNow"> <label for="startNow">Right now</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="startType" value="whenMaxTimeAllowedExceeded" id="startWhenMaxTimeAllowedExceeded"> <label for="startWhenMaxTimeAllowedExceeded">When my Max Time Allowed has been exceeded</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="startType" value="atScheduledTime" id="startAtScheduledTime"> <label for="startAtScheduledTime">At a specific time</label>
+                                </li>
+                                <li id="nuclearOptionScheduledTime" class="atScheduledTimeOptions">
+                                    <select name="startHour" class="hour">
+                                        <option value="00">12</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                    <span class="colon">:</span>
+                                    <select name="startMin" class="min">
+                                        <option value="00">00</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                        <option value="32">32</option>
+                                        <option value="33">33</option>
+                                        <option value="34">34</option>
+                                        <option value="35">35</option>
+                                        <option value="36">36</option>
+                                        <option value="37">37</option>
+                                        <option value="38">38</option>
+                                        <option value="39">39</option>
+                                        <option value="40">40</option>
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                        <option value="43">43</option>
+                                        <option value="44">44</option>
+                                        <option value="45">45</option>
+                                        <option value="46">46</option>
+                                        <option value="47">47</option>
+                                        <option value="48">48</option>
+                                        <option value="49">49</option>
+                                        <option value="50">50</option>
+                                        <option value="51">51</option>
+                                        <option value="52">52</option>
+                                        <option value="53">53</option>
+                                        <option value="54">54</option>
+                                        <option value="55">55</option>
+                                        <option value="56">56</option>
+                                        <option value="57">57</option>
+                                        <option value="58">58</option>
+                                        <option value="59">59</option>
+                                    </select>
+                                    <select name="startAmPm" class="ampm">
+                                        <option value="am">AM</option>
+                                        <option value="pm">PM</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <div id="nuclearOptionFrequency" class="atScheduledTimeOptions whenMaxTimeAllowedExceededOptions">
+                                <h4>
+                                    How often?
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="frequency" value="todayOnly" checked="checked" id="freqTodayOnly"> <label for="freqTodayOnly">Today only</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="frequency" value="everyWeekday" id="freqEveryWeekday"> <label for="freqEveryWeekday">Every weekday</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="frequency" value="everyDay" id="freqEveryDay"> <label for="freqEveryDay">Every day (including weekends)</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                <input type="button" value="NUKE 'EM!" id="activateNuclearOptionButton">
+                            </p>
+                        </form>
+                    </fieldset>
+                    <p>
+                        <em class="disclaimer">"All websites" includes web-based email, Google, online banking, local files (file:// urls) and other sites which you may not realize you need until it's too late.</em>
+                    </p>
+                </li>
+
+                <li class="option requireChallenge" id="requireChallenge"></li>
+                
+                <li class="option customize">
+                    <h3>
+                        Customize
+                    </h3>
+                    <p id="customizeMsg" class="attention"></p>
+                    <ul>
+                        <li>
+                            <h4>
+                                Sync
+                            </h4>
+                            <p>
+                                By default, StayFocusd will sync your Blocked Sites and Allowed Sites between all your devices via Chrome Sync. Click the box below to turn this feature off.
+                            </p>
+                            <p>
+                                <input type="checkbox" id="disableSync">&#160;
+                                <label for="disableSync">Disable Sync</label>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Popup
+                            </h4>
+                            <p>
+                                <input type="checkbox" id="hideAllowSiteLink">&#160;
+                                <label for="hideAllowSiteLink">Hide all links in popup which let you allow sites (i.e. "Allow this entire site", "Allow custom url", etc.)</label>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Infobar
+                            </h4>
+                            <p>
+                                The infobar slides down from the top of a webpage to display important messages.
+                            </p>
+                            <p>
+                                <input type="checkbox" id="hideInfoBar">&#160;
+                                <label for="hideInfoBar">Never show infobar</label>
+                            </p>
+                        </li>
+                        <li id="activityMonitorOptions"></li>
+                        <li>
+                            <h4>
+                                StayFocusd update notices
+                            </h4>
+                            <p>
+                                When StayFocusd updates, a NEW badge is displayed on the StayFocusd icon. Clicking the icon pops open a new window with info about the latest update. This happens very infrequently, generally 2-3 times per month, tops.
+                            </p>
+                            <p>
+                                <input type="checkbox" id="disableUpdatePopup">&#160;
+                                <label for="disableUpdatePopup">Never show StayFocusd update notices</label>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Notifications
+                            </h4>
+                            <p>
+                                Set up to five times you want to be warned before time runs out or before the Nuclear Option kicks in (both use the same settings). To disable notifications, leave all fields blank.
+                            </p>
+                            <ul id="customNotifications">
+                                <li>
+                                    <input type="text" name="value0" value="" />
+                                    <select name="unit0">
+                                        <option value="min">minute(s)</option>
+                                        <option value="sec">second(s)</option>
+                                    </select>
+                                    &#160;remaining
+                                </li>
+                                <li>
+                                    <input type="text" name="value1" value="" />
+                                    <select name="unit1">
+                                        <option value="min">minute(s)</option>
+                                        <option value="sec">second(s)</option>
+                                    </select>
+                                    &#160;remaining
+                                </li>
+                                <li>
+                                    <input type="text" name="value2" value="" />
+                                    <select name="unit2">
+                                        <option value="min">minute(s)</option>
+                                        <option value="sec">second(s)</option>
+                                    </select>
+                                    &#160;remaining
+                                </li>
+                                <li>
+                                    <input type="text" name="value3" value="" />
+                                    <select name="unit3">
+                                        <option value="min">minute(s)</option>
+                                        <option value="sec">second(s)</option>
+                                    </select>
+                                    &#160;remaining
+                                </li>
+                                <li>
+                                    <input type="text" name="value4" value="" />
+                                    <select name="unit4">
+                                        <option value="min">minute(s)</option>
+                                        <option value="sec">second(s)</option>
+                                    </select>
+                                    &#160;remaining
+                                </li>
+                            </ul>
+                            <p>
+                                <input id="saveNotificationsButton" type="button" name="saveNotifications" value="Save notifications">
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="option importExport">
+                    <ul>
+                        <li>
+                            <h3>
+                                Export Settings
+                            </h3>
+                            <p>
+                                You can export your settings as a backup, or to transfer them to another computer. You'll be prompted to save a .json file.  Just click Save, and you're done.
+                            </p>
+                            <p>
+                                <form id="exportSettingsForm">
+                                    <input type="button" value="Export Settings" id="exportSettings" />
+                                </form>
+                            </p>
+                        </li>
+                        <li>
+                            <p id="importSettingsMsg" class="attention"></p>
+                            <h3>
+                                Import Settings
+                            </h3>
+                            <p>
+                                If you previously exported your settings, click the Choose File button, locate the .json file, then click Import Settings.
+                            </p>
+                            <p>
+                                <input type="file" id="settingsFile" name="settings" size="40" />
+                            </p>
+                            <p>
+                                <input type="button" value="Import Settings" id="importSettings" />
+                            </p>
+                            <div id="importedSettings">
+                                <h4>Importing settings ...</h4>
+                                <div id="importResults"></div>
+                            </div>
+                            <p>
+                                <em class="disclaimer">IMPORTANT: Importing settings will <b>overwrite</b> any existing settings. There is no way to undo this.</em>
+                            </p>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li class="option rescueMe">
+                    <ul>
+                        <li>
+                            <h3>
+                                Rescue Me
+                            </h3>
+                            <p>
+                                You'll need a special unlock code in order to access any of the links below.
+                                If you don't have one, please email <a href="mailto:support@stayfocusd.com?subject=[Rescue Me] I need an unlock code" target="_blank">support@stayfocusd.com</a> to request one.
+                            </p>
+                            <ul class="rescueLinks">
+                                <li>
+                                    <a href="#rescueMeTab" id="killNuclearOption">Kill Nuclear Option</a>
+                                </li>
+                                <li>
+                                    <a href="#rescueMeTab" id="killStalkerOption">Kill Stalker Option</a>
+                                </li>
+                                <li>
+                                    <a href="#rescueMeTab" id="killChallenge">Kill Challenge</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </li>
+                
+                <li class="clear-fix"></li>
+            </ul>
+            <div class="clear-fix"></div>
+        </div>
+        
+        <div id="challengeContainer"></div>
+    </body>
+</html>

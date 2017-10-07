@@ -1,0 +1,178 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <script id="template-style-item" type="x-tmpl-mustache">
+		<div class="entry enabled" style-id="{{styleid}}">
+			<div class="main-controls">
+				<div class="thumbnail-holder thumbnail" style="background-image: url('{{thumbnail}}');">
+				</div>
+				<div class="style-name" href="{{style_url}}" scope="Library_menu">{{stylename}}</div>
+				<div class="style-author">by {{author}}</div>
+				<div class="info bottomIcons">
+					<div class="thumbnail-mask">
+						<a class="thumbnail_install" href="{{style_url}}" style-id="{{styleid}}" target="_blank">{{installButtonLabel}}</a>
+					</div>
+					<div class="num_installs">
+						<span class="installs tooltip-left" data-tooltip="{{installsTooltip}}">{{installsStr}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+    </script>
+
+    <script id="template-style-installed-item" type="x-tmpl-mustache">
+		<div id="installed-style-{{id}}" class="installed entry {{additionalClass}}" >
+			<div class="main-controls">
+				<div class="thumbnail-holder thumbnail thumbnail--{{id}}"  style="background-image: url('{{screenshot}}');">
+				<!--	<div class="activation_info">
+					    <span class="activation_status active">{{active_str}}</span>
+					    <span class="activation_status inactive">{{inactive_str}}</span>
+                    </div>-->
+				</div>
+				<div class="style-name" href="{{url}}"  scope="Installed_styles_menu">{{name}}</div>
+				<div class="style-author">by {{author}}</div>
+				<div class="info bottomIcons">
+
+				    <div>
+                        <a class="thumbnail_activate thumb_action_link thumb_action" href="{{style_url}}" target="_blank">{{activateButtonLabel}}</a>
+						<a class="thumbnail_deactivate thumb_action_link thumb_action" href="{{style_url}}" target="_blank">{{deactivateButtonLabel}}</a>
+                    </div>
+
+                    <div class="styleButtons">
+                    <a  href="{{style_edit_url}}" target="_blank">
+                        <div class="thumbnail_edit thumb_action tooltip-left"  data-tooltip="Edit"> <img src='/images/edit.svg'> </div>
+                    </a>
+                    <a href="{{style_url}}" target="_blank">
+                        <div class="thumbnail_delete thumb_action tooltip-left" data-tooltip="Delete"> <img src='/images/delete.svg'> </div>
+                    </a>
+                    <div>
+                    <a href="{{feedback_url}}" target="_blank">
+                        <div class="thumbnail_feedback notLoggedIn thumb_action tooltip-left" data-tooltip="Send Feedback"> <img src='/images/feedback.svg'> </div>
+                    </a>
+                    <a href="{{discussion_url}}" target="_blank">
+                        <div class="thumbnail_feedback loggedIn thumb_action tooltip-left" data-tooltip="Send Feedback"> <img src='/images/feedback.svg'> </div>
+                    </a>
+                    </div>
+                    </div>
+
+		        </div>
+		    </div>
+		</div>
+
+
+
+
+
+    </script>
+
+    <link rel="stylesheet" href="animate.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="tooltips.css"/>
+
+    <script src="src/analytics.js"></script>
+    <script src="src/localization.js"></script>
+    <script src="src/health.js"></script>
+    <script src="src/storage.js"></script>
+    <script src="src/refilter.js"></script>
+    <script src="uaparser/uaparser.js"></script>
+    <script src="src/utils.js"></script>
+    <script src="src/messaging.js"></script>
+    <script src="src/inject/apply.js"></script>
+    <script src="src/popup/mustache.min.js"></script>
+    <script src="src/popup/mustache.wrap.js"></script>
+    <script src="src/popup/Tabs.js"></script>
+</head>
+<body id="stylish-popup">
+<div id="header">
+    <div id="top">
+        <div id="disable-all-container">
+            <div id="disable-all-block">
+                <div class="swipe-button">
+                    <label class="swipe-button-label">
+                        <span id="stylish_on" i18n-text="stylishOn"></span>
+                        <span id="stylish_off" i18n-text="stylishOff"></span>
+                        <input type="checkbox" id="disable-all-checkbox"/>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div id="menu_button">
+            <img id="menuImg" src="images/burger.svg">
+            <div id="menu" class="bottom_controls">
+                <div id="menu_inner">
+                    <a id="write-new-style-link" class="add_style menu_link" href="/edit.html" target="_blank"
+                       tabindex="-1"
+                       i18n-text="openCreate"></a>
+                    <a class="manage_styles menu_link" href="/manage.html" target="_blank" tabindex="-1"
+                       i18n-text="openManage"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="title" i18n-text="ThemesFor"></div>
+    <div id="sitename"></div>
+</div>
+
+<div class="tabs-container">
+    <header>
+        <div class="tab-header tab-header-left active">
+            <label for="tab-header-recommended" i18n-text="stylesLibLabel"></label>
+            <input id="tab-header-recommended" type="radio" name="style-type" checked>
+        </div>
+        <div class="tab-header">
+            <label for="tab-header-installed" i18n-text="manageHeading"><span id="styleCount"></span></label>
+            <input id="tab-header-installed" type="radio" name="style-type">
+        </div>
+    </header>
+    <div id="styles-off-notification" class="notification styles-off-notification">
+        <div class="popup_title" i18n-text="AllStylesOffAlert"></div>
+        <div  class="popup_text" i18n-text="AllStylesOffAlert2"></div>
+    </div>
+    <section id="tab-item-recommended" class="tab-item tab-recommended active">
+        <div id="unavailable" class="hide">
+            <div class="left-gutter"></div>
+            <div class="main-controls">
+                <span id="unavailable-message" i18n-text="stylishUnavailableForURL"></span>
+            </div>
+        </div>
+        <div id="nostyles" class="hide"
+             i18n-text="noStylesForSite"> <!--Library Tab-->
+        </div>
+        <div id="noServerConnection" class="hide">
+            <div i18n-text="noServerConnection"></div>
+        </div>
+        <div id="recommended" class="maintab"></div>
+    </section>
+    <section id="tab-item-installed" class="tab-item tab-installed">
+        <div id="zerostyles" class=""> <!--installed tab-->
+            <div class="message" i18n-text="noStylesInstalled"></div>
+        </div>
+        <div id="installed" class="maintab hide notLoggedIn"></div>
+    </section>
+    <a class="find-styles" id="find-styles"
+       tabindex="-1"
+       href="https://userstyles.org/styles/browse/all/https%3A%2F%2Fwww.google.hu%2F%3Fgfe_rd%3Dcr%26ei%3D2u0aWK6BMrPs8wfdtrzgCA%26gws_rd%3Dssl"
+       i18n-text="findStylesForSite">
+    </a>
+    <a class="find-styles" id="find-styles-others"
+       tabindex="-1"
+       href="https://userstyles.org"
+       i18n-text="FindStylesForOthers">
+    </a>
+</div>
+
+<script src="src/popup/object.assign.polyfill.js"></script>
+<script src="src/popup/Requester.js"></script>
+<script src="src/popup/MemCachedRequester.js"></script>
+<script src="src/popup/SessionCachedRequester.js"></script>
+<script src="src/popup/StyleInfoFetcher.js"></script>
+<script src="src/popup/popup.js"></script>
+<script src="src/popup/popup-installed.js"></script>
+<script src="src/popup/popupanalytics.js"></script>
+
+
+</body>
+</html>

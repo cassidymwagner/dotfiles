@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "브라우저 도구"
+   },
+   "options_saved": {
+      "message": "옵션 저장"
+   },
+   "save_button": {
+      "message": "저장"
+   },
+   "support": {
+      "message": "지원"
+   },
+   "toolbar_icons": {
+      "message": "크롬 툴바 아이콘"
+   },
+   "website_button": {
+      "message": "웹 사이트 버튼"
+   }
+}

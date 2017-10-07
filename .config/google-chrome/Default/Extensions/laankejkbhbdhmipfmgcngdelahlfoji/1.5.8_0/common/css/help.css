@@ -1,0 +1,110 @@
+/*
+ *-----------------------------------------------------------------------
+ * BODY LAYOUT
+ *-----------------------------------------------------------------------
+*/
+
+#body {
+    padding:16px;
+    overflow:hidden;
+}
+
+
+/*
+ *-----------------------------------------------------------------------
+ * INDEX
+ *-----------------------------------------------------------------------
+*/
+
+#index {
+    float:right;
+    font-size:12px;
+    border-left:3px solid #e5e5e5;
+    height:100%;
+    padding:16px;
+    width:175px;
+}
+
+#index h3 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+#index li{
+    margin-bottom:8px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * FAQs
+ *-----------------------------------------------------------------------
+*/
+
+.header {
+    background:#000;
+    margin-bottom:16px;
+    padding:6px;
+}
+
+.header h1 {
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.faq {
+    border-bottom:8px solid #e5e5e5;
+    margin-bottom:16px;
+    padding-bottom:16px;
+}
+
+.faq.donate {
+    border-bottom:none;
+}
+
+.faq h3 {
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.faq p,
+.faq li {
+    line-height:21px;
+}
+
+.faq p + p,
+.faq p + ul{
+    margin-top:12px;
+}
+
+.faq ul{
+    margin-left:8px;
+}
+.faq ul li {
+    margin:0 0 16px 16px;
+    list-style-type:disc;
+}
+
+.notice {
+    font-size:12px;
+}
+
+/*
+ *-----------------------------------------------------------------------
+ * DONATE BUTTON
+ *-----------------------------------------------------------------------
+*/
+
+.faq.donate {
+    border-bottom:none;
+    margin-bottom:8px;
+    overflow:hidden;
+}
+
+.faq.donate form{
+    float:right;
+    margin-left:16px;
+    width:120px;
+}

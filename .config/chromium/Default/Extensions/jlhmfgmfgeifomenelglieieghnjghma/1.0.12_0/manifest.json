@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "CryptoJS.js", "content_script.js" ],
+      "matches": [ "https://*/*/cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html", "https://*/cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'  https://www.google-analytics.com/analytics.js;  object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAygxynXxflNSUKecPSb63Uyh/olVrkbCGupJVNOy3y2djIGZxT3lWcodypPpU9v2vw9/M5hUnKoy1sT63bMwlW6vYFsriKRt9n38VqPEyHEvq6ecwFxoJ3xQUWKbEPMgDStdc9hHIprMJIjQV6jYP9PIs1SCfam0PLV0o+K5Ev3zEFd4XR5krlzcV9b++DSisSrqMJNacGBXwoQzouMeb8vxuXor4wuvlESlvXoD3yxTih9pQc6FbHxjwusA2wsIJbshmmvAfu+3yGG/VlI+lN1kyyRct5Je9lcjtKEwn+p379+NnUNMQ1yLs7LrphltnR6zPceaIx8MH468yo/D/owIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.12",
+   "web_accessible_resources": [ "cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html", "manifest.json" ]
+}

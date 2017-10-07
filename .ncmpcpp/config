@@ -4,23 +4,24 @@ visualizer_fifo_path = /tmp/mpd.fifo
 visualizer_output_name = Visualizer feed
 visualizer_in_stereo = yes
 visualizer_type = "wave_filled"
-visualizer_color = 246,245,244,243,242,241,240,239,238,237,236,235
+#visualizer_color = 68,67,61,60,243,244,245,246
+# 246,245,244,243,242,241,240,239,238,237,236,235
 visualizer_look = "|○"
 
-browser_sort_mode = name
-browser_sort_format = {%A - }{%t}|{%f} {(%l)}
+#browser_sort_mode = name
+#browser_sort_format = {%A - }{%t}|{%f} {(%l)}
 
-song_columns_list_format = "(3f)[239]{} (35)[246]{t|f} (30)[blue]{a} (30)[green]{b} (5f)[240]{l}"
-song_list_format = "{$5 %a$9 $1│$9 $8%t$9 }|{ $8%f$9}$R{$5%b $7}"
-song_status_format =  " $9%t  $8⟫$8⟫ $5%a $8⟫$8⟫ $3%b "
-song_library_format = "{%n $8-$9 }{%t}|{%f}"
-now_playing_prefix = "$u$2"
+#song_columns_list_format = "(3f)[239]{} (35)[251]{t|f} (30)[67]{a} (30)[34]{b} (5f)[240]{l}"
+#song_list_format = "{$5 %a$9 $1│$9 $8%t$9 }|{ $8%f$9}$R{$5%b $7}"
+song_status_format =  " $9%t  $8⟫$8⟫ $3%a $8⟫$8⟫ $5%b "
+#song_library_format = "{%n $8-$9 }{%t}|{%f}"
+#now_playing_prefix = "$u$2"
 #
-now_playing_suffix = "$2$/u$2"
-browser_playlist_prefix = "playlist"
-selected_item_prefix = "$5"
-selected_item_suffix = "$9"
-song_window_title_format = "{%t}|{%f} - {%a}"
+#now_playing_suffix = "$2$/u$2"
+#browser_playlist_prefix = "playlist"
+#selected_item_prefix = "$5"
+#selected_item_suffix = "$9"
+#song_window_title_format = "{%t}|{%f} - {%a}"
 
 playlist_show_remaining_time = "no"
 playlist_shorten_total_times = "yes"
@@ -36,8 +37,8 @@ autocenter_mode = yes
 centered_cursor = yes
 
 progressbar_look =  "▃▃▃"
-progressbar_color = black
-progressbar_elapsed_color = white
+#progressbar_color = black
+#progressbar_elapsed_color = white
 progressbar_boldness = "no"
 user_interface = "classic"
 header_visibility = "no"
@@ -86,37 +87,37 @@ use_console_editor = yes
 
 colors_enabled = "yes"
 #
-empty_tag_color = "white"
+#empty_tag_color = "white"
 #
-header_window_color = "white"
+#header_window_color = "white"
 #
-volume_color = "blue"
+#volume_color = "67"
 #
-state_line_color = "white"
+#state_line_color = "white"
 #
-state_flags_color = "white"
+#state_flags_color = "white"
 #
-main_window_color = "blue"
+#main_window_color = "67"
 #
 #color1 = 246
 #
-#color2 = "blue"
+#color2 = "67"
 #
-main_window_highlight_color = "white"
+#main_window_highlight_color = "white"
 #
 #progressbar_color = "black"
 #
 #progressbar_elapsed_color = "cyan"
 #
-statusbar_color = 246
+#statusbar_color = 246
 #
-alternative_ui_separator_color = "white"()
+#alternative_ui_separator_color = "white"()
 #
-active_column_color = "white"
+#active_column_color = "white"
 #
 #visualizer_color = "white"
 #
 #window_border_color = "green"
 #
-active_window_border = 246
+#active_window_border = 246
 #

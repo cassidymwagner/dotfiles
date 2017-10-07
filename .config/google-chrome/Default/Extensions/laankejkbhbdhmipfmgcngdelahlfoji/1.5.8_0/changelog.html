@@ -1,0 +1,944 @@
+<html>
+    <head>
+        <title>StayFocusd : Changelog</title>
+        <link href="common/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="common/css/global.css" rel="stylesheet" type="text/css">
+        <link href="common/css/changelog.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <div id="page">
+            
+            <ul id="header">
+                <li id="logo"><img src="common/img/logo_full.png" title="StayFocusd" alt="StayFocusd"></li>
+                <li id="page-title">
+                    <h1>changelog</h1>
+                </li>
+            </ul>
+            
+            <ul id="body">
+
+                <li class="release">
+                    <h3>Version 1.5.8</h3>
+                    <h5>September 16, 2017</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Changes to Chrome broke Export Settings functionality</li>
+                        <li>Fixed: ActivityMonitor throws errors when encountering iframes from other domains (i.e. ad frames)</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.7</h3>
+                    <h5>November 3, 2014</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Crazy edge case with book.tam.com.br causing blocked sites not to be blocked sometimes</li>
+                        <li>Fixed: Gmail being erroneously blocked by Stalker Option</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.6</h3>
+                    <h5>October 14, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: TypeError in ChromeAPI.js, introduced by release of Chrome v38.</li>
+                        <li>Fixed: Blocked Sites become deletable when the Challenge productivity bypass is in use, after adding a new site to the list.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.5</h3>
+                    <h5>July 19, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: NEW badge on StayFocusd icon doesn't go away (fixed for reals this time).</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.4</h3>
+                    <h5>July 18, 2014</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Trying to remove allowed site after time is up triggers "Can't remove site from Blocked Sites list" alert.</li>
+                        <li>Fixed: Blocked Sites textarea doesn't get cleared when adding a new url containing a domain that is already in the list (i.e. adding cnn.com/foo when cnn.com is already on the list) </li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.3</h3>
+                    <h5>June 18, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: NEW badge on StayFocusd icon doesn't go away.</li>
+                    </ul>
+                    <h4>Improvement</h4>
+                    <ul>
+                        <li>Added Rescue Mode to assist users who are having problems with the extension</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.2</h3>
+                    <h5>June 11, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Some users are finding the extension unusable due to a bug in the function that prunes settings backups from local storage.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.1</h3>
+                    <h5>June 10, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Settings page is broken when only one Active Day is selected</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.5.0</h3>
+                    <h5>June 8, 2014</h5>
+                    <h4>Improvement</h4>
+                    <ul>
+                        <li>Added NEW text to StayFocusd icon when extension has been updated, instead of popping update page</li>
+                        <li>Started using Chrome local storage instead of HTML5 localStorage</li>
+                        <li>Tons of changes under the hood, to facilitate new features (coming soon)</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.10</h3>
+                    <h5>May 30, 2014</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Notifications broken by deprecation of webkitNotification API.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.9</h3>
+                    <h5>March 1, 2014</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Notifications not closing after 5 seconds anymore due to change in Chrome API.</li>
+                        <li>Fixed: Several bugs caused by upgrading jQuery, including Require Challenge checkbox not working</li>
+                    </ul>
+                </li>w
+
+                <li class="release">
+                    <h3>Version 1.4.8</h3>
+                    <h5>February 23, 2014</h5>
+                    <h4>Improvement</h4>
+                    <ul>
+                        <li>Remove SmartBomb when accessing Nuclear Option without completing challenge. Eliminates potential cheat.</li>
+                        <li>When Nuclear Option is set to block only websites on the Blocked Sites list, don't block exceptions that are on Allowed Sites list</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: When chrome://extensions tab is pinned and gets blocked, hitting Back button still allows access to page</li>
+                        <li>Fixed: Stalker Option still deducts time even when link that was followed is on Allowed Sites list</li>
+                        <li>Fixed: Console warnings are being thrown due to bug in jQuery 1.8.3</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.7</h3>
+                    <h5>December 1, 2013</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Increased requirejs timeout to 60 seconds to solve intermittent timeout failures</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.6</h3>
+                    <h5>November 23, 2013</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added option to disable StayFocusd update notices</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.5</h3>
+                    <h5>November 20, 2013</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: "Are you still there?" overlay pops up even when disabled</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.4</h3>
+                    <h5>October 8, 2013</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: SmartBomb options are always checked, regardless of which are actually active</li>
+                        <li>Added safeguard to make sure StayFocusd update page only pops when StayFocusd itself actually updates, since it seems to be triggered by false positives from Chrome updates.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.3</h3>
+                    <h5>September 29, 2013</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Sites that are on both the Blocked and Allowed Sites lists weren't being blocked properly</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added mechanism to pop new window when extension is updated</li>
+                        <li>Added "Getting Help" section to FAQ</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.2</h3>
+                    <h5>September 18, 2013</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Some users' Blocked and Allowed Sites lists wiped out :-(</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.4.0</h3>
+                    <h5>September 18, 2013</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Empty value was being allowed in max allowed time</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added some new FAQs</li>
+                        <li>Refactored popup code into MVC component using chrome.runtime.connect to receive timer updates from background page.</li>
+                        <li>Implemented require.js</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.12</h3>
+                    <h5>August 4, 2013</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Notification bug introduced by deprecation of WebKit HTML5 notifications</li>
+                        <li>Fixed: Edge case where gov.il domains weren't recognized</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Made domain comparison case-insensitive</li>
+                        <li>Re-named the Reddigglicious Option to the Stalker Option because PROGRESS</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.10</h3>
+                    <h5>January 29, 2013</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Challenge window sometimes too small</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.9</h3>
+                    <h5>January 7, 2013</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Upgraded to latest version of jQuery (1.8.3) to eliminate Content Security Policy errors.</li>
+                        <li>Added shortcut to Nuclear Option in popup.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.8</h3>
+                    <h5>December 28, 2012</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed bug that was breaking Import Settings.</li>
+                        <li>Importing settings now restores imported settings to sync storage</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.7</h3>
+                    <h5>October 22, 2012</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Further refined domain matching to distinguish between domains like www.dn.se and bbc.co.uk (the first being a regular domain, the second being a multi-part domain).</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.6</h3>
+                    <h5>October 10, 2012</h5>
+                    <h4>Bug fix</h4>
+                    <ul>
+                        <li>Fixed: Edge case where dn.se and di.se were not blockable due to bug in domain parser that identifies multi-part TLDs like .co.uk and .co.au.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.5</h3>
+                    <h5>October 2, 2012</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added backup of sync storage in local storage to compensate for sync storage bug that appeared in Chrome v22.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.4</h3>
+                    <h5>September 2, 2012</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added Disable Sync option</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.3</h3>
+                    <h5>August 31, 2012</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added sync for Blocked Sites and Allowed Sites</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.1</h3>
+                    <h5>July 4, 2012</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Notice about 24-hour delay for changes to Daily Reset Time and Max Time Allowed said AM instead of PM for 12:00 noon.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added support for Chrome manifest v2</li>
+                        <li>Made extension settings page blockable when Nuclear Option is active</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.3.0</h3>
+                    <h5>April 15, 2012</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added localization support</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.16</h3>
+                    <h5>December 6, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Daily Reset Time set for 11:59 makes timer reset every other day instead of every day.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.15</h3>
+                    <h5>September 27, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set to block at a specific time today only doesn't start blocking sites at that time.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Wildcards can no longer be added to Allowed Sites once time has expired. Previously this was allowed, and people could use wildcards to continue accessing Blocked Sites even though their time was up.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.14</h3>
+                    <h5>August 13, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set to Weekdays Only still running on weekends.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Non-http(s) protocols (i.e. file://, ftp://, etc.) are now blockable and allowable.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.13</h3>
+                    <h5>August 1, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Javascript error in XHTML-compliant sites due to non-XHTML-compliant &amp;nbsp; being inserted into DOM.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.12</h3>
+                    <h5>July 31, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set to run Today Only or Every Weekday starting on other days.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.11</h3>
+                    <h5>July 11, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Javascript error in XHTML-compliant sites due to non-XHTML img tag being inserted into DOM.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added option in Customize Interface tab to disable the "Are you still there?" overlay, for people whose computers are idle while they watch videos or play Flash games.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.10</h3>
+                    <h5>June 18, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Clicking Hide Forever on InfoBar sets option but doesn't immediately hide bar.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.9</h3>
+                    <h5>June 11, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Changing Daily Reset Time causes RangeError after reset queue time (24 hours) passes.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.8</h3>
+                    <h5>June 9, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Timer freezes after one second.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.6</h3>
+                    <h5>June 8, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Timer doesn't reset if browser is closed when Daily Reset Time passes, then you re-open the browser again the same day.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.5</h3>
+                    <h5>June 5, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set to run every day doesn't run after first day when combination of start time and block length push the expiration into the next day.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Changes to Active Hours and Daily Reset Time settings made within one hour of installing StayFocusd will become active immediately, without the 24-hour waiting period. This allows new users to configure the extension immediately after install, while still keeping existing users honest.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.4</h3>
+                    <h5>May 5, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blocking chrome.google.com ends up blocking google.com too.</li>
+                        <li>Fixed: InfoBar showing up even when "hide forever" is clicked or "Never show infobar" is checked.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.3</h3>
+                    <h5>May 4, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blocking google.com/reader would cause google.com.br to be blocked too.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Changed wording on InfoBar from "never show this again" and "[hide]" to "hide forever" and "hide once," to clear up confusion about what each link does.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.2</h3>
+                    <h5>May 4, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Reddigglicious Option stopped working.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2.0.1</h3>
+                    <h5>May 3, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set to block everything but Allowed Sites still blocks allowed sites sometimes.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.2</h3>
+                    <h5>April 30, 2011</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added Import/Export Settings. Now you can export your StayFocusd settings as a backup, or to transfer settings to another computer.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Nuclear Option can now be set to fractions of an hour, so it can be used as part of the Pomodoro Technique.</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Pages are blocked by Reddigglicious Option outside Active Hours/Days.</li>
+                        <li>Fixed: Switching to website opened via application shortcut while Nuclear Option is active kills page in another window even when that page is on the Allowed Sites list.</li>
+                        <li>Fixed: Double redirect on some blocked pages.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.5.3</h3>
+                    <h5>April 25, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Popup sometimes displays 0-01:59:59 when time has run out.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Reddigglicious Option no longer appends parameter to URL. It's all handled behind the scenes now.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.5.2</h3>
+                    <h5>April 22, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option set for "today only" not expiring as expected.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Stop appending param to relative links and links to same domain.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.5.1</h3>
+                    <h5>April 20, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Allowed Site doesn't register as allowed when typed in directly, but works fine when clicked from another link.</li>
+                        <li>Fixed: ReferrerMonitor breaks urls containing hashes.</li>
+                        <li>Fixed: Regression where 1 second is added back to clock when browser is restarted.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.5</h3>
+                    <h5>April 19, 2011</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added the Reddigglicious Option: clicking outgoing links from blocked sites now keeps the clock ticking on those sites too. This is for everyone who loses time on sites like Reddit, Digg, Google Reader, Delicious, and other sites which waste your time by sending you to other sites that waste your time.</li>
+                        <li>Added optional infobar that slides down from top of web pages to display important messages.</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option scheduled for today only sometimes starts again the next day.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.4.1</h3>
+                    <h5>April 16, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option scheduled time should not be changeable once Nuclear Option is active, lest it be changed to a time that effectively turns the Nuclear Option off.</li>
+                        <li>Fixed: www.google.com.hk is blocked when Nuclear Option is set to block "ALL websites EXCEPT those on my Allowed Sites list," and google.com is on the Allowed Sites list.</li>
+                        <li>Fixed: Nuclear Option set to "Every weekday" or "Every day (including weekends)" doesn't always start on subsequent days after it is set.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Removed "Nothing to see here" overlay that appeared when window went out of focus. It was causing bugs in core functionality, in ways that couldn't be fixed.</li>
+                        <li>Countdown now works on popup windows, such as the Facebook Share window.</li>
+                        <li>Remove "Allow only pages" and "Allow custom url" when "Hide 'Allow this entire site' link in popup" is checked</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.4</h3>
+                    <h5>March 27, 2011</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Desktop notification timing can now be configured via the Customize Interface tab on the Settings page.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.3</h3>
+                    <h5>March 25, 2011</h5>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Nuclear Option settings can now be changed to make it more strict (but not more lenient) while it is active.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.2</h3>
+                    <h5>March 24, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blocked site still accessible after time expires, when Nuclear Option is active using SmartBomb on blocked sites only.</li>
+                        <li>Fixed: Counter keeps ticking when all regular Chrome windows are closed, but a Chrome instance opened by an application shortcut is still open. This <i>should</i> also fix the problem for Mac users who close all tabs but don't Cmd-Q to fully quit Chrome.</li>
+                        <li>Fixed: Setting Nuclear Option for time that already passed (but not by more than the number of hours to block) set expiration time to current time + block length instead of start time + block length.</li>
+                        <li>Fixed: Scheduled Nuclear Option does not always start automatically.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1.1</h3>
+                    <h5>March 21, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Nuclear Option renews itself when closing and re-opening browser.</li>
+                        <li>Fixed: Add Allowed Sites button doesn't work since last release.</li>
+                        <li>Fixed: Nuclear Option time box allows non-numeric input.</li>
+                    </ul>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added SmartBomb to Nuclear Option, to selectively block multimedia, images, forms, and/or logins, without blocking whole sites.</li>
+                        <li>Made out-of-focus overlay optional via Customize Interface settings.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.1</h3>
+                    <h5>March 19, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Countdown continues ticking even after all Chrome windows are closed on Mac.</li>
+                        <li>Fixed: One second added back to timer when browser is restarted after time runs out.</li>
+                    </ul>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Nuclear Option is now highly configurable. Can specify which sites to block, for how long, starting when, and how often.</li>
+                        <li>If Nuclear Option is scheduled to start at a certain time, desktop notifications will give warnings at 5 min, 1 min, and 10 seconds before starting.</li>
+                        <li>StayFocusd icon turns into yellow "radioactive" symbol when Nuclear Option is active.</li>
+                        <li>All desktop notifications now disappear after 5 seconds.</li>
+                        <li>5 minute warning added as desktop notification for blocked sites.</li>
+                        <li>Blocked sites are now concealed with an overlay when they are not in focus. This prevents users from reading content on blocked site without time counting down.</li>
+                        <li>Added ability to block chrome://extensions.</li>
+                        <li>Settings page remembers which tab was selected when page is refreshed, and defaults back to that tab.</li>
+                        <li>Active Days are now accessible without completing challenge, via productivity bypass link.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.32.3</h3>
+                    <h5>February 5, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Countdown badge remains on icon even after user resets Max Time Allowed to a higher value after the 60-second warning countdown starts.</li>
+                        <li>Fixed: Corrupted or missing Elapsed Time in LocalStorage shows up as NaN.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.32.2</h3>
+                    <h5>February 2, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Edge case where blocked site had no domain, but had a dash in it.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.32.1</h3>
+                    <h5>February 1, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed (again): Wildcard in blacklist broke ... well, everything. :-P</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.32</h3>
+                    <h5>January 31, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Wildcard in blacklist broke ... well, everything. :-P</li>
+                    </ul>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Desktop notification now pops up to alert you when time is running out.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.31.7</h3>
+                    <h5>January 30, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Sortfolio.com blocked even when not on blocked sites list. (Explanation for nerds: a sort() function was added to the Object prototype. When iterating over the blacklist object, the code treated the word "sort" as a word in the blacklist instead of as a function name, therefore blocking any domains with the word "sort" in them. D'oh!)</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>Added suggested sites list for Blocked Sites.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.31.6</h3>
+                    <h5>January 9, 2011</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blocked site becomes accessible when Nuclear Option is active, if domain is also on Allowed Sites list (i.e. google.com/reader -- which is on blocked sites list -- is accessible if google.com is on allowed sites list)</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>When bypassing challenge to change settings which improve productivity, you can now add sites to the Blocked Sites list.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.31.5</h3>
+                    <h5>December 18, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Really long custom challenge text gets cut off, because challenge overlay doesn't scroll.</li>
+                        <li>Fixed: Nuclear Option expiration warning mistakenly said AM instead of PM for noon expiration time.</li>
+                    </ul>
+                    <h4>Improvements</h4>
+                    <ul>
+                        <li>It is now possible to uncheck all Active Days checkboxes, as long as you come back the next day to uncheck the previous day's box. Until now, doing that would trigger re-checking of all boxes, as a guard against someone tampering with the Active Days stored settings.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.31.4</h3>
+                    <h5>November 6, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added Customize Interface options in Settings page</li>
+                        <li>Made "allow this entire site" option in popup optional. Can be turned off in Customize Interface settings.</li>
+                        <li>Made challenge text configurable. Any custom text can be used, as long as it meets the minimum length requirements.</li>
+                        <li>Added wildcards for Blocked Sites and Allowed Sites. Now you can use a preceding asterisk, like *.com or *foo.</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Really long list of Allowed or Blocked sites getting cut off instead of scrolling.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.28</h3>
+                    <h5>April 11, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: ActivityMonitor not being disabled by clicking link or keypress.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.27</h3>
+                    <h5>April 4, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Allow Active Hours start time to be later than end time. This allows Active Hours to span midnight (i.e. 6PM to midnight, then midnight to 4AM), for those who work best overnight.</li>
+                        <li>Added Daily Reset Time to settings. Previously, the counter would always reset at midnight. Now the user can specify what time it resets.</li>
+                        <li>Upgraded Options page with tabbed interface for improved navigation</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: ActivityMonitor firing too often in Gmail, Google Reader, Facebook photo galleries, etc.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.26</h3>
+                    <h5>April 2, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blank line in list of multiple sites being added results in list getting wiped out. Thanks to @bluSCALE4 for the bug report.</li>
+                        <li>Fixed: Opening an image url on a blocked site instantly shows a broken version of the Activity Monitor overlay above the image. Thanks to @ndscnl for the bug report.</li>
+                        <li>Fixed: Pinned tabs with blocked sites are still accessible after time ran out.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.25</h3>
+                    <h5>March 29, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Disabled Esc key so you can't bypass challenge</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.24</h3>
+                    <h5>March 24, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added link to challenge that will allow you to change settings beneficial to productivity (starting Nuclear Option or reducing max allowed time) without completing the challenge.</li>
+                    </ul>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed bug where StayFocusd would lose track of which site was active when working with multiple windows.</li>
+                    </ul>
+                    <h4>Minor tweaks</h4>
+                    <ul>
+                        <li>Added "Allow this entire site" into Advanced Options in popup</li>
+                        <li>Hide "only block" and "only allow" links in popup when they are the same as the base domain. For example, don't show when on cnn.com, do show when on www.cnn.com.</li>
+                        <li>Made only the red [x] next to sites in Blocked/Allowed sites lists on Settings page clickable, to reduce chance of accidentally removing a site by an errant click.</li>
+                        <li>Alphabetized Blocked Sites and Allowed Sites lists</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.23</h3>
+                    <h5>March 9, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed bug where setting Active Hour from 1 to 9 PM would end up as 12 PM</li>
+                        <li>Fixed bug where setting Active Hours more than once during the same session would set time to previous setting</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.22</h3>
+                    <h5>March 12, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>Added the ability to block or allow multiple sites at once, from the Options page</li>
+                        <li>Added choice to Nuclear Option to block all sites EXCEPT Allowed Sites, or all sites INCLUDING Allowed Sites</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.20</h3>
+                    <h5>March 8, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Blocking a site (i.e. google.com) and then later blocking a different url for the same site (i.e. google.com/calendar) wipes out some of the Blocked Sites list.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.19</h3>
+                    <h5>March 7, 2010</h5>
+                    <h4>Minor tweaks</h4>
+                    <ul>
+                        <li>Added "are you sure?" prompt before setting Require Challenge.</li>
+                        <li>Added link to let users test challenge before turning it on.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.18</h3>
+                    <h5>March 5, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>You can now set StayFocusd to be active only during selected hours. This allows you to, for example, restrict your browsing during the hours you're supposed to be working, while allowing unrestricted browsing during your free time.</li>
+                        <li>Added an optional challenge that must be completed before changing any settings. When this is active, you will be required to complete a difficult -- but not impossible -- challenge before you are allowed to access the options page.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.17</h3>
+                    <h5>February 27, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>You can now set StayFocusd to be active only during selected days. This allows you to, for example, turn it off on weekends.</li>
+                        <li>Added the Nuclear Option, which allows you to block access to ALL websites for a certain number of hours.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.16</h3>
+                    <h5>February 7, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Clear "still there?" overlay when switching tabs back to blocked site. If you clicked to switch tabs, you're obviously there. The previous version presumed this and started the countdown again, but left the overlay visible (which implied that the countdown was still paused).</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.15</h3>
+                    <h5>February 1, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: "Still there?" message displaying on allowed subdomains or paths for domains which are otherwise blocked.</li>
+                        <li>Fixed: "Still there?" message reappears too soon again after it is cleared.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.14</h3>
+                    <h5>January 31, 2010</h5>
+                    <h4>New features</h4>
+                    <ul>
+                        <li>
+                            <p>Added activity monitor to keep track of when the user is active and inactive on a site. If the user is inactive on a blocked site for a protracted period of time, the site is visually blocked with an overlay, and the StayFocusd countdown is stopped.</p>
+                            <p>Before this feature was added, if you were on a blocked site and you minimized the browser, switched to another program, or walked away from the computer, the StayFocusd countdown would keep running. That could result in you using up all your time even when you weren't actively using the blocked site.</p>
+                            <p>The addition of this feature means that you will only use up your allotted time when you're actually active on a blocked site (meaning you are typing or your mouse is moving).</p>
+                        </li>
+                    </ul>
+                    <h4>Optimization</h4>
+                    <ul>
+                        <li>Removed unneeded logging to reduce memory consumption.</li>
+                        <li>Removed "allow this entire site" from popup. It's not really useful, but it IS an invitation to cheat by allowing a blocked site just before time runs out.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.13</h3>
+                    <h5>January 22, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Issue with timer and/or settings displaying NaN</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.12</h3>
+                    <h5>January 22, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>One more midnight-timer-reset issue is fixed.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.11</h3>
+                    <h5>January 21, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Issue with timer not resetting at midnight. The date check only happened when the browser was opened, so if you left it open overnight, it wouldn't reset until you closed and re-opened. Now it checks every time you load a page or switch a tab.</li>
+                    </ul>
+                </li>
+
+                <li class="release">
+                    <h3>Version 1.0.10</h3>
+                    <h5>January 20, 2010</h5>
+                    <h4>Bug fixes</h4>
+                    <ul>
+                        <li>Fixed: Time settings getting wiped out after closing and re-opening browser. In reality, the setting WAS being saved correctly, but the number displayed in the popup and options page was showing the default. </li>
+                        <li>Fixed: Zero or negative numbers should not be allowed in the max time allowed settings.</li>
+                        <li>Fixed: Allow numbers from keypad to be used in max time allowed settings.</li>
+                        <li>Fixed: Max allowed time displayed in options should reset original setting if user cancels confirmation prompt.</li>
+                        <li>Fixed: Confirm before allowing user to set a max allowed time smaller than the amount of time left for the day.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

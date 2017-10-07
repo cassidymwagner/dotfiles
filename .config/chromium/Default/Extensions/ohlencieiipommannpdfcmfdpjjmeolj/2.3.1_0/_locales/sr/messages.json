@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Browser дугме"
+   },
+   "options_saved": {
+      "message": "Промене су сачуване"
+   },
+   "save_button": {
+      "message": "Сачувај"
+   },
+   "support": {
+      "message": "Подршка"
+   },
+   "toolbar_icons": {
+      "message": "Chrome иконица"
+   },
+   "website_button": {
+      "message": "Дугме за сајтове"
+   }
+}

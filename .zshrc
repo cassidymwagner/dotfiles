@@ -87,7 +87,15 @@ source $ZSH/oh-my-zsh.sh
 eval $(dircolors -b /etc/DIR_COLORS)
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
 
+# Import colorscheme from 'wal'
+# &   # Run the process in the background.
+# ( ) # Hide shell job control messages.
+(wal -r &)
 
+# Import the colors.
+. "${HOME}/.cache/wal/colors.sh"
 
+# Create the alias.
+alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
 
 

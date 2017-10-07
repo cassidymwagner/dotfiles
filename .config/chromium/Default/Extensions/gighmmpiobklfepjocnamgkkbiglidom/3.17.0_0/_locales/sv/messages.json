@@ -1,0 +1,2051 @@
+{
+   "aalinkadreport": {
+      "description": "Acceptable Ads link message on ad report page",
+      "message": "Find out more about the Acceptable Ads program."
+   },
+   "aamessageadreport": {
+      "description": "Acceptable Ads message on ad report page",
+      "message": "If you'd rather not see ads like this one, you may want to leave the Acceptable Ads filter list turned off."
+   },
+   "ab_filters_subscription_lastDownload_checksumMismatch": {
+      "description": "Filter lists tab of the Options page: Corrupted filter list file.",
+      "message": "Misslyckades, felaktig kontrollsumma"
+   },
+   "ab_filters_subscription_lastDownload_connectionError": {
+      "description": "Filter lists tab of the Options page: Generic filter list download error message.",
+      "message": "Fel vid hämtning"
+   },
+   "ab_filters_subscription_lastDownload_invalidData": {
+      "description": "Filter lists tab of the Options page: Invalid filter list file.",
+      "message": "Failed, not a valid filters list"
+   },
+   "ab_filters_subscription_lastDownload_invalidURL": {
+      "description": "Filter lists tab of the Options page: Message when you subscribe to a non-list URL.",
+      "message": "Misslyckades, inte en giltig adress"
+   },
+   "acceptable_ads_content_blocking_disbled_message": {
+      "description": "Warning shown when Safari Content Blocking is enabled while the Acceptable Ads filter list was already enabled.",
+      "message": "We unsubscribed you from Acceptable Ads because you turned on Safari Content Blocking. You can only select one at a time. ([[Why?]])"
+   },
+   "acceptableadsdisable_done": {
+      "description": "Message shown to users after disabling Acceptable Ads via the Options page.",
+      "message": "You're no longer subscribed to the Acceptable Ads filter list."
+   },
+   "acceptableadsdisable_how_to_reenable": {
+      "description": "Message shown to users after disabling Acceptable Ads via the Options page.",
+      "message": "You can turn this back on and support the websites you love by selecting \"Allow some non-intrusive advertising\" below."
+   },
+   "acceptableadsoption": {
+      "description": "Checkbox on the 'General' tab of the Options page to enable the Acceptable Ads filter list",
+      "message": "Tillåt viss icke-störande reklam"
+   },
+   "ad_report_please": {
+      "description": "Link to the ad report page on AdBlock's help site. This is found on the Support tab of the options.",
+      "message": "Om du ser en annons, skicka inte en felrapport. Rapportera ett [[reklamtillägg]]!"
+   },
+   "adalreadyblocked": {
+      "description": "On the ad report page, telling the user there is nothing to do as the ad they were seeing is now blocked.",
+      "message": "Grymt! Du är helt klar."
+   },
+   "adblock_click_for_details": {
+      "description": "Tooltip on the AdBlock button, to help users understand that they can click the button to access more options.",
+      "message": "AdBlock - Klicka för meny"
+   },
+   "adblock_wont_run_on_pages_matching": {
+      "description": "Message displayed when the whitelist wizard will whitelist part of an entire website, for example '*.google.com/reader/*'.  The URL will appear on the next line.",
+      "message": "AdBlock avaktiveras på alla sidor som matchar:"
+   },
+   "adblockinglist": {
+      "description": "Subtitle on the Filter lists tab: List of filter lists to block ads.",
+      "message": "Reklamblockerande filterlistor"
+   },
+   "adblockreportinganad": {
+      "description": "Title of the ad report page",
+      "message": "AdBlock - Rapportera ett reklamtillägg"
+   },
+   "adblocksupport": {
+      "description": "Title of the Support tab of the Options page",
+      "message": "AdBlock Support"
+   },
+   "adblockupdates": {
+      "description": "Subtitle on the Support tab",
+      "message": "AdBlock-uppdateringar"
+   },
+   "add": {
+      "message": "Lägg till"
+   },
+   "add_domain_button": {
+      "message": "Lägg till domän"
+   },
+   "add_filter_button": {
+      "message": "Lägg till filter"
+   },
+   "add_filters_msg": {
+      "message": "Lägg till filter?"
+   },
+   "add_your_own_filters": {
+      "message": "Lägg till dina egna filter"
+   },
+   "adreport_all_debug_info": {
+      "description": "Shows the user the debug information that will be sent along with their report.",
+      "message": "The following information will also be included in the ad report."
+   },
+   "adreport_email": {
+      "description": "Label for a textbox where the user enters their email address to submit a bug or ad report.",
+      "message": "Vad är din e-postadress?"
+   },
+   "adreport_email_privacy": {
+      "description": "Let the user know that their email address won't be used for reasons other than contacting them about their bug or ad report.",
+      "message": "We'll only use this to contact you if we need more information."
+   },
+   "adreport_filter": {
+      "description": "Optional question on the ad report page when the ad needs to be reported to AdBlock.",
+      "message": "If you have created a working filter using the \"block an ad\" wizard, paste it in the box below:"
+   },
+   "adreport_laststep": {
+      "description": "Subtitle on the ad report page. Shown when the ad needs to be reported to AdBlock, and not filter list maintainers.",
+      "message": "Sista steget: rapportera problemet till oss."
+   },
+   "adreport_location": {
+      "description": "Question on the ad report page asking the user to describe the ad and its location on a webpage.",
+      "message": "Exactly where on that page is the ad? What does it look like?"
+   },
+   "adreport_missing_info": {
+      "description": "Error message shown when the user doesn't enter anything in some of the text fields.",
+      "message": "Required information is missing or invalid.  Please fill in the questions that have a red border."
+   },
+   "adreport_missing_screenshot": {
+      "description": "Error message shown when the user doesn't attach a screenshot to an ad report.",
+      "message": "You forgot to attach a screenshot! We can't help you without seeing the ad(s) you're reporting."
+   },
+   "adreport_name": {
+      "description": "Label for a textbox where the user enters their name (or nickname) to submit a bug or ad report.",
+      "message": "Vad är ditt namn?"
+   },
+   "adreport_response_file_name": {
+      "description": "Error message shown when the file name of an attachement the user is trying to submit in a report is longer than 255 characters.",
+      "message": "That file name is too long. Please give your file a shorter name."
+   },
+   "adreport_response_invalid_file": {
+      "description": "Error message shown when the user uploads an invalid file type.",
+      "message": "That's not an image file. Please upload a .png, .gif, or .jpg file."
+   },
+   "adreport_response_large_file": {
+      "description": "Error message shown when the user tries to upload a large image file.",
+      "message": "That file is too big. Please make sure your file is less than 10 MB."
+   },
+   "adreport_response_save_error": {
+      "description": "Error message shown when the server could not save an attached file.",
+      "message": "Fel vid sparande av den uppladdade filen."
+   },
+   "adreport_response_success": {
+      "description": "Shown when a ticket has been sumbitted to AdBlock's support site successfully.",
+      "message": "All set! We'll be in touch as soon as we can. In the meantime, look for an email from AdBlock. You'll find a link to your ticket on our help site there, along with some self-help suggestions if we can't get back to you right away."
+   },
+   "adreport_screen_cap_upload": {
+      "description": "Label next to a file upload button.",
+      "message": "Bifoga en skärmdump:"
+   },
+   "adreport_server_response_error__manual_msg_step1": {
+      "description": "Error message shown when the server has an unrecoverable error during the submission of an ad or bug report.",
+      "message": "Gå till [[vår supportwebbplats]]."
+   },
+   "adreport_server_response_error__manual_msg_step2": {
+      "description": "Error message shown when the server has an unrecoverable error during the submission of an ad or bug report.",
+      "message": "And manually create a ticket, and copy and paste the information below into the \"Fill in any details you think will help us understand your issue\" section."
+   },
+   "adreport_server_response_error_msg": {
+      "description": "Error message shown when an new ticket is sumbitted for an ad or bug report, and the server had an issue while processing the data.",
+      "message": "There was an error processing your request."
+   },
+   "adreportintro": {
+      "description": "Introduction of the ad reporting page",
+      "message": "Found an ad on a web page? We'll help you find the right place to report it!"
+   },
+   "adreportthanks": {
+      "description": "Message to the user thanking them for sharing the URL with us.",
+      "message": "Tack!"
+   },
+   "adreportvoluntary": {
+      "description": "Introduction of the ad reporting page",
+      "message": "Reporting ads is voluntary. It helps other people by enabling the filter list maintainers to block the ad for everyone. If you're not feeling altruistic right now, that's okay. Close this page and [[block the ad]] just for yourself."
+   },
+   "adstillappear": {
+      "description": "Question on ad report page",
+      "message": "Är reklamtillägget fortfarande kvar?"
+   },
+   "advanced_options2": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Jag är avancerad användare, visa avancerade alternativ"
+   },
+   "all_youtube_channels_complete": {
+      "description": "Alert displayed after the whitelisting of all subscribed YouTube channels has been completed",
+      "message": "All of your YouTube™ channel subscriptions have been whitelisted"
+   },
+   "allow_ads_all_youtube_channels": {
+      "description": "Toolbar button menu entry, displayed only on youtube.com/feed/subscriptions and if the YouTube channel whitelisting option is enabled",
+      "message": "Allow ads on all subscribed YouTube™ channels"
+   },
+   "allow_whitelisting_youtube_channels": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Allow whitelisting of specific YouTube™ channels (requires restarting your browser)"
+   },
+   "apply_changes": {
+      "message": "Verkställ ändringar"
+   },
+   "betalabel": {
+      "description": "Label for experimental features in AdBlock Options",
+      "message": "Beta"
+   },
+   "blacklistclickmessage": {
+      "description": "'Hide a section of a webpage' part on the Customize tab of the Options page.",
+      "message": "Högerklicka ett reklamtillägg på en sida för att blockera det -- eller blockera det manuellt här."
+   },
+   "blacklisterattrwillbe": {
+      "description": "Checkbox label for attributes in 'Block an ad' wizard.",
+      "message": "$attribute$ är $value$",
+      "placeholders": {
+         "attribute": {
+            "content": "$1",
+            "example": "class"
+         },
+         "value": {
+            "content": "$2",
+            "example": "AdBanner"
+         }
+      }
+   },
+   "blacklisterblockedelement": {
+      "description": "Tells the user what the blocked element is on the 'Block an ad' wizard.",
+      "message": "Blockerade element:"
+   },
+   "blacklisterblocksalloftype": {
+      "description": "Warns the user that all elements of type X will be blocked.",
+      "message": "Varning! Detta filter blockerar alla $elementtype$-element på sidan!",
+      "placeholders": {
+         "elementtype": {
+            "content": "$1",
+            "example": "DIV"
+         }
+      }
+   },
+   "blacklistereditfilter": {
+      "description": "Text if the user wants to manually edit a filter. 'OK' is the standard JavaScript popup button text.",
+      "message": "Redigera filter här under, och tryck 'OK'"
+   },
+   "blacklistereditinvalid1": {
+      "description": "Alert if the manually edited filter is invalid. Error messages are not translated.",
+      "message": "Filtret är ogiltigt: $exception$",
+      "placeholders": {
+         "exception": {
+            "content": "$1",
+            "example": "This filter is not supported"
+         }
+      }
+   },
+   "blacklistermatches": {
+      "description": "Tells the user multiple matches were found",
+      "message": "Det matchar $matchcount$ objekt på den här sidan.",
+      "placeholders": {
+         "matchcount": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "blacklisternofilter": {
+      "description": "Warning if the user hasn't specified a filter",
+      "message": "Inget filter specificerat!"
+   },
+   "blacklisternotsure": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Osäker? Tryck bara 'Blockera'."
+   },
+   "blacklisteroptions1": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Vad tror du kommer att vara sant om det här reklamtillägget varje gång du besöker sidan?"
+   },
+   "blacklisteroptionstitle": {
+      "description": "'Block an ad' wizard title",
+      "message": "Sista steget: Vad gör det här till ett reklamtillägg?"
+   },
+   "blacklistersinglematch": {
+      "description": "Tells the user only one match was found",
+      "message": "Det matchar 1 objekt på den här sidan."
+   },
+   "blacklisterthefilter": {
+      "description": "'Block an ad' wizard attribute choice page",
+      "message": "Filtret, som kan ändras på Alternativ-sidan:"
+   },
+   "blacklistertype": {
+      "description": "node name is called 'Type' (HTML tag)",
+      "message": "Typ"
+   },
+   "blacklisterwarningnofilter": {
+      "description": "Warns the user that nothing will be blocked.",
+      "message": "OBS! Inget filter specificerat!"
+   },
+   "block_ads_on_youtube": {
+      "description": "Label for checkbox letting user choose whether to block ads on youtube.com",
+      "message": "Ta bort annonser på YouTube"
+   },
+   "block_an_ad_on_this_page": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "Blockera ett objekt på denna sida"
+   },
+   "block_annonyances_on_youtube": {
+      "description": "Checkbox letting user choose whether to block annonyances on youtube.com (such as comments, suggested videos, annotations, and recommended channels)",
+      "message": "Remove annoyances on YouTube™"
+   },
+   "block_element": {
+      "message": "Blockera objekt"
+   },
+   "block_privacy_on_youtube": {
+      "description": "Checkbox letting user choose whether to block privacy-related requests on youtube.com",
+      "message": "Skydda mitt privatliv på YouTube"
+   },
+   "block_this_ad": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "Blockera det här reklamtillägget"
+   },
+   "blockanadtitle": {
+      "description": "Title of the first two dialogs of the 'Block an ad' wizard",
+      "message": "Blockera ett objekt"
+   },
+   "blockdomain": {
+      "description": "Message of the URL and CSS blocking sections",
+      "message": "Domän som skall filtreras"
+   },
+   "blocked_ads": {
+      "description": "Title for toolbar icon menu section showing number of ads blocked",
+      "message": "Blockerade tillägg:"
+   },
+   "blocked_n_in_total": {
+      "description": "Shown below the 'Blocked ads:' message. Shows the number of ads blocked since AdBlock was installed. $count$ will be a number between 1 and 999,999,999.",
+      "message": "$count$ totalt",
+      "placeholders": {
+         "count": {
+            "content": "[[123,456]]",
+            "example": "123,456"
+         }
+      }
+   },
+   "blocked_n_on_this_page": {
+      "description": "Shown below the 'Blocked ads:' message. Shows the number of ads blocked on this page. $count$ will be a number between 1 and 999.",
+      "message": "$count$ på den här sidan",
+      "placeholders": {
+         "count": {
+            "content": "[[123]]",
+            "example": "123"
+         }
+      }
+   },
+   "blockedresource": {
+      "description": "Resource list page: resource status",
+      "message": "Blockerad resurs"
+   },
+   "blockmoreads": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Blockera fler reklamtillägg:"
+   },
+   "blockurlwithtext": {
+      "description": "Message of the URL-blocking section (Block an ad by its URL) on the Customize tab",
+      "message": "Blockera URL:er innehållande den här texten"
+   },
+   "browserestartrequired": {
+      "description": "Displayed after disabling Safari Content Blocking, which requres a browser relaunch.",
+      "message": "Please restart Safari to finish turning off content blocking."
+   },
+   "bugreport": {
+      "description": "Link to send a bug report on the Support tab",
+      "message": "Why don't you send us a [[bug report]]?"
+   },
+   "buttonback": {
+      "description": "Back to previous page button",
+      "message": "Tillbaka"
+   },
+   "buttonblockit": {
+      "description": "Block button",
+      "message": "Blockera"
+   },
+   "buttoncancel": {
+      "description": "Cancel button",
+      "message": "Avbryt"
+   },
+   "buttonedit": {
+      "description": "Edit filter(s) manually button",
+      "message": "Redigera"
+   },
+   "buttonexclude": {
+      "description": "Button for excluding a domain in the whitelist wizard",
+      "message": "Undanta"
+   },
+   "buttonlooksgood": {
+      "description": "Confirmation button after user chose what to block on the page",
+      "message": "Ser bra ut"
+   },
+   "buttonok": {
+      "description": "OK button",
+      "message": "OK"
+   },
+   "buttonsubmit": {
+      "description": "Button to send a form.",
+      "message": "Skicka"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "cantblockflash": {
+      "description": "Result of the final ad report question",
+      "message": "Vi kan inte blockera reklam i Flash och andra tillägg än. Vi väntar på stöd från webbläsaren och WebKit."
+   },
+   "cantblockflashwarning": {
+      "description": "Text of the final ad report question",
+      "message": "Framträder reklamen i eller före en film eller något annat tillägg, som ett Flash-spel?"
+   },
+   "checkinfirefox_1": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "Installera Firefox om du inte redan har gjort det."
+   },
+   "checkinfirefox_2": {
+      "description": "Instruction for how to check Firefox for a reported ad. Don't translate the name 'Adblock Plus'.",
+      "message": "Install Adblock Plus for Firefox if you don't have it."
+   },
+   "checkinfirefox_3": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "I den webbläsaren prenumererar du på samma filterlistor som du har här."
+   },
+   "checkinfirefox_4": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Surfa till sidan med reklamtillägget, i den webbläsaren."
+   },
+   "checkinfirefox_5": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad",
+      "message": "Finns reklamtillägget i den webbläsaren också?"
+   },
+   "checkinfirefoxorchrome_1": {
+      "description": "instruction for how to check Firefox or Chrome for a reported ad",
+      "message": "Install Firefox or Chrome if you don't have it."
+   },
+   "checkinfirefoxorchrome_2": {
+      "description": "Instruction for how to check Firefox/Chrome for a reported ad. Don't translate the name 'Adblock Plus'.",
+      "message": "Install Adblock Plus for Firefox or AdBlock for Chrome if you don't have it."
+   },
+   "checkinfirefoxorchrometitle": {
+      "description": "Tell a user to see if a reported ad also appears in Firefox/Chrome",
+      "message": "Kontrollera i Firefox eller Chrome"
+   },
+   "checkinfirefoxtitle": {
+      "description": "Tell a user to see if a reported ad also appears in Firefox",
+      "message": "Kontrollera i Firefox "
+   },
+   "chromebutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Hide Button' should match the text that Chrome displays when you right click a toolbar button.",
+      "message": "Right-click the AdBlock button and select 'Hide in Chrome Menu'. To show it, click the Chrome menu, right-click the AdBlock button, and select 'Keep in Toolbar'."
+   },
+   "cleanuplist2": {
+      "description": "Label at the bottom of the 'Customize' tab of the Options page",
+      "message": "Rensa denna lista"
+   },
+   "clickdisableaa": {
+      "description": "Instruction on ad report page",
+      "message": "Click this: [[Disable Acceptable Ads]]"
+   },
+   "clickdisableotherextensions": {
+      "description": "On the ad report page, an alternative way to disable other extensions",
+      "message": "ELLER klicka bara på denna knapp, så sköter vi allt ovanstående: [[Inaktivera alla andra tillägg]]"
+   },
+   "clickhide_instructions": {
+      "message": "När denna popup stängs, klicka (eller högerklicka) ett objekt på sidan."
+   },
+   "clickthead": {
+      "description": "User has to click the ad they want to block.",
+      "message": "Klicka på objektet, så hjälper jag dig igenom blockeringen."
+   },
+   "clickupdatefilters": {
+      "description": "Instruction on ad report page",
+      "message": "Klick här: [[Uppdatera mina filter!]]"
+   },
+   "close": {
+      "description": "Generic message for buttons that close a view or window",
+      "message": "Stäng"
+   },
+   "confirm_undo_custom_filters": {
+      "description": "Confirmation message when user wants to undo their custom blocks for a domain. $count$ will be a number between 1 and 999,999,999, $host$ will be the domain where the custom blocks will be reset.",
+      "message": "Vill du verkligen ta bort $count$ blockering(ar) som du har skapat för $host$?",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "12"
+         },
+         "host": {
+            "content": "$2",
+            "example": "stackoverflow.com"
+         }
+      }
+   },
+   "content_blocking_acceptable_ads_disbled_message": {
+      "description": "Warning shown when the Acceptable Ads filter list is enabled while Safari Content Blocking was already enabled.",
+      "message": "We turned off Safari Content Blocking because you opted to allow non-intrusive ads. You can only select one at a time. ([[Why?]])"
+   },
+   "contentblockingwarning": {
+      "description": "Notice shown on the 'Customize' tab of the options page when Safari Content Blocking is enabled",
+      "message": "Note:  Whitelisting (allowing ads on) a page or site is not supported with Safari Content Blocking enabled."
+   },
+   "contributors": {
+      "description": "Link to the contributors page on the Support tab",
+      "message": "We've got a page to help you find out the [[people behind AdBlock]], as well!"
+   },
+   "correctfilters": {
+      "description": "On the ad report page, label describing having the right filter lists enabled",
+      "message": "Make sure you're using the right language filter(s):"
+   },
+   "csstomatch": {
+      "description": "Message of the CSS-hiding section (Hide a section of a webpage) on the Customize tab",
+      "message": "CSS att matcha"
+   },
+   "custom_filters_migration_error_message_part1": {
+      "description": "Part one of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "Custom filters error count: "
+   },
+   "custom_filters_migration_error_message_part2": {
+      "description": "Part two of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "The following message(s) were generated during the custom filter migration (ignore the line numbers): "
+   },
+   "custom_filters_migration_error_message_part3": {
+      "description": "Part three of a message shown to users on the Customize tab of the Options page after invalid custom filters have been migrated",
+      "message": "Ursprungligt inlägg: "
+   },
+   "customfilters": {
+      "description": "Subtitle on the Filter lists tab: Section for adding your own filter lists.",
+      "message": "Anpassade filterlistor"
+   },
+   "customfilterserrormessage": {
+      "description": "Error message when there is an issue with a custom filter on the 'Customize' tab of the Options page",
+      "message": "Följande filter:\n $filter$ \n har ett fel: \n $message$",
+      "placeholders": {
+         "filter": {
+            "content": "$1",
+            "example": "@@.ad"
+         },
+         "message": {
+            "content": "$2",
+            "example": "invalid filter"
+         }
+      }
+   },
+   "datacollectionoption": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Allow AdBlock to collect anonymous filter list usage data, and information about content blocked by filter lists"
+   },
+   "debuginfo": {
+      "description": "Users can click this link to provide debug information to AdBlock staff",
+      "message": "Har vårt team begärt någon felinformation? Klicka [[här]] för det!"
+   },
+   "debuginlogoption": {
+      "description": "Checkbox on the 'General' tab of the Options page",
+      "message": "Show debug statements in Console Log (which slows down the extension)"
+   },
+   "delete_migration_error_messages": {
+      "description": "Button to delete error messages when adding custom filters manually",
+      "message": "Ta bort meddelanden"
+   },
+   "description": {
+      "description": "Extension description in manifest. Should not exceed 132 characters.",
+      "message": "Det mest populära Chrome-tillägget, med över 40 miljoner användare!  Blockerar reklamtillägg över hela webben."
+   },
+   "description2": {
+      "description": "Extension description in manifest. Should not exceed 132 characters.",
+      "message": "Det mest populära Chrome-tillägget, med över 40 miljoner användare!  Blockerar reklamtillägg över hela webben."
+   },
+   "description_edge": {
+      "description": "Description for the AdBlock for Edge extension. Should not exceed 132 characters.",
+      "message": "AdBlock. The #1 ad blocker with over 200 million downloads. Blocks ads all over the web."
+   },
+   "description_yt": {
+      "description": "Description for the AdBlock on YouTube extension. Should not exceed 132 characters.",
+      "message": "The only YouTube™ ad blocker built by AdBlock, the most popular Chrome extension with 60 million users worldwide"
+   },
+   "disableaa": {
+      "description": "Section header on the ad report page",
+      "message": "Check the Acceptable Ads filters:"
+   },
+   "disableallextensions": {
+      "description": "Instruction on ad report page",
+      "message": "Inaktivera alla tillägg förutom AdBlock:"
+   },
+   "disabled_by_filter_lists": {
+      "description": "Message shown when a user tries to unwhitelist a web page that has been whitelisted by a rule in a subscribed filter list.",
+      "message": "Ledsen, men AdBlock är inaktiverat på den här sidan av en av dina filterlistor."
+   },
+   "disabled_by_filter_lists_yt": {
+      "description": "Message shown when a user tries to un-whitelist a web page that has been whitelisted by a rule in a subscribed filter list. Specific to the 'AdBlock on YouTube' extension.",
+      "message": "Sorry, AdBlock on YouTube™ is disabled on this page by one of your options."
+   },
+   "disabled_for_site": {
+      "message": "\u003Cstrong>Avaktiverat\u003C/strong> på denna webbplats"
+   },
+   "disabled_for_these_domains": {
+      "message": "AdBlock är avaktiverad för domänerna i denna lista. Du kan lägga till en domän via AdBlock-ikonen i adressfältet eller genom att skriva domännamnet (inte URL) i textboxen och klicka på \"Lägg till domän\"."
+   },
+   "disabled_on_this_channel": {
+      "description": "Message shown in the toolbar button menu on YouTube channel pages and videos that have been whitelisted.",
+      "message": "You allowed ads on this channel."
+   },
+   "disabled_on_this_page": {
+      "description": "Message shown in toolbar button on web pages that have been whitelisted",
+      "message": "AdBlock är inaktiverad på denna sida."
+   },
+   "disableforchromeandsafaristeptwo": {
+      "description": "Step 2 for disabling Chrome and Safari extensions",
+      "message": "Avaktivera alla tillägg utom AdBlock. Lämna AdBlock aktiverat."
+   },
+   "disableforchromestepone": {
+      "description": "Step 1 for disabling Chrome extensions",
+      "message": "Öppna [[tilläggssidan]]."
+   },
+   "disableforedgestepone": {
+      "description": "Step 1 for disabling Edge extensions",
+      "message": "Click the More menu (...) and select Extensions."
+   },
+   "disableforedgesteptwo": {
+      "description": "Step 2 for disabling Edge extensions",
+      "message": "For each extension except for AdBlock, click the gear icon and click the On toggle button to change it to Off."
+   },
+   "disableforsafaristepone": {
+      "description": "Step 1 for disabling Safari extensions",
+      "message": "Klicka på Safari-menyn > Alternativ > Tillägg."
+   },
+   "disableotherextensionscomplete": {
+      "description": "On the ad report page, alert notifying users that we've disabled all other extensions",
+      "message": "We've disabled all other extensions. Now we'll reload the page with the ad. One second, please."
+   },
+   "donate_to_adblock": {
+      "description": "Text of a donate link in the toolbar button menu",
+      "message": "Love AdBlock? Consider donating!"
+   },
+   "donate_to_youtube_adblock": {
+      "description": "Text of a donate link in the toolbar button menu. 'This' refers to the 'AdBlock on YouTube' extension.",
+      "message": "Love this? Consider donating!"
+   },
+   "dont_run_on_pages_on_domain": {
+      "description": "Menu entry to open the whitelist wizard",
+      "message": "Undanta denna domän"
+   },
+   "dont_run_on_this_page": {
+      "description": "Menu entry to whitelist the current page",
+      "message": "Undanta denna sida"
+   },
+   "easy_create_filter": {
+      "message": "Blockera objekt"
+   },
+   "easylist_disable_done": {
+      "description": "Message shown to users after disabling EasyList via the Filter lists tab on the Options page.",
+      "message": "AdBlock uses EasyList to block ads on most websites."
+   },
+   "easylist_disable_how_to_reenable": {
+      "description": "Message shown to users after disabling EasyList via the Filter lists tab on the Options page.",
+      "message": "We recommend keeping it on. If you unsubscribed by accident, please select \"EasyList\" now to block more ads."
+   },
+   "easylist_lite_disable_done": {
+      "description": "Message shown to users after disabling both EasyList Lite and EasyList via the Filter lists tab on the Options page.",
+      "message": "AdBlock uses EasyList Lite or EasyList to block ads on most websites."
+   },
+   "easylist_lite_disable_how_to_reenable": {
+      "description": "Message shown to users after disabling both EasyList Lite and EasyList via the Filter lists tab on the Options page.",
+      "message": "We recommend keeping it on. If you unsubscribed by accident, please select \"EasyList Lite\" or \"EasyList\" now to block more ads."
+   },
+   "edit_filters_raw": {
+      "message": "Redigera filter som ren text"
+   },
+   "enable_adblock": {
+      "description": "Link text to un-whitelist a page, displayed immediately after 'AdBlock is disabled on this page'",
+      "message": "Aktivera AdBlock på denna sida"
+   },
+   "enable_adblock_on_this_channel": {
+      "description": "Menu entry to un-whitelist a YouTube channel, displayed under 'You allowed ads on this channel.'",
+      "message": "Block ads on this channel"
+   },
+   "enable_only_the": {
+      "message": "Aktivera endast de filterlistor du behöver. För många kan göra att webbläsaren inte svarar."
+   },
+   "enabled_for_site": {
+      "message": "\u003Cstrong>Aktiverat\u003C/strong> på denna webbplats"
+   },
+   "enableotherextensionscomplete": {
+      "description": "On the ad report page, alert notifying users that we've re-enabled extensions that were previously disabled",
+      "message": "Tilläggen som tidigare inaktiverades, har nu återaktiverats."
+   },
+   "englishonly": {
+      "description": "Lets the user know that a link/page is only available in English.",
+      "message": "Endast på engelska"
+   },
+   "excludedomainorurl": {
+      "description": "Message of the exclude section (Show ads on a webpage or domain) on the Customize tab",
+      "message": "Domän eller url där AdBlock inte skall blockera något"
+   },
+   "failedtofetchfilter": {
+      "description": "Error alert when subscribing to a filter list",
+      "message": "Kunde inte hämta detta filter!"
+   },
+   "fetchinglabel": {
+      "description": "Status label when selecting a new filter list",
+      "message": "Hämtar... vänta!"
+   },
+   "ff_button_how_to_hide": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Remove from Toolbar' should match the text that Firefox displays when you right click a toolbar button, and 'Customize' should match the text that shows when you click the button on the Firefox toolbar with three lines.",
+      "message": "Högerklicka och välj Ta bort från verktygsfältet, för att dölja knappen. Du kan visa den igen, från Firefox-menyn -> Anpassa."
+   },
+   "ff_checkinchrome_1": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Installera Chrome, om du inte har det."
+   },
+   "ff_checkinchrome_2": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Installera AdBlock för Chrome, om du inte har det."
+   },
+   "ff_checkinchrome_3": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Prenumerera på samma filterlistor som du har här, i Chrome."
+   },
+   "ff_checkinchrome_4": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Gå till sidan med reklamtillägget, i Chrome."
+   },
+   "ff_checkinchrome_5": {
+      "description": "Instruction for how to check Chrome for a reported ad",
+      "message": "Ser du reklamtillägget i Chrome också?"
+   },
+   "ff_checkinchrometitle": {
+      "description": "Tell a user to see if a reported ad also appears in Chrome",
+      "message": "Kolla in Chrome"
+   },
+   "filter_chinese": {
+      "description": "A filter list combined with EasyList",
+      "message": "Kinesiska + EasyList"
+   },
+   "filter_czech": {
+      "description": "A filter list combined with EasyList",
+      "message": "Tjeckiska & Slovakiska + EasyList"
+   },
+   "filter_dutch": {
+      "description": "A filter list combined with EasyList",
+      "message": "Nederländska + EasyList"
+   },
+   "filter_easylist_plus_arabic_plus_french": {
+      "description": "A filter list combined with EasyList",
+      "message": "Arabiska + Franska + EasyList"
+   },
+   "filter_easylist_plus_bulgarian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Bulgariska + EasyList"
+   },
+   "filter_easylist_plus_french": {
+      "description": "A filter list combined with EasyList",
+      "message": "Franska + EasyList"
+   },
+   "filter_easylist_plus_german": {
+      "description": "A filter list combined with EasyList",
+      "message": "Tyska + EasyList"
+   },
+   "filter_easylist_plus_indonesian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Indonesiska + EasyList"
+   },
+   "filter_easylist_plus_lithuania": {
+      "description": "A filter list combined with EasyList",
+      "message": "Litauiska + EasyList"
+   },
+   "filter_easylist_plus_romanian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Rumänska + EasyList"
+   },
+   "filter_israeli": {
+      "description": "A filter list combined with EasyList",
+      "message": "Hebreiska + EasyList"
+   },
+   "filter_italian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Italienska + EasyList"
+   },
+   "filter_latvian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Lettiska + EasyList"
+   },
+   "filter_lists": {
+      "message": "Filterlistor"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Ditt filter måste följa \u003Ca>AdBlock filtersyntax\u003C/a>."
+   },
+   "filter_russian": {
+      "description": "A filter list combined with EasyList",
+      "message": "Russian & Ukrainian + EasyList"
+   },
+   "filteracceptable_ads": {
+      "description": "A filter list",
+      "message": "Godtagbara annonser"
+   },
+   "filteradblock_custom": {
+      "description": "A filter list",
+      "message": "AdBlock anpassade filter"
+   },
+   "filterannoyances": {
+      "description": "A filter list",
+      "message": "Fanboy's Annoyances (blocks in-page pop-ups, social media and related widgets, and other annoyances)"
+   },
+   "filterantisocial": {
+      "description": "A filter list",
+      "message": "Antisocial filterlista (tar bort knappar för sociala medier)"
+   },
+   "filterchinese": {
+      "description": "A filter list",
+      "message": "Kinesiska"
+   },
+   "filterczech": {
+      "description": "A filter list",
+      "message": "Tjeckiska och Slovakiska"
+   },
+   "filterdanish": {
+      "description": "A filter list",
+      "message": "Danska"
+   },
+   "filterdutch": {
+      "description": "A filter list",
+      "message": "Nederländska"
+   },
+   "filtereasylist": {
+      "description": "A filter list",
+      "message": "EasyList"
+   },
+   "filtereasylist_lite": {
+      "description": "A filter list",
+      "message": "EasyList Lite (rekommenderas)"
+   },
+   "filtereasylist_plun_korean": {
+      "description": "A filter list",
+      "message": "Koreanska"
+   },
+   "filtereasylist_plus_arabic": {
+      "description": "A filter list",
+      "message": "Arabiska"
+   },
+   "filtereasylist_plus_bulgarian": {
+      "description": "A filter list",
+      "message": "Bulgariska"
+   },
+   "filtereasylist_plus_estonian": {
+      "description": "A filter list",
+      "message": "Estniska"
+   },
+   "filtereasylist_plus_finnish": {
+      "description": "A filter list",
+      "message": "Finska"
+   },
+   "filtereasylist_plus_french": {
+      "description": "A filter list",
+      "message": "Franska"
+   },
+   "filtereasylist_plus_german": {
+      "description": "A filter list",
+      "message": "Tyska"
+   },
+   "filtereasylist_plus_greek": {
+      "description": "A filter list",
+      "message": "Grekiska"
+   },
+   "filtereasylist_plus_indonesian": {
+      "description": "A filter list",
+      "message": "Indonesiska"
+   },
+   "filtereasylist_plus_lithuania": {
+      "description": "A filter list",
+      "message": "Litauiska"
+   },
+   "filtereasylist_plus_polish": {
+      "description": "A filter list",
+      "message": "Polska"
+   },
+   "filtereasylist_plus_romanian": {
+      "description": "A filter list",
+      "message": "Rumänska"
+   },
+   "filtereasylist_plus_spanish": {
+      "description": "A filter list",
+      "message": "Spanska"
+   },
+   "filtereasyprivacy": {
+      "description": "A filter list",
+      "message": "EasyPrivacy (Integritetsskydd)"
+   },
+   "filterhungarian": {
+      "description": "A filter list",
+      "message": "Ungerska"
+   },
+   "filtericelandic": {
+      "description": "A filter list",
+      "message": "Isländska"
+   },
+   "filterisraeli": {
+      "description": "A filter list",
+      "message": "Hebreiska"
+   },
+   "filteritalian": {
+      "description": "A filter list",
+      "message": "Italienska"
+   },
+   "filterjapanese": {
+      "description": "A filter list",
+      "message": "Japanska"
+   },
+   "filterlatvian": {
+      "description": "A filter list",
+      "message": "Lettiska"
+   },
+   "filterlistlink": {
+      "description": "Filter lists tab explanation and link to filter list credits.",
+      "message": "Prenumerera inte på mer än du behöver -- Varje lista gör webbläsaren en liten aning långsammare! Listornas ursprung, och fler listor hittas [[här]]."
+   },
+   "filterlistsrock": {
+      "description": "Header text on the Customize tab",
+      "message": "Filterlistorna blockerar de flesta reklamtillägg på webben.  Du kan också:"
+   },
+   "filtermalware": {
+      "description": "A filter list",
+      "message": "Skydd mot skadlig kod"
+   },
+   "filterorigin": {
+      "description": "Resource list page: tooltip of matching filter, telling which filter list contains the filter",
+      "message": "Filter origin:\n$list$",
+      "placeholders": {
+         "list": {
+            "content": "$1",
+            "example": "A filter list name OR AdBlock OR the translation of 'tabcustomize'"
+         }
+      }
+   },
+   "filterrussian": {
+      "description": "Language names for a filter list",
+      "message": "Ryska och Ukrainska"
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Tillåt viss icke-störande reklam"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Lägg till"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Lägg till en ny prenumeration"
+   },
+   "filters_addSubscription_label": {
+      "message": "Lägg till filterprenumeration"
+   },
+   "filters_readMore_label": {
+      "message": "Läs mer"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Ta bort"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Aktiverat"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Fel kontrollsumma"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Fel vid hämtning"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Hämtar…"
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Fel vid validering av filter"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Ogiltig adress"
+   },
+   "filters_viewList_label": {
+      "message": "Visa lista"
+   },
+   "filtersavewarning": {
+      "description": "Warning when manually editing filters.",
+      "message": "Varning! Ett misstag här, kan resultera i att andra filter, inklusive dom officiella, kan förstöras!\nLäs '[[syntax-guiden]]' för att lära hur man skapar avancerade svart- och vitlistor."
+   },
+   "filtersavewarning_ytadblock_1": {
+      "description": "First part of the warning when manually editing filters in the 'AdBlock on YouTube' extension.",
+      "message": "Be careful: if you make a mistake here, AdBlock on YouTube™ could stop working properly."
+   },
+   "filtersavewarning_ytadblock_2": {
+      "description": "Second part of the warning when manually editing filters in the 'AdBlock on YouTube' extension.",
+      "message": "Read the [[filter syntax tutorial]] to learn how to add whitelist filters."
+   },
+   "filterstabtitle": {
+      "description": "Title of the Filter lists tab of the Options page",
+      "message": "Prenumerera på filterlistor"
+   },
+   "filterswedish": {
+      "description": "A filter list",
+      "message": "Svenska"
+   },
+   "filterturkish": {
+      "description": "A filter list",
+      "message": "Turkiska"
+   },
+   "filterwarning_removal": {
+      "description": "A filter list. \"Adblock\" is written with a lowercase B in this string as it refers to ad blocking extensions in general, not just AdBlock specifically.",
+      "message": "Adblock Warning Removal list (removes warnings about using ad blockers)"
+   },
+   "findingads": {
+      "description": "'Block an ad' wizard loading message",
+      "message": "Söker reklamtillägg...\n\nDet tar bara ett ögonblick!"
+   },
+   "firefox_explanation": {
+      "description": "Explanation of the 'Check in Firefox or Chrome' step on the ad report page",
+      "message": "Syftet med denna fråga, är att avgöra vem som skall ta emot din rapport. Besvarar du denna fråga felaktigt, kommer rapporten att skickas till fel personer och riskerar därmed att ignoreras."
+   },
+   "firstRun_abbButtonSubtitle": {
+      "message": "Finns för Android och iOS"
+   },
+   "firstRun_abbButtonTitle": {
+      "message": "Skaffa Adblock Browser här"
+   },
+   "firstRun_abbPromotionHeadline": {
+      "message": "Har du en smartphone eller en surfplatta?"
+   },
+   "firstRun_acceptableAdsExplanation": {
+      "message": "Vi vill uppmuntra webbplatser att använda enkel, diskret reklam. Det är därför vi har fastställt \u003Ca>strikta riktlinjer\u003C/a> för att identifiera acceptabla annonser, som visas under standardinställningar. Om du fortfarande vill blockera alla annonser kan du \u003Ca>inaktivera\u003C/a> detta inom ett par sekunder."
+   },
+   "firstRun_acceptableAdsHeadline": {
+      "message": "Irriterande annonser blockeras nu"
+   },
+   "firstRun_contributor_credits": {
+      "message": "Tack till"
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "Fortsätter denna sida att visas? \u003Ca>Klicka här!\u003C/a>"
+   },
+   "firstRun_donate": {
+      "message": "donera"
+   },
+   "firstRun_donate_label": {
+      "message": "Stöd vårt projekt"
+   },
+   "firstRun_feature_malware": {
+      "message": "Malwareblockering"
+   },
+   "firstRun_feature_malware_description": {
+      "message": "Göra din surfning säkrare genom att blockera kända skadliga domäner."
+   },
+   "firstRun_feature_social": {
+      "message": "Ta bort knappar för Sociala Medier"
+   },
+   "firstRun_feature_social_description": {
+      "message": "Förbättrar automatiskt din webbupplevelse genom borttagning av sociala medier knappar, såsom Facebook Gilla, som visas på webbsidor och spåra ditt beteende."
+   },
+   "firstRun_feature_tracking": {
+      "message": "Inaktivera Spårning"
+   },
+   "firstRun_feature_tracking_description": {
+      "message": "Surfa privat genom att inaktivera spårning - dölj dina spår från reklamföretag som vill spåra dina rörelser."
+   },
+   "firstRun_features": {
+      "message": "AdBlock kan göra mer än att blockera reklam"
+   },
+   "firstRun_filterlistsReinitializedWarning": {
+      "message": "Det verkar som ett problem har orsakat att alla filter har tagits bort och det gick inte att återställa en säkerhetskopia. Vi var därför tvunga att att återställa dina Filter och Acceptabla Annonser inställningar. Vänligen kontrollera dina Filterlistor och Acceptabla Annonser inställningar i \u003Ca>AdBlock alternativ\u003C/a>."
+   },
+   "firstRun_legacySafariWarning": {
+      "message": "Du använder en äldre version av Safari som inte stödjs av AdBlock. AdBlock kanske inte fungerar korrekt eller försämrar användarupplevelsen på vissa hemsidor. Vi rekommenderar starkt att antingen uppdatera till Safari 6.1.1 eller högre (tillgänglig på OS X 10.8 Mountain Lion), Safari 7.0.1 eller högre (tillgänglig på OS X 10.9 Mavericks), eller att använda den senaste versionen av Mozilla Firefox, Google Chrome eller Opera."
+   },
+   "firstRun_share": {
+      "message": "Berätta för dina vänner"
+   },
+   "firstRun_share_headline": {
+      "message": "\u003Ca>Hjälp oss\u003C/a> att göra webben till en bättre plats"
+   },
+   "firstRun_title": {
+      "message": "AdBlock har installerats"
+   },
+   "firstRun_toggle_off": {
+      "message": "AV"
+   },
+   "firstRun_toggle_on": {
+      "message": "PÅ"
+   },
+   "fixityourself": {
+      "description": "Telling users who won't report an ad to us how to handle it for themselves",
+      "message": "OK, du kan fortfarande blockera reklamen själv på 'Alternativ-sidan'. Tack!"
+   },
+   "flashads": {
+      "description": "Title of the final ad report question if the ad didn't appear in Firefox",
+      "message": "Video och Flash"
+   },
+   "format_site1_site2_site3": {
+      "description": "Example showing users how to input a list of sites on the Customize tab. You can translate the 'news' and 'siteN' but leave the '|'s and '~'s in place.",
+      "message": "Format: ~sida1.com|~sida2.se|~nyheter.sida3.org"
+   },
+   "found_a_bug": {
+      "message": "Hittat ett fel? Vill du översätta AdBlock till ett annat språk? Vänligen, \u003Ca>skapa en förfrågan här\u003C/a>."
+   },
+   "foundbug": {
+      "description": "Subtitle on the Support tab",
+      "message": "Hittat ett fel?"
+   },
+   "framedomain": {
+      "description": "Resource list page: domain name of the frame",
+      "message": "Ram-domän: "
+   },
+   "frametype": {
+      "description": "Resource list page: followed by frame type (top frame, subframe)",
+      "message": "Ramtyp: "
+   },
+   "frameurl": {
+      "description": "Resource list page: full URL of the frame",
+      "message": "Ram-URL: "
+   },
+   "general": {
+      "message": "Allmänt"
+   },
+   "generaloptions": {
+      "description": "Title of the first Options page tab",
+      "message": "Allmäna alternativ"
+   },
+   "global_filter_elemhide_duplicate_id": {
+      "message": "Endast ett ID får anges för elementet som skall döljas"
+   },
+   "global_filter_elemhide_nocriteria": {
+      "message": "Inga villkor för att gömma element har uppfyllts"
+   },
+   "global_filter_invalid_regexp": {
+      "message": "Ogiltigt reguljärt uttryck"
+   },
+   "global_filter_unknown_option": {
+      "message": "Okänt filteralternativ"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Vill du verkligen ta bort denna prenumeration?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Platsen du angivit är antingen ogiltig eller så har du angivit ett felaktigt filnamn."
+   },
+   "headerfilter": {
+      "description": "Resource list page: title of a column",
+      "message": "Matchat filter"
+   },
+   "headerresource": {
+      "description": "Resource list page: title of a column",
+      "message": "Resurs"
+   },
+   "headertype": {
+      "description": "Resource list page: title of a column",
+      "message": "Typ"
+   },
+   "help_and_feedback": {
+      "description": "Text of a help link in the toolbar button menu",
+      "message": "Help and Feedback"
+   },
+   "here": {
+      "description": "This message is injected in other strings as a link/button",
+      "message": "Här"
+   },
+   "hiddenelement": {
+      "description": "Resource list page: resource status",
+      "message": "Dolt element"
+   },
+   "hide_this_button": {
+      "description": "Toolbar button menu entry to hide the AdBlock button",
+      "message": "Dölj knapp"
+   },
+   "how": {
+      "description": "Text of a link pointing to instructions on how to do something",
+      "message": "Hur?"
+   },
+   "invalidListUrl": {
+      "description": "Message when you subscribe to a non-list URL",
+      "message": "Ogiltig listadress. Den kommer att tas bort."
+   },
+   "invalid_css_selector": {
+      "message": "$selector$ är inte en giltig CSS-väljare",
+      "placeholders": {
+         "selector": {
+            "content": "$1"
+         }
+      }
+   },
+   "lang_arabic": {
+      "description": "Language name",
+      "message": "Arabiska"
+   },
+   "lang_bulgarian": {
+      "description": "Language name",
+      "message": "Bulgariska"
+   },
+   "lang_chinese": {
+      "description": "Language name",
+      "message": "Kinesiska"
+   },
+   "lang_czech": {
+      "description": "Language name",
+      "message": "Tjeckiska"
+   },
+   "lang_danish": {
+      "description": "Language name",
+      "message": "Danska"
+   },
+   "lang_dutch": {
+      "description": "Language name",
+      "message": "Nederländska"
+   },
+   "lang_english": {
+      "description": "Language name",
+      "message": "Engelska"
+   },
+   "lang_estonian": {
+      "description": "Language name",
+      "message": "Estniska"
+   },
+   "lang_finnish": {
+      "description": "Language name",
+      "message": "Finska"
+   },
+   "lang_french": {
+      "description": "Language name",
+      "message": "Franska"
+   },
+   "lang_german": {
+      "description": "Language name",
+      "message": "Tyska"
+   },
+   "lang_greek": {
+      "description": "Language name",
+      "message": "Grekiska"
+   },
+   "lang_hungarian": {
+      "description": "Language name",
+      "message": "Ungerska"
+   },
+   "lang_icelandic": {
+      "description": "Language name",
+      "message": "Isländska"
+   },
+   "lang_indonesian": {
+      "description": "Language name",
+      "message": "Indonesiska"
+   },
+   "lang_israeli": {
+      "description": "Language name",
+      "message": "Hebreiska"
+   },
+   "lang_italian": {
+      "description": "Language name",
+      "message": "Italienska"
+   },
+   "lang_japanese": {
+      "description": "Language name",
+      "message": "Japanska"
+   },
+   "lang_korean": {
+      "description": "Language name",
+      "message": "Koreanska"
+   },
+   "lang_latvian": {
+      "description": "Language name",
+      "message": "Lettiska"
+   },
+   "lang_lithuania": {
+      "description": "Language name",
+      "message": "Litauiska"
+   },
+   "lang_polish": {
+      "description": "Language name",
+      "message": "Polska"
+   },
+   "lang_romanian": {
+      "description": "Language name",
+      "message": "Rumänska"
+   },
+   "lang_russian": {
+      "description": "Language name",
+      "message": "Ryska"
+   },
+   "lang_slovak": {
+      "description": "Language name",
+      "message": "Slovakiska"
+   },
+   "lang_spanish": {
+      "description": "Language name",
+      "message": "Spanska"
+   },
+   "lang_swedish": {
+      "description": "Language name",
+      "message": "Svenska"
+   },
+   "lang_turkish": {
+      "description": "Language name",
+      "message": "Turkiska"
+   },
+   "lang_ukranian": {
+      "description": "Language name",
+      "message": "Ukrainska"
+   },
+   "languagedropdowndescription": {
+      "description": "Dropdown list for language-specific filter lists",
+      "message": "Lägg till filter för andra språk: "
+   },
+   "last_updated_at": {
+      "message": "Senast uppdaterad den $date$ $time$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "Senast uppdaterad i dag $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "legend": {
+      "description": "Resource list page: followed by color codes for various resource statuses (blocked, whitelisted, hidden)",
+      "message": "Legend: "
+   },
+   "line": {
+      "message": "Rad $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "linkblockadbyurl": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Blockera ett reklamtillägg via URL"
+   },
+   "linkhidesection": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Dölj delar av en webbsida"
+   },
+   "linkunblock": {
+      "description": "Link label on the 'Customize' tab",
+      "message": "Tillåt reklam på en webbsida eller domän"
+   },
+   "loading": {
+      "description": "Generic message displayed during processes that take some time",
+      "message": "LÄSER IN..."
+   },
+   "malwarecheck": {
+      "description": "Section header on the ad report page",
+      "message": "Check for malware that could be injecting ads:"
+   },
+   "malwarenotfound": {
+      "description": "On the ad report page, the ads the user is seeing are probably not caused by malware/adware",
+      "message": "Ingen känd, skadlig kod hittades."
+   },
+   "malwarenotificationcheckboxmessage": {
+      "description": "Checkbox displayed when subscribing to the 'Malware protection' filter list on the Filter lists tab of the Options page",
+      "message": "Vill du att AdBlock skall meddela dig när den upptäcker skadlig kod?"
+   },
+   "malwarenotificationdisablethesemessages": {
+      "description": "Button on the malware notification to disable future notifications. Message should be under 45 characters!",
+      "message": "Inaktivera dessa meddelanden"
+   },
+   "malwarenotificationlearnmore": {
+      "description": "Button on the malware notification that opens a page about malware on the AdBlock website. Message should be under 45 characters!",
+      "message": "Läs mer om skadlig kod"
+   },
+   "malwarenotificationmessage": {
+      "description": "Notification when a potential malware request has been blocked. This message should be under 90 characters!",
+      "message": "AdBlock har blockerat en nedladdning från en plats, känd för skadlig kod."
+   },
+   "malwarewarning": {
+      "description": "On the ad report page, the ads the user is seeing might be caused by malware/adware",
+      "message": "Din dator kan vara infekterad av skadlig kod. Klicka [[här]] för mer information."
+   },
+   "manualexcludefilteredit": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Redigera inaktiverade filter:"
+   },
+   "manualfilteredit": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Redigera dina filter manuellt:"
+   },
+   "manuallyenableotherextensions": {
+      "description": "On the ad report page, alert notifying users that they will need to manually reenable the extensions",
+      "message": "Öppna tilläggssidan för att aktivera de tillägg som tidigare inaktiverats."
+   },
+   "migration_error_message": {
+      "description": "Error when adding custom filters manually",
+      "message": "We've found some errors in your custom filters. See below for the messages."
+   },
+   "modifydomain": {
+      "description": "Caption for the whitelist wizard slider that modifies the domain part of a URL",
+      "message": "Domän:"
+   },
+   "modifypath": {
+      "description": "Caption for the whitelist wizard slider that modifies the path part of a URL",
+      "message": "Sida:"
+   },
+   "name": {
+      "message": "AdBlock"
+   },
+   "name_adblock_on_youtube": {
+      "description": "Name of version of the AdBlock extension that only blocks ads on YouTube. Other strings that refer to the 'AdBlock on YouTube' extension should use this name.",
+      "message": "AdBlock på YouTube"
+   },
+   "name_devbuild": {
+      "message": "AdBlock utvecklingsversion"
+   },
+   "new_resourcelist_explanation_osx": {
+      "description": "Message explaining how to access the resource list page on AdBlock 3.0+ (Mac)",
+      "message": "To show all requests, right click the page, select 'Inspect' (Option+Cmd+I), then select the 'AdBlock' tab."
+   },
+   "new_resourcelist_explanation_win": {
+      "description": "Message explaining how to access the resource list page on AdBlock 3.0+ (Windows)",
+      "message": "To show all requests, right click the page, select 'Inspect' (Ctrl+Shift+I), then select the 'AdBlock' tab."
+   },
+   "no": {
+      "description": "A negative response to a question",
+      "message": "Nej"
+   },
+   "nodefaultfilter1": {
+      "description": "Instructions on ad report page pointing users to EasyList subscriptions list.",
+      "message": "We don't have a default filter list for that language.\nPlease [[try to find a suitable list that supports this language]] or block this ad for yourself via the AdBlock menu."
+   },
+   "noresourcessend2": {
+      "description": "Resource list page: error message",
+      "message": "Something went wrong. No resources have been sent through. This page will now close. Try reloading the website."
+   },
+   "notification_antiadblock_message": {
+      "message": "Denna webbplats har varit känt för att visa riktade budskap till AdBlock användare. Vill du AdBlock att dölja riktade budskap?"
+   },
+   "notification_antiadblock_title": {
+      "message": "Göm riktade budskap?"
+   },
+   "notification_configure": {
+      "message": "Ändra notifikationsinställningar"
+   },
+   "notification_open_all": {
+      "message": "Öppna alla länkar från denna notifikationen"
+   },
+   "notification_with_buttons": {
+      "message": "Klicka på 'OK' för att öppna alla länkar i detta meddelande."
+   },
+   "notification_without_buttons": {
+      "message": "Klicka på meddelandet för att öppna alla länkar i det."
+   },
+   "one_moment_all_youtube_channels": {
+      "description": "Alert displayed when whitelisting all subscribed YouTube channels",
+      "message": "One moment while we gather all of your subscriptions"
+   },
+   "only_block_ads_on_these_sites": {
+      "description": "Label for textbox where user enters a list of sites on Customize tab",
+      "message": "Blockera reklamtillägg, endast på dessa sidor:"
+   },
+   "operabutton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Hide Button' should match the text that Opera displays on the Extensions page.",
+      "message": "Om du vill dölja knappen, gå till 'opera://extensions' och markera alternativet \"Dölj verktygsfältet\". Du kan visa den igen genom att avmarkera alternativet."
+   },
+   "options": {
+      "description": "The text of the link on chrome://chrome/extensions that takes you to the Options page",
+      "message": "Alternativ"
+   },
+   "options_short": {
+      "message": "Inställningar"
+   },
+   "optionstitle": {
+      "description": "Title for the Options page",
+      "message": "AdBlock-alternativ"
+   },
+   "optionstitle_yt": {
+      "description": "Title for the Options page for the 'AdBlock on YouTube' extension.",
+      "message": "AdBlock på YouTube-alternativ"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "Version $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "3.9.2"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "Text box to enter a link to a custom filter list",
+      "message": "Eller ange en URL:"
+   },
+   "other": {
+      "description": "Multiple choice option",
+      "message": "Annat"
+   },
+   "otherfilters": {
+      "description": "Subtitle on the Filter lists tab: List of filter lists to block other elements that are not ads.",
+      "message": "Andra filterlistor"
+   },
+   "out_of_date_lists": {
+      "message": "Utdaterade listor uppdateras periodiskt."
+   },
+   "overlay_notification_button_no": {
+      "message": "Nej"
+   },
+   "overlay_notification_button_yes": {
+      "message": "Ja"
+   },
+   "overlay_notification_closing_button_hide": {
+      "message": "Stäng denna notifiering"
+   },
+   "overlay_notification_closing_button_optout": {
+      "message": "Sluta visa notifieringar"
+   },
+   "overlay_shownotifications_label": {
+      "message": "Visa användbara notifieringar"
+   },
+   "pagelanguagecheck": {
+      "description": "Question on ad report page",
+      "message": "På vilket språk är sidan skriven?"
+   },
+   "pause_adblock": {
+      "description": "Menu entry to pause AdBlock (stop blocking ads)",
+      "message": "Pausa AdBlock"
+   },
+   "pause_adblocking": {
+      "description": "Menu entry to pause the extension (stop blocking ads)",
+      "message": "Pausa annonsblockering"
+   },
+   "privacy_policy": {
+      "description": "Link to AdBlock's privacy policy",
+      "message": "Sekretesspolicy"
+   },
+   "pwyw": {
+      "description": "Text of a payment request link",
+      "message": "Betala vad du vill!"
+   },
+   "questionoridea": {
+      "description": "Subtitle on the Support tab",
+      "message": "Har du en fråga eller någon ny idé?"
+   },
+   "reenableadsonebyone": {
+      "description": "Tells the user to re-enable the extensions one by one",
+      "message": "Great! Now let's find out which extension is the cause. Go through and enable each extension one by one. The extension that brings back the ad(s) is the one you need to uninstall to get rid of the ads."
+   },
+   "refusetocheck": {
+      "description": "User is telling us they don't wish to investigate something for us",
+      "message": "Jag vill inte leka testpilot just nu"
+   },
+   "reloadadpage": {
+      "description": "Instruction on ad report page",
+      "message": "Uppdatera sidan med reklamen."
+   },
+   "reloadpageafterwhitelist": {
+      "description": "Checkbox in the whitelist wizard",
+      "message": "Uppdatera sidan."
+   },
+   "remove_button": {
+      "message": "Ta bort markerad"
+   },
+   "removefromlist": {
+      "description": "Label to remove a custom filter list",
+      "message": "Ta bort från listan"
+   },
+   "report_ad_on_page": {
+      "description": "Entry in the AdBlock button menu",
+      "message": "Rapportera ett tillägg på den här sidan"
+   },
+   "reportfilterlistproblem": {
+      "description": "Telling the user to report an ad to a filter list maintainer",
+      "message": "Detta är ett filterlistproblem. Rapportera det här: $link$",
+      "placeholders": {
+         "link": {
+            "content": "[[]]",
+            "example": "The link could point to a filter list's forum, or to the email address of a filter list maintainer. For example, forums.lanik.us or someguy@list.com."
+         }
+      }
+   },
+   "reportpubliclyavailable": {
+      "description": "Ad report page string, when you're about to submit a report.",
+      "message": "OBS! Din rapport kan komma att bli pulicerad offentligt. Håll det i minnet om du inkluderar något av privat natur."
+   },
+   "resourceblocktitle": {
+      "description": "Resource list page name",
+      "message": "Alla resurser"
+   },
+   "resourcedomain": {
+      "description": "Resource list page: text shown when hovering over an item in the third-party column",
+      "message": "Laddad på sida med domän:\n$domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "example.com"
+         }
+      }
+   },
+   "retryaftersubscribe": {
+      "description": "Instructions on ad report page telling users to subscribe to a filter list and then check again to see whether the ad exists",
+      "message": "Prenumerera på denna filterlista, och försök igen: $list_title$",
+      "placeholders": {
+         "list_title": {
+            "content": "$1",
+            "example": "French"
+         }
+      }
+   },
+   "safari50_updatenotice": {
+      "description": "A message shown to Safari 5.0 users urging them to upgrade",
+      "message": "Du använder en gammal version av Safari. Uppgradera till senaste version för att kunna använda AdBlocks verktygsikon till att pausa AdBlock, vitlista webbsidor och rapportera reklamtillägg. [[Uppgradera nu]]."
+   },
+   "safaributton_how_to_hide2": {
+      "description": "Message explaining how to hide the AdBlock toolbar button. 'Customize Toolbar' should match the text that Safari displays in the toolbar's context menu.",
+      "message": "Om du vill dölja knappen, högerklicka på Safaris verktygsfält och välj \"Anpassa verktygsfältet\". Dra sedan AdBlock-knappen bort från verktygsfältet. Du kan visa den igen genom att dra den tillbaka in i verktygsfältet."
+   },
+   "safaricontentblocking": {
+      "description": "Checkbox on the 'General' tab of the Options page. 'Content Blocking' is the name of a different way of blocking resources introduced in Safari 9.",
+      "message": "Aktivera Safari Content Blocking"
+   },
+   "safaricontentblockinglimitexceeded": {
+      "description": "Displayed when the number of rules in the subscribed filter lists is larger than the number supported by Safari Content Blocking, if that option is enabled.",
+      "message": "The number of filter list rules exceeds the 50,000 limit, and has been automatically reduced. Please unsubscribe from some filter lists or disable Safari Content Blocking!"
+   },
+   "safaricontentblockingpausemessage": {
+      "description": "Alert displayed after clicking 'Pause AdBlock' in the AdBlock menu while Safari Content blocking is enabled.",
+      "message": "To pause AdBlock with Content Blocking enabled, please select Safari (in the menu bar) > Preferences > Extensions > AdBlock, and uncheck 'Enable AdBlock'."
+   },
+   "safarinotificationbody": {
+      "description": "Body of a notification shown to Safari Content Blocking users with too many filter list rules.",
+      "message": "Please disable some filter lists. More information in AdBlock's Options."
+   },
+   "safarinotificationtitle": {
+      "description": "Title of a notification shown to Safari Content Blocking users with too many filter list rules.",
+      "message": "Content Blocking rule limit exceeded"
+   },
+   "savebutton": {
+      "description": "Save button",
+      "message": "Spara"
+   },
+   "savereminder": {
+      "description": "Reminder to click 'Save'",
+      "message": "Glöm inte att spara!"
+   },
+   "selectlanguage": {
+      "description": "First option in the language dropdown menu on the Filter lists tab. Include the ' -- ' on either side of your translation.",
+      "message": "-- Välj språk --"
+   },
+   "show_ads_except_for": {
+      "description": "Section title for the whitelisting section of Customize tab",
+      "message": "Visa reklamtillägg överallt utom på dessa domäner..."
+   },
+   "show_block_element_menu": {
+      "message": "Visa 'Blockera objekt' i högerklicksmeny"
+   },
+   "show_devtools_panel": {
+      "description": "Checkbox letting user choose whether the AdBlock tab should be displayed in the developer tools window",
+      "message": "Visa 'AdBlock'-panel ibland utvecklingsverktygen"
+   },
+   "show_on_adblock_button": {
+      "description": "Checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "Visa antal blockerade reklamtillägg, på AdBlock-ikonen"
+   },
+   "show_on_adblock_menu": {
+      "description": "Checkbox letting user choose whether the AdBlock menu should show the number of ads blocked",
+      "message": "Visa antal blockerade reklamtillägg, på AdBlock-menyn"
+   },
+   "show_on_button": {
+      "description": "Checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked",
+      "message": "Visa antal blockerade annonser på knapp"
+   },
+   "show_on_menu": {
+      "description": "Checkbox letting user choose whether the AdBlock menu should show the number of ads blocked",
+      "message": "Visa antal blockerade annonser på menyn"
+   },
+   "show_resourcelist": {
+      "description": "Menu entry to open the resource list page",
+      "message": "Visa alla förfrågningar"
+   },
+   "showcontextmenus2": {
+      "description": "Checkbox on the 'General' tab of the Options page.",
+      "message": "Lägg till AdBlock i högerklickmenyn"
+   },
+   "showlinkstolists2": {
+      "description": "Label to display filter list links",
+      "message": "Visa länk till filterlistorna"
+   },
+   "sliderexplanation": {
+      "description": "'Block an ad' wizard usage explanation",
+      "message": "Dra i skjutreglaget tills reklamen är korrekt blockerad, och sidan förövrigt ser använbar ut."
+   },
+   "slidertitle": {
+      "description": "'Block an ad' wizard title",
+      "message": "Steg 1: Ta reda på vad som skall blockeras"
+   },
+   "sourcecode": {
+      "description": "Link to the source code of AdBlock on the Support tab",
+      "message": "Källkoden är [[fritt tillgänglig]]!"
+   },
+   "stats_label_page": {
+      "message": "\u003Cstrong>$number$\u003C/strong> på den här sidan",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_label_total": {
+      "message": "\u003Cstrong>$number$\u003C/strong> totalt",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_over": {
+      "message": "över $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_download": {
+      "message": "Ladda ner AdBlock"
+   },
+   "stats_share_message": {
+      "message": "Jag blockerade $number$ annonser och trackers tack vare AdBlock.",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_title": {
+      "message": "Dela detta nummer"
+   },
+   "stats_show_iconnumber": {
+      "message": "Visa nummer vid ikon"
+   },
+   "stats_title": {
+      "message": "Annonser blockerade"
+   },
+   "status_paused": {
+      "description": "Message shown in toolbar button when AdBlock is not running",
+      "message": "AdBlock är pausad."
+   },
+   "stop_blocking_ads": {
+      "description": "Subtitle on the 'Customize' tab",
+      "message": "Sluta blockera reklamtillägg:"
+   },
+   "storage_quota_exceeded": {
+      "description": "Message shown when the user uses more storage than allowed by the browser.",
+      "message": "Du har överskridit den maximala mängden lagringsutrymme som AdBlock kan använda. Avsluta prenumerationen på en eller flera filterlistor!"
+   },
+   "subframe": {
+      "description": "Resource list page: frame type",
+      "message": "Subframe"
+   },
+   "subscribebutton": {
+      "description": "Subscribe to a filter list button",
+      "message": "Prenumerera"
+   },
+   "subscribeconfirm": {
+      "description": "Prompt question before subscribing to a filter list",
+      "message": "Vill du verkligen prenumerera på filterlistan $title$?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Prebake"
+         }
+      }
+   },
+   "subscribingfailed": {
+      "description": "abp: link subscriber unsuccessful result",
+      "message": "Misslyckades!"
+   },
+   "subscribingfinished": {
+      "description": "abp: link subscriber successful result",
+      "message": "Slutförd!"
+   },
+   "subscribingtitle": {
+      "description": "abp: link subscriber title",
+      "message": "Prenumerera på filterlista..."
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Plats för filter:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Vänligen välj en filterprenumeration från listan:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Rubrik för prenumeration:"
+   },
+   "supportsite": {
+      "description": "Link to the support site on the Support tab",
+      "message": "Låt oss veta, på vår [[support-sida]]!"
+   },
+   "tabcustomize": {
+      "description": "A tab on the Options page",
+      "message": "Anpassa"
+   },
+   "tabcustomizetitle": {
+      "description": "Title of the Customize tab of the Options page",
+      "message": "Anpassa AdBlock"
+   },
+   "tabfilterlists": {
+      "description": "A tab on the Options page",
+      "message": "Filterlistor"
+   },
+   "tabgeneral": {
+      "description": "A tab on the Options page",
+      "message": "Allmänt"
+   },
+   "tabreloadcomplete": {
+      "description": "On the ad report page, alert notifying users that we've disabled all other extensions",
+      "message": "Done! We reloaded the page with the ad. Please check that page to see whether the ad is gone. Then come back to this page and answer the question below."
+   },
+   "tabsupport": {
+      "description": "A tab on the Options page",
+      "message": "Support"
+   },
+   "thirdparty": {
+      "description": "Resource list page: column title telling if the resource originates from a different domain",
+      "message": "Tredjepart"
+   },
+   "topframe": {
+      "description": "Resource list page: frame type",
+      "message": "Top frame"
+   },
+   "translator_credit": {
+      "description": "This message will be followed by a list of names of the translators who contributed to the language AdBlock is currently displayed in. Do not add any names to this string.",
+      "message": "Översättning till Svenska:"
+   },
+   "typehiding": {
+      "description": "A resource type",
+      "message": "dold"
+   },
+   "typeimage": {
+      "description": "A resource type",
+      "message": "bild"
+   },
+   "typemain_frame": {
+      "description": "A resource type",
+      "message": "sida"
+   },
+   "typemedia": {
+      "description": "A resource type",
+      "message": "audio/video"
+   },
+   "typeobject": {
+      "description": "A resource type",
+      "message": "interaktivt objekt"
+   },
+   "typeobject_subrequest": {
+      "description": "A resource type",
+      "message": "object_subrequest"
+   },
+   "typeother": {
+      "description": "A resource type",
+      "message": "annat"
+   },
+   "typepage": {
+      "description": "A resource type",
+      "message": "sida"
+   },
+   "typepopup": {
+      "description": "A resource type",
+      "message": "popup"
+   },
+   "typescript": {
+      "description": "A resource type",
+      "message": "script"
+   },
+   "typeselector": {
+      "description": "A resource type",
+      "message": "selector"
+   },
+   "typestylesheet": {
+      "description": "A resource type",
+      "message": "stil-definition"
+   },
+   "typesub_frame": {
+      "description": "A resource type",
+      "message": "frame"
+   },
+   "typesubdocument": {
+      "description": "A resource type",
+      "message": "frame"
+   },
+   "typeunknown": {
+      "description": "A resource type",
+      "message": "okänd"
+   },
+   "typewebsocket": {
+      "description": "A resource type",
+      "message": "websocket"
+   },
+   "typexmlhttprequest": {
+      "description": "A resource type",
+      "message": "xmlhttprequest"
+   },
+   "undo_last_block": {
+      "description": "Menu entry to let the user cancel the result of running the blacklist wizard.",
+      "message": "Ångra mina blockeringar på denna domän"
+   },
+   "unexpected_filter_list_header": {
+      "message": "Filterlistrubriker är inte tillåtna här"
+   },
+   "unpause_adblock": {
+      "description": "Link text to start blocking ads again, displayed immediately after 'AdBlock is paused'",
+      "message": "Återaktivera AdBlock"
+   },
+   "unpause_adblocking": {
+      "description": "Menu entry to unpause the extension (start blocking ads again)",
+      "message": "Återuppta annonsblockering"
+   },
+   "unsubscribe_from_all_confirmation": {
+      "description": "Confirmation message shown to user if they try to unsubscribe from all filter lists. The user will have two options: OK and Cancel.",
+      "message": "AdBlock can't block ads if you disable all the filter lists. We recommend pausing AdBlock instead. Unsubscribe from this list anyway?"
+   },
+   "unsubscribedlabel": {
+      "description": "Status label when unselecting a filter list",
+      "message": "Prenumeration avslutad."
+   },
+   "update_now": {
+      "message": "Uppdatera nu"
+   },
+   "updateddayago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för 1 dag sedan"
+   },
+   "updateddaysago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för $days$ dagar sedan",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedhourago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för 1 timma sedan"
+   },
+   "updatedhoursago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för $hours$ timmar sedan",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedminuteago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för 1 minut sedan"
+   },
+   "updatedminutesago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för $minutes$ minuter sedan",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedrightnow": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades just nu"
+   },
+   "updatedsecondsago": {
+      "description": "Label for filter list subscription",
+      "message": "Uppdaterades för $seconds$ sekunder sedan",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatenowmessage2": {
+      "description": "Update filters text and button",
+      "message": "Uppdateringar hämtas automatiskt. Du kan också [[uppdatera nu]]"
+   },
+   "updateyourlists": {
+      "description": "Section header on the ad report page",
+      "message": "Make sure your filter lists are up to date:"
+   },
+   "warning_overrules_filters": {
+      "description": "Message on the 'Customize' tab of the options page, explaining the danger of adding a whitelist filter for all websites with only some exceptions.",
+      "message": "Varning: Du kommer att se tillägg på alla andra sidor!\nDet här åsidosätter också alla andra filter för dessa sidor ."
+   },
+   "whatmakesadblocktick": {
+      "description": "Subtitle on the Support tab. This section contains links to the AdBlock source code and contributors. In this context, 'tick' can be replaced with the word 'work'.",
+      "message": "Vill se vad som får AdBlock att fungera?"
+   },
+   "whats_this": {
+      "description": "Text of a link pointing to the explanation of a new feature",
+      "message": "Vad är detta?"
+   },
+   "whatsnew": {
+      "description": "Link to display the changelog on the Support tab",
+      "message": "Nyheter i den senaste versionen? Läs i [[ändringsloggen]]!"
+   },
+   "whitelist_all_youtube_channels": {
+      "description": "Toolbar button menu entry, displayed only on youtube.com/feed/subscriptions and if the YouTube channel whitelisting option is enabled.",
+      "message": "Whitelist all subscribed YouTube™ channels"
+   },
+   "whitelist_youtube_channel": {
+      "description": "Entry in the AdBlock menu, only displayed when a user is browsing YouTube and has enabled the YouTube channel whitelisting option",
+      "message": "Vitlista $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Name of channel"
+         }
+      }
+   },
+   "whitelist_youtube_channel_v2": {
+      "description": "Menu entry to whitelist the channel of the current YouTube video or page. The channel name will appear on a line below this menu item.",
+      "message": "Allow ads on YouTube™ channel:"
+   },
+   "whitelisted_domains": {
+      "message": "Vitlistade domäner"
+   },
+   "whitelistedresource": {
+      "description": "Resource list page: resource status",
+      "message": "Vitlistade resurser"
+   },
+   "whitelistertitle2": {
+      "description": "The title of the whitelist wizard (Don't run on this page/pages on this domain)",
+      "message": "Avaktivera AdBlock på..."
+   },
+   "wizardcantrunonframesets": {
+      "description": "Alert shown when the user tries to use a blacklist/whitelist wizard on an old website",
+      "message": "Den här AdBlock-funktionen fungerar inte på denna sida eftersom den använder utdaterad teknologi. Du kan svart-/vitlista resurser manuellt, under fliken \"Anpassa\" i inställningarna."
+   },
+   "work_around_hulu_problems": {
+      "description": "Advanced Options page checkbox, which users only need to use if Hulu.com videos break. It directs the user to restart their browser in order for changes to the checkbox to take effect.",
+      "message": "Fixa felet som gör att video inte spelas upp på Hulu.com (kräver omstart av webbläsaren)."
+   },
+   "yes": {
+      "description": "A positive response to a question",
+      "message": "Ja"
+   },
+   "you_can_slide_to_change": {
+      "description": "Whitelist slider usage instructions. Sometimes only one slider will show, and sometimes two will show, and if possible the text should handle both cases.",
+      "message": "Du kan dra i skjutreglaget för att ändra mer exakt, på vilka sidor AdBlock skall avaktiveras."
+   },
+   "you_know_thats_a_bad_idea_right": {
+      "description": "Confirmation message shown to user if they try to subscribe to too many lists. The user will have two options: OK and Cancel.",
+      "message": "Ju fler filterlistor du använder, dessto långsammare arbetar AdBlock.  För många listor kan även få din webbläsare att krascha på vissa sidor.  Tryck 'OK' för att prenumerera i alla fall."
+   },
+   "ytadblockupdates": {
+      "description": "Subtitle on the Support tab. Specific to the 'AdBlock on YouTube' extension.",
+      "message": "AdBlock på YouTube-uppdateringar"
+   }
+}
