@@ -4,9 +4,16 @@ Dotfiles for arch setup.
 My poor attempt at keeping track of them, which I probably should have been doing since the beginning. 
 
 #### TODO
-* Fix which disk usage gtop points to 
+* Try a different bar sometime
 
-* Make i3bar transparent
+### November 1
+
+![At text](screenshots/nov1_setup.png?raw=True)
+![Alt text](screenshots/nov1_setup_clean.png?raw=True)
+
+* Finally got pywal
+* Finally got pywal to work with the i3bar
+* Added spotify status to i3bar
 
 ### September 30
 
