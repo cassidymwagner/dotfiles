@@ -11,8 +11,16 @@ My poor attempt at keeping track of them, which I probably should have been doin
 ![At text](screenshots/nov1_setup2.png?raw=True)
 ![Alt text](screenshots/nov1_setup_clean.png?raw=True)
 
-* Finally got pywal
 * Finally got pywal to work with the i3bar
+* Comfy pywal color scheme
+
+### October 6
+
+![At text](screenshots/oct6_setup.png?raw=True)
+![Alt text](screenshots/oct6_setup_clean.png?raw=True)
+
+* Finally got pywal
+* Configured vim
 * Added spotify status to i3bar
 
 ### September 30
