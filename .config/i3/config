@@ -98,11 +98,28 @@ bindsym $mod+Up exec xcalib -c
 # Brightness control down
 bindsym $mod+Down exec xcalib -co 95 -a
 
+# Colors from Xresources
+set_from_resource $bg  i3wm.color0  #f0f0f0
+set_from_resource $fg  i3wm.color15 #f0f0f0
+set_from_resource $bg2 i3wm.color4  #f0f0f0
+set_from_resource $fg2 i3wm.color7  #f0f0f0
+set_from_resource $bg3 i3wm.color3  #f0f0f0
+set_from_resource $bg4 i3wm.color1  #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg      $bg    $fg  $bg   $bg
+client.focused_inactive $bg      $bg    $fg  $bg   $bg
+client.unfocused        $bg      $bg    $fg  $bg   $bg
+client.urgent           $bg      $bg    $fg  $bg   $bg
+client.placeholder      $bg      $bg    $fg  $bg   $bg
+client.background       $bg
+
 bar {
 	font pango:Monospace 8
         i3bar_command i3bar -t
-
-	#status_command i3blocks
+	
+	tray_output none
+	
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
 	height 18
@@ -110,13 +127,15 @@ bar {
    position top
 
 	colors {
-	        background #232629
-		statusline #ffffff
-		separator #ffffff
-
-		focused_workspace #000000 #3F4551 #ffffff
-		inactive_workspace #333333 #222222 #888888
-		urgent_workspace #aa0000 #990000 #ffffff
+	        background $bg
+		statusline $fg
+		separator $bg
+		
+                # class            border  backgr.  text
+                focused_workspace  $bg2    $bg2     $bg
+                active_workspace   $bg     $bg      $fg
+                inactive_workspace $bg     $bg      $fg
+                urgent_workspace   $bg4    $bg4     $bg
 	}
 }
 set $ws1 "1: &#xf120;"
