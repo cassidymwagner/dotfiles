@@ -8,7 +8,7 @@ My poor attempt at keeping track of them, which I probably should have been doin
 
 ### November 1
 
-![At text](screenshots/nov1_setup.png?raw=True)
+![At text](screenshots/nov1_setup2.png?raw=True)
 ![Alt text](screenshots/nov1_setup_clean.png?raw=True)
 
 * Finally got pywal
