@@ -6,7 +6,7 @@ My poor attempt at keeping track of them, which I probably should have been doin
 #### TODO
 * Try a different bar sometime
 * Get jedi-vim to work
-* Figure out why I can't use adobe source font in the status bar
+* ~~Figure out why I can't use adobe source font in the status bar~~ Fixed
 
 ### November 19
 
