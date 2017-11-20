@@ -15,6 +15,7 @@ My poor attempt at keeping track of them, which I probably should have been doin
 * Lol hit the road pywal. Not really enough customizability and I felt like I had to choose my wallpaper too carefully.
 * Using Goyo with vim is the best decision I've made in awhile.
 * Asciiquarium is stupid fun.
+* Also compton is pretty distracting.
 
 ### November 1
 
