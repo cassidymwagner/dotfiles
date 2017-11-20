@@ -11,6 +11,7 @@ My poor attempt at keeping track of them, which I probably should have been doin
 ### November 19
 
 ![Alt text](screenshots/nov19_setup.png?raw=True)
+![Alt text](screenshots/nov19_clean_setup.png?raw=True)
 
 * Lol hit the road pywal. Not really enough customizability and I felt like I had to choose my wallpaper too carefully.
 * Using Goyo with vim is the best decision I've made in awhile.
