@@ -5,6 +5,18 @@ My poor attempt at keeping track of them, which I probably should have been doin
 
 #### TODO
 * Try a different bar sometime
+* Get jedi-vim to work
+* Figure out why I can't use adobe source font in the status bar
+
+### November 19
+
+![Alt text](screenshots/nov19_setup.png?raw=True)
+
+* Lol hit the road pywal. Not really enough customizability and I felt like I had to choose my wallpaper too carefully.
+* Using Goyo with vim is the best decision I've made in awhile.
+* Asciiquarium is stupid fun.
+* Also compton is pretty distracting.
+* Also also I changed the font to adobe source code pro.
 
 ### November 1
 
