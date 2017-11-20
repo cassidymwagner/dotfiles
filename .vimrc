@@ -42,4 +42,15 @@ call Py3()   " default to Py3 because I try to use it when possible
 set wildmode=longest,list,full
 set wildmenu
 
-syntax on
+syntax off
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/goyo.vim'
+
+call plug#end()
+
+let g:goyo_width = 200
+let g:goyo_height = 200
+
+autocmd VimEnter * Goyo

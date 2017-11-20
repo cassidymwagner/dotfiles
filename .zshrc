@@ -10,7 +10,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="miloshadzic"
 
 
-
+TERM=xterm-256color
 
 
 
@@ -89,18 +89,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval $(dircolors -b /etc/DIR_COLORS)
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
+#eval $(dircolors -b /etc/DIR_COLORS)
+#zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
 
 # Import colorscheme from 'wal'
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
-(wal -r &)
+#(wal -r &)
 
 # Import the colors.
-. "${HOME}/.cache/wal/colors.sh"
+#. "${HOME}/.cache/wal/colors.sh"
 
 # Create the alias.
-alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
-
+#alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
+#alias lock="cd ~/i3_stuff  && source lock.sh && cd"
 

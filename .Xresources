@@ -1,44 +1,43 @@
-URxvt.font: xft:monospace:size=10
+URxvt.font: xft:sourcecodepro:size=10
 URxvt.scrollBar: false
-
-
+URxvt.termName: xterm-256color
 
 ! special
-*.foreground:   #cfcfc2
-*.background:   #232629
-*.cursorColor:  #cfcfc2
+*.foreground:   #c0c5ce
+*.background:   #2b303b
+*.cursorColor:  #c0c5ce
 
 ! black
-*.color0:       #2a2e32
-*.color8:       #31363b
+*.color0:       #2b303b
+*.color8:       #65737e
 
 ! red
-*.color1:       #c0392b
-*.color9:       #f44f4f
+*.color1:       #bf616a
+*.color9:       #bf616a
 
 ! green
-*.color2:       #218058
-*.color10:      #27ae60
+*.color2:       #a3be8c
+*.color10:      #a3be8c
 
 ! yellow
-*.color3:       #fdbc4b
-*.color11:      #fdbc4b
+*.color3:       #ebcb8b
+*.color11:      #ebcb8b
 
 ! blue
-*.color4:       #2980b9
-*.color12:      #0099ff
+*.color4:       #8fa1b3
+*.color12:      #8fa1b3
 
 ! magenta
-*.color5:       #8e44ad
-*.color13:      #af81ff
+*.color5:       #b48ead
+*.color13:      #b48ead
 
 ! cyan
-*.color6:       #27aeae
-*.color14:      #31dddd
+*.color6:       #96b5b4
+*.color14:      #96b5b4
 
 ! white
-*.color7:       #acada1
-*.color15:      #cfd0c2
+*.color7:       #c0c5ce
+*.color15:      #eff1f5
 
 rofi.separator-style: solid
 rofi.sidebar-mode: true
@@ -46,10 +45,17 @@ rofi.bw: 1
 rofi.columns: 1
 rofi.padding: 16
 
+!                  bg         border   separator
+rofi.color-window: #2b303b, #000000, #000000
+!                  bg         fg       altbg      hlbg       hlfg
+rofi.color-normal: #2b303b, #839496, #2b303b, #8fa1b3, #2b303b
+rofi.color-active: #8fa1b3, #2b303b
+rofi.color-urgent: #dd002b36, #d33682, #00002b36, #dd073642, #d33682
+
 rofi.yoffset: 0
 rofi.fake-transparency: true 
 rofi.location: 0
 rofi.width: 50
-rofi.font: Monospace 10 
+rofi.font: sourcecodepro 10 
 rofi.lines: 15
 rofi.fixed-num-lines: true
