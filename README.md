@@ -16,6 +16,7 @@ My poor attempt at keeping track of them, which I probably should have been doin
 * Using Goyo with vim is the best decision I've made in awhile.
 * Asciiquarium is stupid fun.
 * Also compton is pretty distracting.
+* Also also I changed the font to adobe source code pro.
 
 ### November 1
 
