@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:inconsolata-g 10
+font pango:source code pro 10
 #font pango: monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -109,15 +109,15 @@ set_from_resource $bg4 color6  #f0f0f0
 set_from_resource $fg3 color7  #f0f0f0
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg      $bg    $fg  $bg   $bg
-client.focused_inactive $bg      $bg    $fg  $bg   $bg
-client.unfocused        $bg      $bg    $fg  $bg   $bg
-client.urgent           $bg      $bg    $fg  $bg   $bg
-client.placeholder      $bg      $bg    $fg  $bg   $bg
-client.background       $bg
+client.focused          $fg3     $bg    $fg  $bg   $fg3
+client.focused_inactive $fg3      $bg    $fg  $bg   $bg
+client.unfocused        $fg3      $bg    $fg  $bg   $bg
+client.urgent           $fg3      $bg    $fg  $bg   $bg
+client.placeholder      $fg3      $bg    $fg  $bg   $bg
+client.background       $fg3
 
 bar {
-	font pango:Source Code Pro 9, Awesome 8
+	font pango: source code pro 9 
         i3bar_command i3bar -t
 	
 	tray_output none
@@ -144,7 +144,8 @@ set $ws1 "1: &#xf120;"
 set $ws2 "2: &#xf268;"
 set $ws3 "3: &#xf0c0;"
 set $ws4 "4: &#xf121;"
-set $ws8 "8: &#xf008;"
+set $ws7 "7: &#xf0e0;"
+set $ws8 "8: &#xf26c;"
 set $ws9 "9: &#xf1bc;"
 
 
@@ -155,7 +156,7 @@ bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
+bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace 10
@@ -167,7 +168,7 @@ bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace 10
@@ -236,12 +237,19 @@ bindsym $mod+o+p -r-release exec scrot '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/
 
 bindsym $mod+l exec lock -p -- scrot -z 
 
+bindsym $mod+shift+x exec ~/aur_stuff/lock.sh --lock dimblur
+
 #exec --no-startup-id nm-applet
 #exec --no-startup-id slack
 #exec --no-startup-id blueman-applet
 exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/cozy_mountains.jpg
 exec --no-startup-id dunst
+exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/cozy_mountains.jpg
+exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh 
+exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
+exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/cozy_mountains.jpg
+
 #exec --no-startup-id compton -cCGfF -b -i 0.85 --vsync opengl
 #exec --no-startup-id wal -R
 #exec_always --no-startup-id polybar -c ~/.config/polybar/config laptop -r
