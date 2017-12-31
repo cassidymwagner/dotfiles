@@ -4,9 +4,18 @@ Dotfiles for arch setup.
 My poor attempt at keeping track of them, which I probably should have been doing since the beginning. 
 
 #### TODO
+* Configure firefox to use local files for new tab redirects
 * Try a different bar sometime
 * Get jedi-vim to work
-* ~~Figure out why I can't use adobe source font in the status bar~~ Fixed
+
+### December 30
+
+![Alt text](screenshots/dec30_setup.png?raw=True)
+
+* Started using firefox
+* Lightly customized startpage ([source](https://github.com/damienstewart/Startpages))
+* Using [oomox](https://github.com/actionless/oomox) to integrate spotify (theme: Ocean-Alex)
+* Started using [cava](https://github.com/karlstav/cava)
 
 ### November 19
 
