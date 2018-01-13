@@ -1,0 +1,232 @@
+; theme: orange
+; author: nvnehi
+; website: http://nnh.io
+;
+; requires:
+;   i3, playerctl
+;   fonts: font awesome, source code pro or bitocra
+;
+; toggled on/off:
+;   fonts
+;   tray
+;
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[colors]
+background = #2b303b
+foreground = #c0c5ce
+foreground-alt = #c0c5ce
+highlight = #eeeeee
+secondary = #0f0
+
+[spacing]
+padding = 4
+
+[bar/default]
+monitor = ${env:MONITOR}
+width = 100%
+height = 30
+;offset-x = 2%
+;offset-y = 10
+;override-redirect = true
+;wm-restack = i3
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+border-size = 10
+border-color = #00000000
+font-0 = FontAwesome:size=12
+font-1 = source code pro:size=10:antialias=true
+;font-1 = bitocra:antialias=false
+modules-left = i3 xwindow
+modules-center = spotify 
+modules-right = battery weather network volume date 
+module-margin-left = 0
+module-margin-right = 0
+;tray-position = right
+;tray-padding = ${spacing.padding}
+;tray-transparent = true
+;tray-background = ${colors.background}
+;tray-maxsize = 14
+padding-left = 0
+padding-right = 0
+
+[module/i3]
+type = internal/i3
+index-sort = true
+wrapping-scroll = false
+format-padding = ${spacing.padding}
+format-foreground = ${colors.background}
+format-background = ${colors.foreground}
+;format = " <label-state> <label-mode>"
+;label-focused = "%index%"
+label-focused = ""
+;label-focused-foreground = ${colors.highlight}
+label-focused-padding = 2
+;label-unfocused = "%index%"
+label-unfocused = ""
+;label-unfocused-foreground = ${colors.background}
+label-unfocused-padding = 2
+;label-urgent = %index%
+strip-wsnumbers = true
+
+[module/xwindow]
+type = internal/xwindow
+format-padding = ${spacing.padding}
+label = "    %title%"
+label-maxlen = 20
+
+[module/mpd]
+type = internal/mpd
+format-online-foreground = ${colors.background}
+format-online-background = ${colors.foreground}
+format-online-padding = ${spacing.padding}
+format-online = "%{A1:playerctl play-pause:}%{A4:playerctl previous:}%{A5:playerctl next:}    <label-song>%{A}%{A}%{A}"
+label-song-maxlen = 150
+label-song-ellipsis = true
+
+[module/spotify]
+type = custom/script
+exec = ~/.config/polybar/spotify
+interval = 2
+
+[module/weather]
+type = custom/script
+exec = ~/.config/i3/IconicWeather.sh "73071"
+interval = 1800
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "CPU: "
+format-padding = ${spacing.padding}
+label = %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "RAM: "
+format-padding = ${spacing.padding}
+label = %percentage_used%%
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+mount-0 = /
+format-mounted-padding = ${spacing.padding}
+label-mounted = "     %free%"
+label-unmounted = "     not mounted"
+
+[module/network]
+type=internal/network
+interface=wlp2s0
+interval=3.0
+format-connected=<label-connected>
+label-connected= %essid%
+label-connected-padding=${spacing.padding}
+format-disconnected= <label-disconnected>
+label-disconnected-padding=${spacing.padding}
+label-disconnected=DISCONNECTED
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 2
+warn-temperature = 80
+ramp-0 = "    "
+ramp-1 = "    "
+ramp-2 = "    "
+format = <ramp> <label>
+format-foreground = ${colors.foreground}
+format-warn = <ramp> <label-warn>
+format-padding = ${spacing.padding}
+format-warn-padding = ${spacing.padding}
+label = %temperature%
+label-warn-foreground = ${colors.highlight}
+label-warn = HOT!  %temperature%
+
+[module/volume]
+type = internal/volume
+label-volume-foreground = ${colors.background}
+label-volume-background = ${colors.foreground}
+label-volume-padding = ${spacing.padding}
+label-volume = " %percentage%%"
+label-muted-padding = ${spacing.padding}
+label-muted = " %percentage%%"
+
+[module/date]
+type = internal/date
+interval = 5
+date = 
+date-alt = "  %m/%d/%y,"
+time = "%l:%M %p"
+time-alt = "%l:%M %p"
+format-padding = ${spacing.padding}
+format-prefix = " "
+format-foreground = ${colors.background}
+format-background = ${colors.foreground}
+label = %date% %time%
+
+[module/powermenu]
+type = custom/menu
+label-open = 
+label-open-foreground = ${colors.background}
+label-open-background = ${colors.foreground}
+label-open-padding-left = 4
+label-open-padding-right = 8
+label-close-foreground = ${colors.background}
+label-close-background =  ${colors.foreground}
+label-close-padding = ${spacing.padding}
+label-close = 
+menu-0-0-foreground = ${colors.background}
+menu-0-0-background = ${colors.foreground}
+menu-0-0-padding = ${spacing.padding}
+menu-0-0 = 
+menu-0-0-exec = menu-open-1
+menu-0-1-foreground = ${colors.background}
+menu-0-1-background = ${colors.foreground}
+menu-0-1-padding = ${spacing.padding}
+menu-0-1 = 
+menu-0-1-exec = menu-open-2
+menu-1-0-padding = ${spacing.padding}
+menu-1-0 = restart
+menu-1-0-exec = sudo reboot
+menu-2-0-padding = ${spacing.padding}
+menu-2-0 = shutdown
+menu-2-0-exec = sudo poweroff
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+;adapter = ADP1
+full-at = 100
+
+format-charging = <animation-charging> <label-charging>
+;format-charging-underline = #ffb52a
+format-charging-padding =  ${spacing.padding}
+format-discharging = <ramp-capacity> <label-discharging>
+;format-discharging-underline = ${self.format-charging-underline}
+format-discharging-padding =  ${spacing.padding}
+
+format-full-prefix = "  "
+format-full-prefix-foreground = ${colors.foreground}
+format-full-padding =  ${spacing.padding}
+;format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 =  
+ramp-capacity-2 =  
+ramp-capacity-3 =  
+ramp-capacity-foreground = ${colors.foreground}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 =  
+animation-charging-foreground = ${colors.foreground}
+animation-charging-framerate = 2000
+
