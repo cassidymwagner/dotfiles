@@ -1,0 +1,136 @@
+[settings]
+screenchange-reload = true
+
+[colors]
+background = #2b303b
+foreground = #c0c5ce
+foreground-alt = #c0c5ce
+highlight = #eeeeee
+secondary = #0f0
+
+[spacing]
+padding = 4
+
+[bar/default]
+monitor = ${env:MONITOR}
+width = 100%
+height = 30
+fixed-center = false
+background = ${colors.background}
+foreground = ${colors.foreground}
+border-size = 10
+border-color = #00000000
+font-0 = FontAwesome:size=12
+font-1 = source code pro:size=10:antialias=true
+font-2 = FontAwesome5Free
+font-3 = FontAwesome5Free:style=Solid
+modules-left = i3 spotify 
+modules-center = 
+modules-right = battery weather network volume date
+module-margin-left = 0
+module-margin-right = 0
+padding-left = 0
+padding-right = 0
+
+[module/i3]
+type = internal/i3
+index-sort = true
+wrapping-scroll = false
+format-padding = ${spacing.padding}
+format-foreground = ${colors.background}
+format-background = ${colors.foreground}
+;format = " <label-state> <label-mode>"
+;label-focused = "%index%"
+label-focused = ""
+;label-focused-foreground = ${colors.highlight}
+label-focused-padding = 1
+;label-unfocused = "%index%"
+label-unfocused = ""
+;label-unfocused-foreground = ${colors.background}
+label-unfocused-padding = 1
+;label-urgent = %index%
+strip-wsnumbers = true
+label-visible = ""
+label-visible-padding = 1
+
+[module/xwindow]
+type = internal/xwindow
+format-padding = ${spacing.padding}
+label = " %title%"
+label-maxlen = 20
+
+[module/spotify]
+type = custom/script
+format-padding = ${spacing.padding}
+exec = ~/.config/polybar/spotify
+interval = 2
+
+[module/weather]
+type = custom/script
+exec = ~/.config/i3/IconicWeather.sh "73071"
+interval = 1800
+
+[module/network]
+type=internal/network
+interface=wlp2s0
+interval=3.0
+format-connected=<label-connected>
+label-connected= %essid%
+label-connected-padding=${spacing.padding}
+format-disconnected= <label-disconnected>
+label-disconnected-padding=${spacing.padding}
+label-disconnected= DISCONNECTED
+
+[module/volume]
+type = internal/volume
+label-volume-foreground = ${colors.background}
+label-volume-background = ${colors.foreground}
+label-volume-padding = ${spacing.padding}
+label-volume = " %percentage%%"
+label-muted-padding = ${spacing.padding}
+label-muted = " %percentage%%"
+
+[module/date]
+type = internal/date
+interval = 5
+date = "  %m/%d/%y   "
+date-alt = "  %m/%d/%y   "
+time = "  %l:%M %p"
+time-alt = "  %l:%M %p"
+format-padding = ${spacing.padding}
+format-foreground = ${colors.background}
+format-background = ${colors.foreground}
+label = %date% %time%
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+full-at = 100
+
+format-charging = <animation-charging> <label-charging>
+;format-charging-underline = #ffb52a
+format-charging-padding =  ${spacing.padding}
+format-discharging = <ramp-capacity> <label-discharging>
+;format-discharging-underline = ${self.format-charging-underline}
+format-discharging-padding =  ${spacing.padding}
+
+format-full-prefix = "  "
+format-full-prefix-foreground = ${colors.foreground}
+format-full-padding =  ${spacing.padding}
+;format-full-underline = ${self.format-charging-underline}
+ramp-capacity-0 = 
+ramp-capacity-0-foreground = ${colors.foreground}
+ramp-capacity-1 = 
+ramp-capacity-1-foreground = ${colors.foreground}
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-foreground = ${colors.foreground}
+
+animation-charging-0 =  
+animation-charging-1 =  
+animation-charging-2 =  
+animation-charging-3 =  
+animation-charging-4 =  
+animation-charging-foreground = ${colors.foreground}
+animation-charging-framerate = 750

@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:source code pro 10
+font pango: source code pro 10
 #font pango: monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -104,73 +104,43 @@ set_from_resource $bg  color0  #f0f0f0
 set_from_resource $fg  color2  #f0f0f0
 set_from_resource $bg2 color4  #f0f0f0
 set_from_resource $fg2 color4  #f0f0f0
+set_from_resource $fg4 color5  #f0f0f0
 set_from_resource $bg3 color2  #f0f0f0
 set_from_resource $bg4 color6  #f0f0f0
 set_from_resource $fg3 color7  #f0f0f0
 
-# class                 border  backgr. text indicator child_border
+#class                 border  backgr. text indicator child_border
 client.focused          $fg3     $bg    $fg  $bg   $fg3
-client.focused_inactive $fg3      $bg    $fg  $bg   $bg
-client.unfocused        $fg3      $bg    $fg  $bg   $bg
-client.urgent           $fg3      $bg    $fg  $bg   $bg
-client.placeholder      $fg3      $bg    $fg  $bg   $bg
-client.background       $fg3
+client.focused_inactive $fg2      $bg    $fg  $bg   $fg2
+client.unfocused        $fg2      $bg    $fg  $bg   $fg2
+client.urgent           $fg4      $bg    $fg  $bg   $fg4
+client.placeholder      $fg2      $bg    $fg  $bg   $fg2
+client.background       $fg2
 
-bar {
-	font pango: source code pro 9 
-        i3bar_command i3bar -t
-	
-	tray_output none
-	
-	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-
-	height 18
-
-   position top
-
-	colors {
-	        background $bg
-		statusline $fg3
-		separator $bg
-		
-                # class            border  backgr.  text
-                focused_workspace  $bg2    $bg2     $bg
-                active_workspace   $bg     $bg      $fg3
-                inactive_workspace $bg     $bg      $fg3
-                urgent_workspace   $bg4    $bg4     $bg
-	}
-}
-set $ws1 "1: &#xf120;"
-set $ws2 "2: &#xf268;"
-set $ws3 "3: &#xf0c0;"
-set $ws4 "4: &#xf121;"
-set $ws7 "7: &#xf0e0;"
-set $ws8 "8: &#xf26c;"
-set $ws9 "9: &#xf1bc;"
 
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
@@ -178,7 +148,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec i3-msg exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -218,9 +188,9 @@ bindsym $mod+m focus floating; mode "moveit"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 3
 
-gaps inner 20
+gaps inner 10
 gaps outer 0
 
 bindsym $mod+Shift+plus   gaps outer all plus 5
@@ -235,22 +205,23 @@ bindsym --release Print exec scrot -u -s '%Y%m%d_%H%M%S.pang' -e 'mv $f ~/pictur
 bindsym $mod+p --release exec scrot -s '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/'
 bindsym $mod+o+p -r-release exec scrot '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/'
 
-bindsym $mod+l exec lock -p -- scrot -z 
+bindsym $mod+l exec lock -p -- scrot -z
 
 bindsym $mod+shift+x exec ~/aur_stuff/lock.sh --lock dimblur
 
-#exec --no-startup-id nm-applet
-#exec --no-startup-id slack
-#exec --no-startup-id blueman-applet
-exec --no-startup-id ~/.dropbox-dist/dropboxd
-exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/cozy_mountains.jpg
-exec --no-startup-id dunst
-exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/cozy_mountains.jpg
-exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh 
-exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
-exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/cozy_mountains.jpg
-
-#exec --no-startup-id compton -cCGfF -b -i 0.85 --vsync opengl
-#exec --no-startup-id wal -R
-#exec_always --no-startup-id polybar -c ~/.config/polybar/config laptop -r
+exec --no-startup-id compton --config ~/.config/compton/config
 exec --no-startup-id xrandr --output HDMI-1 --auto --left-of eDP-1
+exec --no-startup-id MONITOR=eDP-1 polybar -c ~/.config/polybar/config3 default &
+exec --no-startup-id MONITOR=HDMI-1 polybar -c ~/.config/polybar/config3 default &
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
+
+exec --no-startup-id slack
+exec --no-startup-id thunderbird
+exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/lines.jpg
+exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh
+exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
+exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/lines.jpg
+exec --no-startup-id cd aur_stuff/firefox/startpages/devola && http-server
+
+
