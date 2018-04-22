@@ -91,7 +91,7 @@
 
 /* Move tabs over to right to make room for address bar */
 #TabsToolbar {
-  margin: 0 0 0 37vw !important;
+  margin: 0 0 0 45vw !important;
   height: 50px !important;
   max-height: 30px !important;
   padding-left: -5px !important;
@@ -101,7 +101,7 @@
 
 /* Move address bar to titlebar with tabs */
 #nav-bar {
-  margin: -31px 35vw -1px 35px !important;
+  margin: -31px 55vw -1px 35px !important;
   height: 31px !important;
   border-bottom: 1px solid var(--boder) !important;
   background: var(--background-color) !important;
@@ -111,13 +111,13 @@
 
   transform: scale(0.9, 0.9) !important;
   fill: var(--text-color) !important;
-  margin: 0  28vw  0  0 !important;
+  margin: 0  0vw  0  0 !important;
 }
 
 /* URL bar width adjustments */
 #urlbar-container {
   border: none !important;
-  width: 10px !important;
+  width: 100px !important;
 }
 
 #urlbar {
@@ -125,7 +125,7 @@
   border: none !important;
   margin-left: -2px !important;
   min-width: 40px !important;
-  max-width: 300px !important;
+  max-width: 9950px !important;
   font-size: 15px !important;
   height: 44px !important;
   box-shadow: none !important;
