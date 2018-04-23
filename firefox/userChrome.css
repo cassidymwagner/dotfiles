@@ -5,6 +5,7 @@
 :root {
   --text-color: #c0c5ce;
   --background-color: #2b303b;
+  --tab-select-color: #404758;
   --border: #a1a1a1;
 }
 
@@ -82,6 +83,14 @@
   background-image: none !important;
 }
 
+.tab-background[selected="true"] {
+    background-attachment: none!important;
+    background-color: var(--tab-select-color) !important;
+    background-image: none!important;
+    background-position: none!important;
+    background-repeat: none!important;
+    background-size: none!important;
+}
 
 /* Reduce width of pinned tabs by reducing the left and right padding */
 #TabsToolbar .tab-content[pinned] {
