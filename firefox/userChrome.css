@@ -329,7 +329,7 @@ findbar .findbar-closebutton {
 .panel-subview-footer,
 [class^="PanelUI-"] {
   color: var(--text-color) !important;
-  background: var(--background-color) !important;
+  background: var(--tab-select-color) !important;
 }
 
 
@@ -367,7 +367,7 @@ menupopup menu:hover,
 menuitem:hover {
   -moz-appearance: none !important;
   color:var(--text-color) !important;
-  background-color: transparent !important;
+  background-color: var(--tab-select-color) !important;
 }
 
 
