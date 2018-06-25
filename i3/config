@@ -110,11 +110,11 @@ set_from_resource $bg4 color6  #f0f0f0
 set_from_resource $fg3 color7  #f0f0f0
 
 #class                 border  backgr. text indicator child_border
-client.focused          $fg3     $bg    $fg  $bg   $fg3
-client.focused_inactive $fg2      $bg    $fg  $bg   $fg2
-client.unfocused        $fg2      $bg    $fg  $bg   $fg2
-client.urgent           $fg4      $bg    $fg  $bg   $fg4
-client.placeholder      $fg2      $bg    $fg  $bg   $fg2
+client.focused          $fg3     $bg    $fg  $fg3   $fg3
+client.focused_inactive $fg2      $bg    $fg  $fg2   $fg2
+client.unfocused        $fg2      $bg    $fg  $fg2   $fg2
+client.urgent           $fg4      $bg    $fg  $fg4   $fg4
+client.placeholder      $fg2      $bg    $fg  $fg2   $fg2
 client.background       $fg2
 
 
@@ -209,6 +209,15 @@ bindsym $mod+l exec lock -p -- scrot -z
 
 bindsym $mod+shift+x exec ~/aur_stuff/lock.sh --lock dimblur
 
+bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
+bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ && killall -SIGUSR1 i3status
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5- && killall -SIGUSR1 i3status
+bindsym XF86AudioMute exec amixer set Master toggle && killall -SIGUSR1 i3status
+
 exec --no-startup-id compton --config ~/.config/compton/config
 exec --no-startup-id xrandr --output HDMI-1 --auto --left-of eDP-1
 exec --no-startup-id MONITOR=eDP-1 polybar -c ~/.config/polybar/config3 default &
@@ -216,12 +225,12 @@ exec --no-startup-id MONITOR=HDMI-1 polybar -c ~/.config/polybar/config3 default
 exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
 exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
 
-exec --no-startup-id slack
-exec --no-startup-id thunderbird
+exec --no-startup-id i3-msg 'workspace 7; exec /usr/bin/slack'
+exec --no-startup-id i3-msg 'workspace 7; exec /usr/bin/thunderbird'
+exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/spotify'
 exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/lines.jpg
 exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh
 exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
 exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/lines.jpg
-exec --no-startup-id cd aur_stuff/firefox/startpages/devola && http-server
-
+exec --no-startup-id dunst
 
