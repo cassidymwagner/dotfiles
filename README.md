@@ -4,14 +4,13 @@ Dotfiles for arch setup.
 My poor attempt at keeping track of them, which I probably should have been doing since the beginning. 
 
 #### TODO
-* Add an updated screenshot
 * Get `jedi-vim` to work
 
 ### June 25
 
-![Alt text](screenshots/latex_workin_apr17.png?raw=True)
+![Alt text](screenshots/june25_setup.png?raw=True)
+![Alt text](screenshots/june25_setup_clean.png?raw=True)
 
-* Screenshot from outdated setup (April 17)
 * Changed to [`polybar`](https://github.com/jaagr/polybar)
 * Small `i3` changes.
 
