@@ -19,11 +19,6 @@ export ZSH=$HOME/.oh-my-zsh
 export PATH=$PATH:/usr/local/go/bin
 export EDITOR="vim"
 
-# Spotipy client info
-export SPOTIPY_CLIENT_ID='ac72504d8b5342a0b18b84e37dd19d5c'
-export SPOTIPY_CLIENT_SECRET='12b77bf1b598457f93561c9f7073d296'
-export SPOTIPY_REDIRECT_URI='http://localhost:8888/callback/'
-
 # Arduino variables
 export ARDUINO_DIR=/usr/share/arduino
 export ARDMK_DIR=/home/cass/desktop/misc/arduino_sketches/Arduino-Makefile
@@ -53,10 +48,10 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SPLASH_DIR/giza/lib
 export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
 
 # Spotify variables
-export SPOTIFY_USERNAME="126065803"
-export SPOTIPY_CLIENT_ID="c4ff2248475642d1bdf0e667f02fe610"
-export SPOTIPY_CLIENT_SECRET="a463fe00d0244b90836967dc7ab17ae3"
-export SPOTIPY_REDIRECT_URI="http://localhost:8080"
+export SPOTIFY_USERNAME=<your un>
+export SPOTIPY_CLIENT_ID=<your id>
+export SPOTIPY_CLIENT_SECRET=<your client secret>
+export SPOTIPY_REDIRECT_URI='http://localhost:8080/callback/'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
