@@ -30,19 +30,33 @@ font pango: source code pro 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# open i3 keybindings 
+bindsym $mod+i exec /home/cass/.config/rofi/scripts/i3keybindingsmenu.sh
+
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec urxvt -e tmux
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show run -display-run #i3-dmenu-desktop
+<<<<<<< Updated upstream
+# launch rofi
+bindsym $mod+d exec /home/cass/.config/rofi/rofi/launchers-git/launcher.sh 
+
+# toggle notification center
+bindsym $mod+n exec ~/.config/deadd/deadd_open_center.sh
+=======
+# start rofi
+bindsym $mod+d exec /home/cass/.config/rofi/rofi/launchers-git/launcher.sh #i3-dmenu-desktop
+
+# toggle notification center
+bindsym $mod+n exec ~/.config/deadd/deadd_open_center.sh
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+>>>>>>> Stashed changes
 
 # change focus
 #bindsym $mod+j focus left
@@ -56,13 +70,13 @@ bindsym $mod+d exec rofi -show run -display-run #i3-dmenu-desktop
 #bindsym $mod+Up focus up
 #bindsym $mod+Right focus right
 
-# move focused window
+# move focused window hjkl
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
+# move focused window arrows
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -85,6 +99,15 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
+# toggle title bars
+bindsym $mod+Shift+b border normal
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+#bindsym $mod+Shift+Ctrl+b border pixel 0
+for_window [class="^.*"] border pixel 0
+
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
@@ -93,11 +116,6 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
-
-# Brightness control reset screen (100% brightness)
-bindsym $mod+Up exec xcalib -c
-# Brightness control down
-bindsym $mod+Down exec xcalib -co 95 -a
 
 # Colors from Xresources
 set_from_resource $bg  color0  #f0f0f0
@@ -110,11 +128,11 @@ set_from_resource $bg4 color6  #f0f0f0
 set_from_resource $fg3 color7  #f0f0f0
 
 #class                 border  backgr. text indicator child_border
-client.focused          $fg3     $bg    $fg  $bg   $fg3
-client.focused_inactive $fg2      $bg    $fg  $bg   $fg2
-client.unfocused        $fg2      $bg    $fg  $bg   $fg2
-client.urgent           $fg4      $bg    $fg  $bg   $fg4
-client.placeholder      $fg2      $bg    $fg  $bg   $fg2
+client.focused          $fg3     $bg    $fg  $fg3   $fg3
+client.focused_inactive $fg2      $bg    $fg  $fg2   $fg2
+client.unfocused        $fg2      $bg    $fg  $fg2   $fg2
+client.urgent           $fg4      $bg    $fg  $fg4   $fg4
+client.placeholder      $fg2      $bg    $fg  $fg2   $fg2
 client.background       $fg2
 
 
@@ -145,12 +163,26 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
+<<<<<<< Updated upstream
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+
 # exit i3 (logs you out of your X session)
+=======
+# restart i3 
+bindsym $mod+Shift+r restart
+
+# exit i3 
+>>>>>>> Stashed changes
 bindsym $mod+Shift+e exec i3-msg exit
 
-# resize window (you can also use the mouse for that)
+# resize window 
+
+# toggle resize mode
+bindsym $mod+r mode "resize"
+
+# resize bindings
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
@@ -173,55 +205,139 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
+<<<<<<< Updated upstream
+# enter resize mode
 bindsym $mod+r mode "resize"
+=======
 
+# toggle movit mode
+bindsym $mod+m focus floating; mode "moveit"
+>>>>>>> Stashed changes
+
+# moveit bindings
 mode "moveit" {
     bindsym Up move up 20px
     bindsym Left move left 20px
     bindsym Down move down 20px
     bindsym Right move right 20px
-    bindsym Mod4+m mode "default"
+    bindsym Mod1+m mode "default"
 }
+<<<<<<< Updated upstream
+
+# enter moveit mode
 bindsym $mod+m focus floating; mode "moveit"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-for_window [class="^.*"] border pixel 3
 
-gaps inner 10
+=======
+
+>>>>>>> Stashed changes
+gaps inner 15
 gaps outer 0
+gaps bottom 40
+border_radius 5
 
+<<<<<<< Updated upstream
+# increase outer gap size
+=======
+# change outer gaps
+>>>>>>> Stashed changes
 bindsym $mod+Shift+plus   gaps outer all plus 5
+
+# decrease outer gap size
 bindsym $mod+Shift+minus  gaps outer all minus 5
+
+# reset outer gap size
 bindsym $mod+Shift+Escape gaps outer all set 23
 
+<<<<<<< Updated upstream
+# increase inner gap size
+=======
+# change inner gaps
+>>>>>>> Stashed changes
 bindsym $mod+plus   gaps inner all plus 5
+
+# decrease inner gap size
 bindsym $mod+minus  gaps inner all minus 5
+
+# reset inner gap size
 bindsym $mod+Escape gaps inner all set 30
 
+<<<<<<< Updated upstream
+# take full screenshot 
+=======
+# screenshots
+>>>>>>> Stashed changes
 bindsym --release Print exec scrot -u -s '%Y%m%d_%H%M%S.pang' -e 'mv $f ~/pictures/screenshots/'
+
+# take selected screenshot
 bindsym $mod+p --release exec scrot -s '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/'
 bindsym $mod+o+p -r-release exec scrot '%Y%m%d_%H%M%S.png' -e 'mv $f ~/pictures/screenshots/'
 
+# locker
 bindsym $mod+l exec lock -p -- scrot -z
 
+# other locker
 bindsym $mod+shift+x exec ~/aur_stuff/lock.sh --lock dimblur
 
-exec --no-startup-id compton --config ~/.config/compton/config
-exec --no-startup-id xrandr --output HDMI-1 --auto --left-of eDP-1
-exec --no-startup-id MONITOR=eDP-1 polybar -c ~/.config/polybar/config3 default &
-exec --no-startup-id MONITOR=HDMI-1 polybar -c ~/.config/polybar/config3 default &
-exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
-exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/lines.jpg
+<<<<<<< Updated upstream
+# play next song
+bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
 
-exec --no-startup-id slack
-exec --no-startup-id thunderbird
-exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/lines.jpg
-exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh
-exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
-exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/lines.jpg
-exec --no-startup-id cd aur_stuff/firefox/startpages/devola && http-server
+# play previous song
+bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 
+# pause music
+bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
 
+# play music
+bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+
+# increase volume
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ && killall -SIGUSR1 i3status
+
+# decrease volume
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5- && killall -SIGUSR1 i3status
+
+# mute 
+bindsym XF86AudioMute exec amixer set Master toggle && killall -SIGUSR1 i3status
+
+# increase brightness
+bindsym XF86MonBrightnessUp exec light -k -A 10
+
+# decrease brightness
+=======
+# spotify controls
+bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
+bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+
+# volume controls
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 5+ && killall -SIGUSR1 i3status
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5- && killall -SIGUSR1 i3status
+bindsym XF86AudioMute exec amixer set Master toggle && killall -SIGUSR1 i3status
+bindsym XF86MonBrightnessUp exec light -k -A 10
+>>>>>>> Stashed changes
+bindsym XF86MonBrightnessDown exec light -k -U 10
+
+exec --no-startup-id picom --config ~/.config/picom.conf
+exec --no-startup-id xrandr --output HDMI1 --auto --left-of eDP1
+exec --no-startup-id ~/.config/polybar/launch.sh &
+exec --no-startup-id ~/.config/polybar/launch.sh &
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/mountain-clouds-landscape-scenery-4K-165.jpg
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/mountain-clouds-landscape-scenery-4K-165.jpg
+
+exec --no-startup-id i3-msg 'workspace 7; exec /usr/bin/slack'
+exec --no-startup-id i3-msg 'workspace 7; exec /usr/bin/thunderbird'
+exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/spotify'
+#exec --no-startup-id ~/aur_stuff/lock.sh -U ~/pictures/wallpapers/lines.jpg
+#exec --no-startup-id ~/applications/oomox/oomoxify/oomoxify.sh
+#exec --no-startup-id ~/applications/oomox/colors/Base-16/Ocean-Alex
+#exec ~/aur_stuff/lock.sh -u ~/pictures/wallpapers/lines.jpg
+exec --no-startup-id deadd-notification-center
+exec --no-startup-id xss-lock -- dm-tool switch-to-greeter
+exec --no-startup-id wal -R
+exec --no-startup-id protonmail-bridge

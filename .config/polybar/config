@@ -1,370 +1,656 @@
-;=====================================================
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/jaagr/polybar
-;
-;   The README contains alot of information
-;
-;=====================================================
+          ;=====================================;
+          ; ____       _       _                ;
+          ;|  _ \ ___ | |_   _| |__   __ _ _ __ ;
+          ;| |_) / _ \| | | | | '_ \ / _` | '__|;
+          ;|  __/ (_) | | |_| | |_) | (_| | |   ;
+          ;|_|   \___/|_|\__, |_.__/ \__,_|_|   ;
+          ;              |___/                  ;
+          ;=====================================;
 
 [colors]
-background = ${xrdb:color0:#222}
-;background = #222
-background-alt = #444
-foreground = ${xrdb:color7:#222}
-;foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+background = #00000000
+background-alt = #0e1827
+foreground = #FEFEFE
+foreground-alt = #9ac4ff
+primary = #fff
+secondary = #a9b3c2
+background-level= #cec8d8ff
+alert = #c05552
+color6 = ${xrdb:color6:#222}
+color5 = ${xrdb:color5:#222}
 
-[bar/example]
-;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
-height = 27
-;offset-x = 1%
-;offset-y = 1%
-;radius = 6.0
-fixed-center = false
+[bar/level]
+width = 16%
+height = 3.7%
+offset-x = 25.5%
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = false
+
+background = ${colors.background-level}
+foreground = ${colors.background}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 1
+ 
+font-0 = UbuntuMono Nerd Font:pixelsize=10:style=Medium Condensed;5
+font-1 = Material Design Icons Desktop:pixelsize=17;5
+font-2 = UbuntuMono Nerd Font:pixelsize=17:style=Medium Condensed;7
+ 
+modules-center = xbacklight pulseaudio
+
+override-redirect = true
+enable-ipc = true
+
+[bar/control]
+width = 8%
+height = 2.3%
+offset-x = 0%:10
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 4
-line-color = #f00
-
-border-size = 4
-border-color = #00000000
+border-size = 0
+border-color = #000
 
 padding-left = 0
+padding-right = 0
+
+module-margin-left = 2
+module-margin-right = 2
+ 
+font-0 = BreezeSans:pixelsize=14:style=Medium Condensed;4
+font-1 = Material Design Icons Desktop:pixelsize=20;5
+font-2 = BreezeSans:pixelsize=10:style=Bold Condensed;3
+ 
+modules-center = search screenshot file-man 
+
+wm-restack = i3
+override-redirect = true
+
+#scroll-up = bspwm-desknext
+#scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = default
+
+[bar/workspace]
+width = 24%
+height = 3.7%
+offset-x = 1.1%:-10
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = true
+
+background = #00000000
+foreground = ${colors.foreground}
+
+padding-left = 2
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+ 
+font-0 = Material Design Icons Desktop:pixelsize=16;1
+font-1 = BreezeSans:pixelsize=12:style=Regular Condensed;-2
+font-2 = Material Design Icons Desktop:pixelsize=16;-10
+ 
+modules-left = i3
+
+wm-restack = i3
+override-redirect = true
+
+#scroll-up = bspwm-desknext
+#scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = default
+
+[bar/music]
+width = 20%
+height = 3.7%
+offset-x = 40.5%
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = true
+
+background = #00000000 
+foreground = #fff
+
+border-size = 0
+border-color = #000
+
+padding-left = 2
 padding-right = 2
 
-module-margin-left = 1
+module-margin-left = 0
+module-margin-right = 0
+ 
+font-0 = BreezeSans:pixelsize=12:style=Medium Condensed;2
+font-1 = Font Awesome 5 Pro:pixelsize=15:style=Solid;3
+font-2 = Font Awesome 5 Brands:pixelsize=15;3
+font-3 = SourceHanSansJP:pixelsize=12:style=Medium;2
+font-4 = Font Awesome 5 Pro:pixelsize=15:style=Solid;3
+font-5 = UbuntuMono Nerd Font Mono:pixelsize=12:style=Medium Condensed;7
+font-6 = Noto Sans Mono:pixelsize=12:style=Medium;2
+font-7 = BreezeSans:pixelsize=12:style=Medium Condensed;2
+font-8 = Material Design Icons Desktop:pixelsize=17;5
+ 
+modules-center = song pulseaudio
+
+wm-restack = i3
+override-redirect = true
+
+
+#scroll-up = bspwm-desknext
+#scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+
+[bar/player]
+width = 9%
+height = 3.7%
+offset-x = 45.5%
+offset-y = 0.65%
+radius = 12 
+fixed-center = true
+bottom = false
+
+background = ${colors.background-alt}
+foreground = ${colors.foreground-alt}
+
+border-size = 0
+
+padding-left = 6
+padding-right = 6
+
+module-margin-left = 2
 module-margin-right = 2
+ 
+font-0 = BreezeSans:pixelsize=16:style=Medium Condensed;2
+font-1 = Font Awesome 5 Free:pixelsize=16:style=Regular;3
+font-2 = Font Awesome 5 Brands:pixelsize=21;3
+font-3 = SourceHanSansJP:pixelsize=14:style=Medium;2
+font-4 = Font Awesome 5 Free:pixelsize=18:style=Solid;3
+ 
+modules-left = info
+modules-center = prev toggle next
 
-font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+wm-restack = i3
+override-redirect = true
 
-modules-left = i3
-modules-center = date 
-modules-right = filesystem backlight-acpi volume xkeyboard memory cpu wlan eth battery temperature powermenu
+#scroll-up = bspwm-desknext
+#scroll-down = bspwm-deskprev
 
-tray-position = right
-tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
+cursor-click = pointer
+cursor-scroll = default
 
-;wm-restack = bspwm
-;wm-restack = i3
+[bar/close]
+width = 2.35%
+height = 4.1%
+offset-x = 65.65%:-40
+offset-y = 0.75%
+radius = 12
+fixed-center = true
+bottom = false
 
-;override-redirect = true
+background = ${colors.background-alt}
+foreground = ${colors.primary}
 
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
+border-size = 0
+border-color = #000
 
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+padding-left = 0
+padding-right = 0
 
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
+module-margin-left = 0
+module-margin-right = 0
+ 
+font-0 = Material Design Icons Desktop:pixelsize=22;5
+font-1 = BreezeSans:pixelsize=18:style=Medium Condensed;2
+ 
+modules-center = close-menu 
 
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
+wm-restack = i3
+override-redirect = true
 
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
+cursor-click = pointer
+cursor-scroll = default
 
-label-layout = %layout%
-label-layout-underline = ${colors.secondary}
+click-left = ~/.config/polybar/scripts/close.sh &
 
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
+[bar/notify]
+width = 14%
+height = 4.3%
+offset-x = 68%:-30
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = false
 
-[module/filesystem]
-type = internal/fs
-interval = 25
+background = ${colors.background-alt}
+foreground = ${colors.foreground-alt}
 
-mount-0 = /
+border-size = 0
+border-color = #000
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+padding = 0
 
-[module/bspwm]
-type = internal/bspwm
+module-margin-left = 2
+module-margin-right = 3
+ 
+font-0 = BreezeSans:pixelsize=10:style=Bold;-10
+font-1 = Material Design Icons Desktop:pixelsize=22;5
+font-2 = BreezeSans:pixelsize=10:style=Light Condensed;10
+font-3 = Material Design Icons Desktop:pixelsize=10;10
+font-4 = Material Design Icons Desktop:pixelsize=10;-8
+font-5 = icomoon:pixelsize=17;4
 
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
+modules-center = cpu update news mtorrent
 
-label-occupied = %index%
-label-occupied-padding = 2
+wm-restack = i3
+override-redirect = true
 
-label-urgent = %index%!
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+cursor-click = pointer
+cursor-scroll = default
 
-label-empty = %index%
-label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+[bar/open]
+width = 2.35%
+height = 4.1%
+offset-x = 79.65%:-30
+offset-y = 0.75%
+radius = 12
+fixed-center = true
+bottom = false
+
+background = ${colors.background-alt}
+foreground = ${colors.primary}
+
+border-size = 0
+border-color = #000
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+ 
+font-0 = Material Design Icons Desktop:pixelsize=22;5
+font-1 = BreezeSans:pixelsize=18:style=Medium Condensed;2
+ 
+modules-center = open-menu 
+
+wm-restack = i3
+override-redirect = true
+
+cursor-click = pointer
+cursor-scroll = default
+
+click-left = ~/.config/polybar/scripts/open.sh &
+
+[bar/status]
+width = 23%
+height = 3.7%
+offset-x = 78.0%:-20
+offset-y = 0.65%
+radius = 12
+fixed-center = true
+bottom = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 0
+border-color = #000
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 1
+ 
+font-0 = BreezeSans:pixelsize=12:style=Medium Condensed;4
+font-1 = Material Design Icons Desktop:pixelsize=16;5
+font-2 = BreezeSans:pixelsize=10:style=Bold Condensed;3
+font-3 = UbuntuMono Nerd Font:pixelsize=10:style=Medium Condensed;5
+
+modules-center = battery update wlan bluetooth polypomo weather date power-menu
+
+wm-restack = i3
+override-redirect = true
+
+cursor-click = pointer
+cursor-scroll = default
+
+[bar/power]
+width = 2.1%
+height = 3.7%
+offset-x = 97.9%:-10
+offset-y = 0.88%
+radius = 12
+fixed-center = true
+bottom = false
+
+background = ${colors.alert}
+foreground = #fff
+
+border-size = 0
+border-color = #000
+
+padding-left = 5
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 1
+ 
+font-0 = Material Design Icons Desktop:pixelsize=18;6
+ 
+modules-center = power-menu 
+
+wm-restack = i3
+override-redirect = true
+
+#scroll-up = bspwm-desknext
+#scroll-down = bspwm-deskprev
+
+cursor-click = pointer
+cursor-scroll = default
+
+click-left = ~/.config/polybar/scripts/power-menu.sh &
 
 [module/i3]
 type = internal/i3
-format = <label-state> <label-mode>
-index-sort = true
-wrapping-scroll = false
 
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
+reverse-scroll = false
+enable-scroll = false
 
-label-mode-padding = 2
-label-mode-foreground = #000
-label-mode-background = ${colors.primary}
+format = "<label-state>" 
 
-; focused = Active workspace on focused monitor
-label-focused = %index%
-label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
-label-focused-padding = ${module/bspwm.label-focused-padding}
+label-focused ="󰃞"
+label-focused-padding = 1
+label-focused-foreground = ${colors.color6}
 
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+label-unfocused = "󰃚"
+label-unfocused-padding = 1
+label-unfocused-foreground = ${colors.color6}
 
-; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
+label-urgent ="󰃠"
+label-urgent-foreground= ${colors.alert}
+label-urgent-padding = 0
 
-; urgent = Workspace with urgency hint set
-label-urgent = %index%
-label-urgent-background = ${module/bspwm.label-urgent-background}
-label-urgent-padding = ${module/bspwm.label-urgent-padding}
-
-[module/mpd]
-type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-
-label-song-maxlen = 25
-label-song-ellipsis = true
+label-empty =
+label-empty-padding = 0
 
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label> <bar>
-label = BL
+format = <label><bar>
+label = "󰃠 "
+label-foreground = ${colors.background}
 
-bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = #ff
+bar-width = 13
+bar-indicator = "%{T3}%{T-}"
+bar-indicator-foreground = ${colors.background}
 bar-indicator-font = 2
-bar-fill = ─
+bar-fill = 
 bar-fill-font = 2
-bar-fill-foreground = #9f78e1
-bar-empty = ─
+bar-fill-foreground = ${colors.background}
+bar-empty = 
 bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
-
-[module/backlight-acpi]
-inherit = module/xbacklight
-type = internal/backlight
-card = intel_backlight
-
-[module/cpu]
-type = internal/cpu
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = %percentage%%
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
-label = %percentage_used%%
+bar-empty-foreground = #607290
 
 [module/wlan]
 type = internal/network
-interface = wlp8s0
+interface = wlp2s0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected =<ramp-signal>
 label-connected = %essid%
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+label-disconnected = 󰤭
+label-disconnected-foreground = #6c809e
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
+ramp-signal-0 = %{F#ff004b}󰤫%{F-}
+ramp-signal-1 = %{F#ffd200}󰤟%{F-}
+ramp-signal-2 = 󰤢
+ramp-signal-3 = 󰤥
+ramp-signal-4 = 󰤨
+ramp-signal-foreground = ${colors.color6}
 
-[module/eth]
-type = internal/network
-interface = enp7s0f1
-interval = 3.0
+[module/pulseaudio]
+type = internal/pulseaudio
 
-format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
+label-volume = "󰎇 %percentage%%"
+label-volume-foreground = ${colors.color6}
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+label-muted = 󰎊
+label-muted-foreground = #607290
 
-[module/date]
-type = internal/date
-interval = 5
-
-date =
-date-alt = " %Y-%m-%d"
-
-time = %H:%M
-time-alt = %H:%M:%S
-
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
-
-label = %date% %time%
-
-[module/volume]
-type = internal/volume
-
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL
-label-volume-foreground = ${root.foreground}
-
-format-muted-prefix = " "
-format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ACAD
+battery = BAT0
+adapter = AC
 full-at = 98
 
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging = %{T3}<label-charging>%{T-}<animation-charging> 
 
-format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
+format-discharging = %{T3}<label-discharging>%{T-}<ramp-capacity>
 
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
+format-full = %{T3}%{T-}󰂄
+format-full-foreground = ${colors.color6}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+animation-charging-0 = 󱊤
+animation-charging-1 = 󱊥
+animation-charging-2 = 󱊦
+animation-charging-foreground = ${colors.color6}
+animation-charging-framerate = 900
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
-animation-charging-framerate = 750
+ramp-capacity-0 = %{F#ff004b}󰂃%{F-}
+ramp-capacity-1 = %{F#ff5300}󰁺%{F-}
+ramp-capacity-2 = %{F#ff8000}󰁻%{F-}
+ramp-capacity-3 = %{F#ffd200}󰁼%{F-}
+ramp-capacity-4 = 󰁽
+ramp-capacity-5 = 󰁾
+ramp-capacity-6 = 󰁿
+ramp-capacity-7 = 󰂀
+ramp-capacity-8 = 󰂁
+ramp-capacity-9 = 󰂂
+ramp-capacity-10 = 󰁹 
+ramp-capacity-foreground = ${colors.color6}
+ramp-capacity-framerate = 750
 
-[module/temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 60
+[module/search]
+type = custom/script
+exec = echo "󰍉"
+click-left = ~/.config/polybar/scripts/search.sh &
 
-format = <ramp> <label>
-format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
+[module/file-man]
+type = custom/script
+exec = echo "󰉋"
+click-left = toggle-lf.sh &
 
-label = %temperature%
-label-warn = %temperature%
-label-warn-foreground = ${colors.secondary}
+[module/screenshot]
+type = custom/script
+exec = echo "󰨤"
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+click-right = scrot "$(date +%s).png" -e 'mv "$f" ~/Pictures/Screenshots/ && dunstify -r "991030" "Say cheese..." "$f" -a scrot' &
 
-[module/powermenu]
-type = custom/menu
+click-left = image=$(date +%s).png && maim -s -s -b 5.0 -p -5 -c 1,0,0.294 "$HOME/Pictures/Screenshots/$image" && dunstify -r "991030" "Say cheese..." "$image" -a scrot &
 
-format-spacing = 1
+[module/prev]
+type = custom/script
+exec = echo "%{T5}%{T-}" &
+format = "%{F#e5efff}<label>%{F-}"
+interval = 600
+tail = true
 
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
+click-left = playerctl --player=spotify previous &
 
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
+[module/info]
+type = custom/script
+exec = echo "" &
+interval = 600
+tail = true
 
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
+click-left = ~/.config/polybar/scripts/info.sh 2>/dev/null &
+click-right = bspc desktop -f '^10'
 
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
+[module/toggle]
+type = custom/script
+exec = [[ "$(playerctl -p spotify status 2>/dev/null)" == "Playing" ]] && echo "" || echo ""
+interval = 0.2
+
+tail = true
+click-left = playerctl --player=spotify play-pause &
+
+[module/right]
+type = custom/text
+content-background = #00000000
+content-foreground = #df191414
+content = ""
+
+[module/song]
+type = custom/script
+exec = ~/.config/polybar/scripts/song.sh 2>/dev/null || echo "No player found"
+format = "<label>  "
+format-prefix = "%{F#e1bfbe}   %{F-}"
+format-background = #0000000
+interval = 1
+
+tail = true
+click-left = i3-msg 'workspace "9"' 
+
+[module/left]
+type = custom/text
+content-background = #00000000
+content-foreground = #df191414
+content =""
+
+[module/next]
+type = custom/script
+exec = echo "%{T5}%{T-}" &
+format = "%{F#e5efff}<label>%{F-}"
+interval = 600
+
+tail = true
+click-left = playerctl --player=spotify next &
+
+[module/close-menu]
+type = custom/script
+exec = echo "%{O2}󰅂" &
+interval = 600
+
+tail = true
+
+[module/cpu]
+type = custom/script
+exec = ~/.config/polybar/scripts/cpu.sh 2> /dev/null || echo "%{T5}%{F#dae1ec}󰓦%{T4}%{O-13}󰓦%{T-}%{F-}" 
+format-prefix = " "
+format-foreground = ${colors.secondary}
+
+interval = 1
+tail = true
+
+click-left = pgrep gotop && xdotool search --name "gotop" windowactivate || alacritty -t gotop -e gotop &
+
+[module/update]
+type = custom/script
+
+exec = ~/.config/polybar/scripts/updates.sh
+
+format-foreground = ${colors.color6}
+interval = 5
+
+tail =true
+
+click-left = ~/.config/polybar/scripts/lupdates &
+
+[module/news]
+type = custom/script
+exec = ~/.config/polybar/scripts/news.sh 2> /dev/null || echo "󰋻%{T5}%{F#dae1ec}󰓦%{T4}%{O-13}󰓦%{T-}%{F-}"
+format-foreground = ${colors.secondary}
+interval = 1
+
+tail = true
+click-left = start-newsboat.sh &
+
+[module/mtorrent]
+type = custom/script
+exec = echo "󱋌     " || echo "󱋖     " 
+format-foreground = ${colors.secondary}
+interval = 1
+
+tail = true
+
+[module/open-menu]
+type = custom/script
+exec = echo "%{O-3}󰅁"
+interval = 600
+
+tail = true
+
+[module/bluetooth]
+type = custom/script
+exec = ~/.config/polybar/scripts/bluetooth-status.sh &
+format-foreground = ${colors.color6}
+interval = 0.5
+
+tail = true
+click-left = ~/.config/polybar/scripts/bluetooth-status.sh -t &
+
+[module/date]
+type = custom/script
+exec =  date '+%a %e %b %I:%M %p' 
+interval = 5
+tail=true
+
+#click-left = ~/.config/polybar/scripts/calendar.sh &
+
+[module/power-menu]
+type = custom/script
+exec = echo "󰐥 "
+format-foreground = ${colors.alert}
+click-left = ~/.config/rofi/rofi/power/powermenu.sh &
+
+[module/weather]
+type = custom/script
+exec = ~/.config/i3/IconicWeather.sh "97403"
+format-foreground = ${colors.color6}
+interval = 1800
+
+[module/polypomo]
+type = custom/script
+
+exec = ~/aur_stuff/polypomo/polypomo
+tail = true
+
+label = %output%
+click-left = ~/aur_stuff/polypomo/polypomo toggle
+click-right = ~/aur_stuff/polypomo/polypomo end
+click-middle = ~/aur_stuff/polypomo/polypomo lock
+scroll-up = ~/aur_stuff/polypomo/polypomo time +60
+scroll-down = ~/aur_stuff/polypomo/polypomo time -60
+format-foreground = ${colors.color6}
 
 [settings]
-screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
+screenchange-reload = false
+pseudo-transparency = true
 
 [global/wm]
-margin-top = 0
-margin-bottom = 0
+margin-top = 3
+margin-bottom = 5
 
 ; vim:ft=dosini
+
 

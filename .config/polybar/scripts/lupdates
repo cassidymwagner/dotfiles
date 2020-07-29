@@ -1,0 +1,4 @@
+#!/bin/bash
+
+urxvt -e bash -c "yay -Syu"
+

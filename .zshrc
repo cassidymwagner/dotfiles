@@ -1,19 +1,77 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Path for jupyter lab
+export PATH=${PATH}:/home/cass/.local/bin
+
+# Path for yt
+export PYTHONPATH=$PYTHONPATH:/home/cass/applications/yt
+
+# Path for opengl
+export PYTHONPATH=$PYTHONPATH:/home/cass/applications/pyopengl
+
+# Path for pyro2
+export PYTHONPATH=$PYTHONPATH:/home/cass/applicatons/pyro2
+export PYRO_HOME=/home/cass/applications/pyro2
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export PATH=$PATH:/usr/local/go/bin
+export EDITOR="vim"
+
+# Spotipy client info
+export SPOTIPY_CLIENT_ID='ac72504d8b5342a0b18b84e37dd19d5c'
+export SPOTIPY_CLIENT_SECRET='12b77bf1b598457f93561c9f7073d296'
+export SPOTIPY_REDIRECT_URI='http://localhost:8888/callback/'
+
+# Arduino variables
+export ARDUINO_DIR=/usr/share/arduino
+export ARDMK_DIR=/home/cass/desktop/misc/arduino_sketches/Arduino-Makefile
+export AVR_TOOLS_DIR=/usr/include
+
+# Gem path
+export PATH=${PATH}:/home/cass/.gem/ruby/2.6.0/bin
+
+# qt5 variable
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Path to MESA
+
+#export MESASDK_ROOT=/home/cass/applications/mesasdk
+#export MESA_DIR=/home/cass/applications/mesa-r12115
+
+#source $MESASDK_ROOT/bin/mesasdk_init.sh
+
+export MESA2HYDRO_ROOT=/home/cass/applications/MESA2HYDRO
+export PATH=$PATH:/home/cass/applications/MESA2HYDRO
+
+# Path to SPLASH
+
+export SPLASH_DIR=/home/cass/applications/splash
+export PATH=$PATH:$SPLASH_DIR/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SPLASH_DIR/giza/lib
+export LD_LIBRARY_PATH=/usr/local/lib:${LD_LIBRARY_PATH}
+
+# Spotify variables
+export SPOTIFY_USERNAME="126065803"
+export SPOTIPY_CLIENT_ID="c4ff2248475642d1bdf0e667f02fe610"
+export SPOTIPY_CLIENT_SECRET="a463fe00d0244b90836967dc7ab17ae3"
+export SPOTIPY_REDIRECT_URI="http://localhost:8080"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="miloshadzic"
 
-
 TERM=xterm-256color
 
 
-
+alias ciao="source /home/cass/sherpa/ciao-4.9/bin/ciao.bash"
+alias tui="source /home/cass/applications/tui/tui"
+alias dict="sdcv -u wordnet"
+alias groupme="npm start --prefix /home/cass/applications/GroupMe"
+alias hdmi="sh /home/cass/desktop/misc/hdmi.sh"
+alias git="hub"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -89,8 +147,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#eval $(dircolors -b /etc/DIR_COLORS)
-#zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
+eval $(dircolors -b /etc/DIR_COLORS)
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
 
 # Import colorscheme from 'wal'
 # &   # Run the process in the background.
@@ -103,4 +161,6 @@ source $ZSH/oh-my-zsh.sh
 # Create the alias.
 #alias dmen='dmenu_run -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15"'
 #alias lock="cd ~/i3_stuff  && source lock.sh && cd"
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
